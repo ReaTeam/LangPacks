@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks">
+<index version="1" name="ReaTeam LangPacks" commit="11f9c75ab6b6e7bf182b06b5a318ba30d82b0b73">
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -16,6 +16,7 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 Copy and paste this URL in Extensions > ReaPack > Import a repository:\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/ReaTeam/LangPacks/raw/master/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Contributing\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Upload your LangPack here to offer download from REAPER and auto-update for your language file!\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab {\field{\*\fldinst{HYPERLINK "https://github.com/ReaTeam/LangPacks/fork"}}{\fldrslt{\ul
 Fork
 }}}
@@ -27,11 +28,19 @@ package examples
  and reapack-index's {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
 packaging documentation
 }}}
-)\par}
+). Minimal header exemple in {\field{\*\fldinst{HYPERLINK "https://github.com/ReaTeam/ReaScripts-Templates/blob/master/LangPacks/minimum_header.ReaperLangPack"}}{\fldrslt{\ul
+this code snippet
+}}}
+.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Send a {\field{\*\fldinst{HYPERLINK "https://help.github.com/articles/creating-a-pull-request-from-a-fork/"}}{\fldrslt{\ul
 pull request
 }}}
  here, done!\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Non-ReaPack LangPacks\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Other REAPER langpacks are only avaible on {\field{\*\fldinst{HYPERLINK "http://stash.reaper.fm/tag/Language-Packs"}}{\fldrslt{\ul
+stash
+}}}
+. Please contact their authors and invite them to contribute here!\par}
 }
 ]]></description>
   </metadata>
