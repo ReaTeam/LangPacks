@@ -21,7 +21,7 @@ Fork
 }}}
  this repository in your GitHub account\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab Upload your .ReaperLangPack file in the {\f1 Translations} directory\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Insert metadata at the top (check out the {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Examples#language-packs"}}{\fldrslt{\ul
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Insert metadata at the top (check out the {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Examples"}}{\fldrslt{\ul
 package examples
 }}}
  and reapack-index's {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
