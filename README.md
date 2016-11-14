@@ -20,8 +20,7 @@ Upload your LangPack here to offer download from REAPER and auto-update for your
 
 1. [Fork](https://github.com/ReaTeam/LangPacks/fork) this repository in your GitHub account
 2. Upload your .ReaperLangPack file in the `Translations` directory
-3. Insert metadata at the top (check out the [package examples](https://github.com/cfillion/reapack-index/wiki/Examples)
-   and reapack-index's [packaging documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation)). Minimal header exemple in [this code snippet](https://github.com/ReaTeam/ReaScripts-Templates/blob/master/LangPacks/minimum_header.ReaperLangPack).
+3. Insert metadata at the top (check out the [package examples](https://github.com/cfillion/reapack-index/wiki/Examples#language-pack) and reapack-index's [packaging documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation)).
 4. Send a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) here, done!
 
 ## Non-ReaPack LangPacks
