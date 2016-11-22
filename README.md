@@ -17,11 +17,12 @@ https://github.com/ReaTeam/LangPacks/raw/master/index.xml
 ## Contributing
 
 Upload your LangPack here to offer download from REAPER and auto-update for your language file!
+Check out the [package examples](https://github.com/cfillion/reapack-index/wiki/Examples#language-pack) and reapack-index's [packaging documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation).
 
-1. [Fork](https://github.com/ReaTeam/LangPacks/fork) this repository in your GitHub account
-2. Upload your .ReaperLangPack file in the `Translations` directory
-3. Insert metadata at the top (check out the [package examples](https://github.com/cfillion/reapack-index/wiki/Examples#language-pack) and reapack-index's [packaging documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation)).
-4. Send a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/) here, done!
+1. [Create](https://github.com/ReaTeam/LangPacks/new/master) a file for your language pack named `Translations/username_Language.ReaperLangPack`
+2. Click on "Propose new file" and create a Pull Request
+3. Wait for a team member to validate the request (it should be quick)
+4. If everything is ok... it's done!
 
 ## Non-ReaPack LangPacks
 
