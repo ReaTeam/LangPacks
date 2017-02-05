@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="f93ce8ef0af2ad960b0820c0ea9ea5beb14753b2">
+<index version="1" name="ReaTeam LangPacks" commit="43282f0388a3fa9bb05d2eabd72ff6e95a164f71">
   <category name="Translations">
     <reapack name="REAPER_SWS_fr_reapack.ReaperLangPack" type="langpack" desc="REAPER LangPack Français">
       <metadata>
         <link rel="website">http://forum.cockos.com/showthread.php?t=92847</link>
       </metadata>
       <version name="5.33" author="REAPER French Forum" time="2017-02-09T02:08:27Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/f93ce8ef0af2ad960b0820c0ea9ea5beb14753b2/Translations/REAPER_SWS_fr_reapack.ReaperLangPack</source>
+        <source>https://github.com/ReaTeam/LangPacks/raw/43282f0388a3fa9bb05d2eabd72ff6e95a164f71/Translations/REAPER_SWS_fr_reapack.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
