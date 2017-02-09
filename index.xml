@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="11f9c75ab6b6e7bf182b06b5a318ba30d82b0b73">
+<index version="1" name="ReaTeam LangPacks" commit="f93ce8ef0af2ad960b0820c0ea9ea5beb14753b2">
+  <category name="Translations">
+    <reapack name="REAPER_SWS_fr_reapack.ReaperLangPack" type="langpack" desc="REAPER LangPack Français">
+      <metadata>
+        <link rel="website">http://forum.cockos.com/showthread.php?t=92847</link>
+      </metadata>
+      <version name="5.33" author="REAPER French Forum" time="2017-02-09T02:08:27Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/f93ce8ef0af2ad960b0820c0ea9ea5beb14753b2/Translations/REAPER_SWS_fr_reapack.ReaperLangPack</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -12,6 +22,12 @@
 \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Community-maintained collection of language packs for REAPER\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Contributors\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 French - Fran\u231?ais\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 . Neilerua . Jeffos . Benf . Zee Wavesurfer . Homme Studio . Transtrans . Sardonicus . Reno_thestraws . Vincent Sermonne . X-Raym\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Forum Thread:\line {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/showthread.php?t=92847"}}{\fldrslt{\ul
+Interface de REAPER en Fran\u231?ais(LangPack Fr)
+}}}
+\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Installation\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Copy and paste this URL in Extensions > ReaPack > Import a repository:\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/ReaTeam/LangPacks/raw/master/index.xml\par}
