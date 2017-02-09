@@ -8,16 +8,16 @@ Community-maintained collection of language packs for REAPER
 
 ### French - Français
 
-. Neilerua
-. Jeffos
-. Benf
-. Zee Wavesurfer
-. Homme Studio
-. Transtrans
-. Sardonicus
-. Reno_thestraws
-. Vincent Sermonne
-. X-Raym
+* Neilerua
+* Jeffos
+* Benf
+* Zee Wavesurfer
+* Homme Studio
+* Transtrans
+* Sardonicus
+* Reno_thestraws
+* Vincent Sermonne
+* X-Raym
 
 Forum Thread:  
 [Interface de REAPER en Français(LangPack Fr)](http://forum.cockos.com/showthread.php?t=92847)
