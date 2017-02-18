@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="43282f0388a3fa9bb05d2eabd72ff6e95a164f71">
+<index version="1" name="ReaTeam LangPacks" commit="30718f3b053e69621b1e528f41d25861bac42b8e">
   <category name="Translations">
     <reapack name="REAPER_SWS_fr_reapack.ReaperLangPack" type="langpack" desc="REAPER LangPack Français">
       <metadata>
@@ -7,6 +7,11 @@
       </metadata>
       <version name="5.33" author="REAPER French Forum" time="2017-02-09T02:08:27Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/43282f0388a3fa9bb05d2eabd72ff6e95a164f71/Translations/REAPER_SWS_fr_reapack.ReaperLangPack</source>
+      </version>
+    </reapack>
+    <reapack name="REAPER_SWS_ru_reapack-utf8.ReaperLangPack" type="langpack" desc="REAPER_SWS_ru_reapack-utf8/русский">
+      <version name="1.0" author="Russian REAPER community" time="2017-02-18T10:41:45Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/30718f3b053e69621b1e528f41d25861bac42b8e/Translations/REAPER_SWS_ru_reapack-utf8.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
