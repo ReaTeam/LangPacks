@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="366eced4b9df220f3a7d5cbc556a8430f8589ced">
+<index version="1" name="ReaTeam LangPacks" commit="661c72b234368cbcaea2d82f27114a421e34a871">
   <category name="Translations">
+    <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
+      <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/661c72b234368cbcaea2d82f27114a421e34a871/Translations/MIDI%20Editor%20actions%20(active%20take%20only)%20vs%20(all%20editable).ReaperLangPack</source>
+      </version>
+    </reapack>
     <reapack name="REAPER_SWS_fr_reapack.ReaperLangPack" type="langpack" desc="REAPER LangPack Français">
       <metadata>
         <link rel="website">http://forum.cockos.com/showthread.php?t=92847</link>
@@ -15,6 +20,9 @@
       </metadata>
       <version name="1.0" author="Russian REAPER community" time="2017-02-18T10:41:45Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/30718f3b053e69621b1e528f41d25861bac42b8e/Translations/REAPER_SWS_ru_reapack-utf8.ReaperLangPack</source>
+      </version>
+      <version name="1.1" author="shredthesky, Nikitich, Roland_Hyper" time="2017-03-15T17:42:48Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/661c72b234368cbcaea2d82f27114a421e34a871/Translations/REAPER_SWS_ru_reapack-utf8.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
