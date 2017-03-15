@@ -1,3 +1,7 @@
+;Version: 1.0
+;Author: juliansader
+
+
 #NAME: MIDI Editor actions - (active take only) vs (all editable)
 ; NOTE: this is the best starting point for making a new langpack.
 ; As you translate a string, remove the ; from the beginning of the
