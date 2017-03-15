@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="661c72b234368cbcaea2d82f27114a421e34a871">
+<index version="1" name="ReaTeam LangPacks" commit="372792f403055872cf14ac47db3f24d766f1a832">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -23,6 +23,10 @@
       </version>
       <version name="1.1" author="shredthesky, Nikitich, Roland_Hyper" time="2017-03-15T17:42:48Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/661c72b234368cbcaea2d82f27114a421e34a871/Translations/REAPER_SWS_ru_reapack-utf8.ReaperLangPack</source>
+      </version>
+      <version name="1.1.2" author="shredthesky, Nikitich, Roland_Hyper, MPL" time="2017-03-15T18:54:18Z">
+        <changelog><![CDATA[+ 1.1.2	15.03.2017 by MPL: VST presets section, some errors and actions]]></changelog>
+        <source>https://github.com/ReaTeam/LangPacks/raw/372792f403055872cf14ac47db3f24d766f1a832/Translations/REAPER_SWS_ru_reapack-utf8.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
