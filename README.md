@@ -1,6 +1,6 @@
 # ReaTeam LangPack Repository
 
-[![Build Status](https://travis-ci.org/ReaTeam/LangPacks.svg?branch=master)](https://travis-ci.org/ReaTeam/LangPacks)
+![check](https://github.com/ReaTeam/LangPacks/workflows/check/badge.svg)
 
 Community-maintained collection of language packs for REAPER.
 
