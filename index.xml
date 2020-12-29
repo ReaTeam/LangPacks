@@ -35,51 +35,21 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaTeam LangPacks Repository\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 {\field{\*\fldinst{HYPERLINK "https://travis-ci.org/ReaTeam/LangPacks"}}{\fldrslt{\ul
-{\cf1 [image: https://travis-ci.org/ReaTeam/LangPacks.svg?branch=master]\cf0}
-}}}
-\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Community-maintained collection of language packs for REAPER\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Contributors\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 French - Fran\u231?ais\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Neilerua\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Jeffos\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Benf\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Zee Wavesurfer\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Homme Studio\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Transtrans\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Sardonicus\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Reno_thestraws\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Vincent Sermonne\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab X-Raym\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Forum Thread:\line {\field{\*\fldinst{HYPERLINK "http://forum.cockos.com/showthread.php?t=92847"}}{\fldrslt{\ul
-Interface de REAPER en Fran\u231?ais(LangPack Fr)
-}}}
-\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaTeam LangPack Repository\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/ReaTeam/LangPacks/workflows/check/badge.svg]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Community-maintained collection of language packs for REAPER.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Installation\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Copy and paste this URL in Extensions > ReaPack > Import a repository:\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/ReaTeam/LangPacks/raw/master/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Contributing\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Upload your LangPack here to offer download from REAPER and auto-update for your language file! Check out the {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Examples#language-pack"}}{\fldrslt{\ul
-package examples
+{\pard \ql \f0 \sa180 \li0 \fi0 Use {\field{\*\fldinst{HYPERLINK "https://reapack.com/upload/langpack"}}{\fldrslt{\ul
+https://reapack.com/upload/langpack
 }}}
- and reapack-index's {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-packaging documentation
+ to upload your language pack on this repository.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Have a question? Come discuss in the {\field{\*\fldinst{HYPERLINK "https://forum.cockos.com/showthread.php?t=169127"}}{\fldrslt{\ul
+development thread
 }}}
 .\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab {\field{\*\fldinst{HYPERLINK "https://github.com/ReaTeam/LangPacks/new/master"}}{\fldrslt{\ul
-Create
-}}}
- a file for your language pack named {\f1 Translations/username_Language.ReaperLangPack}\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab Click on "Propose new file" and create a Pull Request\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Wait for a team member to validate the request (it should be quick)\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab If everything is ok... it's done!\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Non-ReaPack LangPacks\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Other REAPER langpacks are only avaible on {\field{\*\fldinst{HYPERLINK "http://stash.reaper.fm/tag/Language-Packs"}}{\fldrslt{\ul
-stash
-}}}
-. Please contact their authors and invite them to contribute here!\par}
 }
 ]]></description>
   </metadata>
