@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (Reaper+SWS)
 #AUTHOR:Edison Defavari
-#VERSION:6.36-1
+#VERSION:6.36-2
 
 #NAME:Português [pt-BR] - By Edison Defavari
  NOTE: this is the best starting point for making a new langpack.
@@ -973,7 +973,7 @@ F8D05E3085FD2B41=Posições do loop: Definir posição do final
 B0BD565E6246F228=Posições do loop: Definir posição de início
 FDFF2C38C037D04E=Nada (sem ação)
 887AC55D66DDCCA9=Opções: Preferências de edição de MIDI e modificações do mouse...
-4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas de MIDI/plug-ins
+4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas/conexões, de MIDI
 DCFEAB8BD451EB5C=Mostrar lista de ações
 23CA90FBC72F010D=Alternar para: Mostrar a pista master e envelope do andamento
 12C3FAD652693FD1=Barra de ferramentas: Abrir barra de ferramentas 1 da MIDI via cursor do mouse
@@ -3127,7 +3127,7 @@ ABEC79059CAD0B0E=Apelido nome:
 5CA1E00000000000=1.10
 
 [DLG_264]  IDD_PLUGIN_PIN
-78109A39D4A407B9=Plug-in: Conector de pino
+78109A39D4A407B9=Conexão: Conector de pino
 
 [DLG_265]  IDD_AUHOST
 23ECEDA49DF34EDF=Menu, preset
@@ -8968,7 +8968,7 @@ A6F3EA432AA410A4=Inserir instrumento virtual em nova pista...
 2730763EB716675B=Importar letras para a pista...
 6B9A1E235CAF7E24=Exportar letras da pista...
 281B839DED6E7947=Pista: Aplicar deslocamento de tempo nas pistas originais recebidas (atraso/avanço)
-4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas de MIDI/plug-ins
+4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas/conexões, de MIDI
 23CA90FBC72F010D=Alternar para: Mostrar pista master e envelope do andamento
 96C3317B95606339=Limpar envelope do andamento
 3029AAC716696009=Grade: Definir para 1/128
@@ -13299,7 +13299,7 @@ FDFF2C38C037D04E=Nada (sem ação)
 16A0B50E20E429AB=Visualizar: Mover o cursor de edição para o cursor do mouse
 B0BD565E6246F228=Posições do loop: Definir posição de início
 F8D05E3085FD2B41=Posições do loop: Definir posição do final
-4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas de MIDI/plug-ins
+4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas/conexões, de MIDI
 DCFEAB8BD451EB5C=Mostrar lista de ações
 E78D9CDC4EDF8449=Visualizar: Ir para o cursor de edição
 0E44CD2EEA4BA863=Humanizar notas...
