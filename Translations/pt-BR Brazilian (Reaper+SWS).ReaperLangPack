@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (Reaper+SWS)
 #AUTHOR:Edison Defavari
-#VERSION:6.37
+#VERSION:6.38
 
 #NAME:Português [pt-BR] - By Edison Defavari
  NOTE: this is the best starting point for making a new langpack.
@@ -1251,6 +1251,7 @@ E4DA54B8178F9F4F=Editar evento Sysex
 EBBFDA9189F52B3B=Editar tercina
 B686BA8838F18A6F=Mudanças na armadura da clave afeta todas as pistas
 0245229F78012A00=Carregar nomes para nota/CC a partir do arquivo...
+FC7C5BB198567CED=Compasso
 652EF93F64A683F6=Faixa do item de mídia
 E733F90D010E8468=Notação: Identificar os acordes na grade do editor
 DC1BFC2EC50777D8=Notação: Remover todas notações de acordes
@@ -4818,9 +4819,9 @@ EF23E440CDB08FB9=Forçar off-line o objeto selecionado do item de mídia inativo
 0FF6D47B1D880AE8=Remover pontos do envelope
 98671010090BFF52=Remover pontos do envelope na seleção do tempo
 53C694610CFB2708=Nova gravação se sobrepõe aos itens de mídia existentes
-900553E9F4978551=Dividir itens existentes e criar novos objetos (padrão)
-163CDA4B929B986C=Aparar itens existentes por trás da nova gravação (modo fita)
-FD77C1603E3C317A=Criar novos itens de mídia em faixas separadas (por camadas)
+900553E9F4978551=Divide itens existentes e cria novos objetos (padrão)
+163CDA4B929B986C=Apara itens existentes por trás da nova gravação (modo fita)
+FD77C1603E3C317A=Cria novos itens de mídia em faixas separadas (por camadas)
 538DAB3E7CEB873E=Sempre add objetos em novos itens gravados quando do looping
 CB81C350E8E07BF5=Mostrar todos objetos nas faixas (se há espaço)
 7DC808E14A2CFADC=Comportamento da faixa do objeto
@@ -6983,7 +6984,7 @@ CAAA4A7E38A1A222=Largura do fader na pista
 1C2DBC366D4F7335=Limitar o número de divisões
 4EF3AC39BDF172AB=Passagem, limiar
 E8B76ED341FC4617=Passagem, histerese
-75A3C49DDA7AFDD3=Canais de conexão 
+75A3C49DDA7AFDD3=Canais de conexão
 0420C9694288FDBD=Modo de conexao do canal
 7F1C5CF166138E7E=Linha de base da modulação de parâmetros
 0E565CDD74732983=LFO: Vigor
@@ -9724,7 +9725,7 @@ E471A461788E4141=Pista %d
 
 [epin]
 E015C3A2845BEBCA=Roteamento: Ajuda
-6045013A3EFD72EB=Canais conectados:
+6045013A3EFD72EB=Canais de conexão:
 2D546E0E95C5509A=VST3, tamanho do bus:
 502FF25EE0B32FB0=Multimono
 39B8A8053FCFA39B=Multiestéreo
@@ -9791,7 +9792,7 @@ B2A6EA3C4E522B53=Deletar banco de dados? Ação nao pode ser desfeita.
 E9AE901CCF20CF98=Confirmar o deletar
 52F2C75AE7F77671=Exemplos de legendas de metadados que não são exibidas por padrão:
 AF0B0F38EB8B86EC=Para saber mais, veja a janela principal de Metadados de Renderização do Projeto.
-B3E4C8526CA01165=Executar \"Reler Metadados da mídia \" para preencher colunas adicionadas/editadas.
+B3E4C8526CA01165=Executar \"Reler Metadados da mídia\" para preencher colunas adicionadas/editadas.
 6B6D6A315D1A4DBA=Os metadados foram editados manualmente para alguns arquivos. Preservar dados editados?
 B66F42CE04A87D3A=Aviso de metadados
 49C5599426E1EDA9=Reciclar pasta?
@@ -11572,6 +11573,7 @@ AEF753AB8D13173D=ReWire Bus
 D0C04B9E79D271AE=Pista
 D722FAC57CDCD58A=%d itens de mídia
 B817B56070E01709=<lista de itens de mídia da MIDI>
+FC7C5BB198567CED=Compasso
 D52782E5368E8EA1=Erro de escrita para o arquivo de MIDI
 6D6F3C9161BBF878=Editar letra
 05AE6808A1E816A9=Renomear objeto de MIDI
@@ -13516,7 +13518,6 @@ D83CF3186B27C7DA=PC
 5BC5C52282E9A46E=Dobrar o tom
 BE8D83106D4A1747=Meta-evento
 23B2264DE45B99D8=Armadura da clave
-FC7C5BB198567CED=Compasso
 DD0CE22D75D36ED1=Pista nome
 8AE9AE7D7775A16B=Letras
 90AF657379F9511D=Marcador
@@ -13533,6 +13534,7 @@ B2C13E7E2485F09F=MTC
 7D8F257E060B62E4=SPP
 9ED6EEF5EE379522=Selecionar som
 D0C04B9E79D271AE=Pista
+FC7C5BB198567CED=Compasso
 3E04EF2C595D4859=Tercina
 
 [midi_filt]
@@ -14843,7 +14845,7 @@ EB06AC7EBF68A535=Execução livre (saída não específica)
 D83986186B24D8CC=QN
 5C6CD2CA6CEDBA99=(não encontrado)
 43DDA011529770E8= (meu)
-9CE9D1319F320AA2=Modulação de parâmetros/Linkar para:
+9CE9D1319F320AA2=Modulação de Parâmetros/Linkar para:
 5E51D88A6E39AA30= - (Pista master)
 57F28E456CC0FEEB=Tom
 BC585B6FF340DD35=Variação do canal (intensidade)
@@ -16587,6 +16589,7 @@ F0EFF4493E45A122=Todos os painéis metadados
 6DD18E4627B4458C=Painel
 71F87B7B5851B653=Categoria
 B1646749FC6C4817=Limpar painel
+365E3D5CF7FA6AB6=Renderização simulada: %dHz, %dch
 F7CD69D31E23F2C7=O arquivo já existe:
 B4F466C090612B1D=Os arquivos já existem:
 66FF38D6E1ADCC48=Renderizados na fila já irá substituir o arquivo:
@@ -17558,7 +17561,7 @@ E2A9442343FE70F5=Fundo da janela: Ações e MIDI (afeta janelas de: eventos, pro
 374CCE612D7C4054=Barra de ferramenta de frames quando flutuando ou carregado
 E7915E3E6A099632=Botão da barra de ferramenta: Cor quando armado
 4D0CBFBFF06F6BCD=Botão da barra de ferramenta: Modo desenho armado
-637FC2FB9F7218EB=Texto da janela para I/O (Entrada/Saída)
+637FC2FB9F7218EB=Texto da janela para I/O
 DC14FE448251351B=Alta luz da janela 3D para I/O
 49B647AA0CAEF935=Sombra da janela 3D para I/O
 ED962C58BEAAA257=Fundo da janela: (lista de ações/atalhos para ações) 
@@ -20448,6 +20451,8 @@ B301617E24BC100D=MCP
 C5531D0DEE1F0D0D=Entrada
 
 [sws_DLG_109]  IDD_ABOUT
+03AAF458EEA78F41=Versão
+4FF8D8A2620BB238=%s criada em %s
 0F4D4ED9D178123D=Sobre a extensão SWS/S&M
 F38436E0DA1AD159=&Novidades...
 552BA1E587EBA1AF=Extensão SWS/S&&M, um plugin REAPER.
@@ -20457,8 +20462,6 @@ A09F3B03C26FB456=String versão
 4EAD6EFF1E50D20C=Versões oficiais
 05F36090628B4395=Versões beta
 F76A4DF8F932970D=Verificar agora
-03AAF458EEA78F41=Versão
-4FF8D8A2620BB238=%s criada em %s
 
 [sws_DLG_110]  IDD_PROMPT
 A3FAE16E6B2F9235=Prompt
