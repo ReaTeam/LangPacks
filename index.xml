@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="335e0f57668eb2899711afebb3b3166ec8762670">
+<index version="1" name="ReaTeam LangPacks" commit="8d81512d5a06d6929f14a497118cd8ade406cd12">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/661c72b234368cbcaea2d82f27114a421e34a871/Translations/MIDI%20Editor%20actions%20(active%20take%20only)%20vs%20(all%20editable).ReaperLangPack</source>
       </version>
     </reapack>
-    <reapack name="pt-BR Brazilian (Reaper+SWS).ReaperLangPack" type="langpack" desc="pt-BR Brazilian (Reaper+SWS)">
-      <version name="6.36" author="Edison Defavari" time="2021-09-19T00:01:01Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/8b39d744aa739d0143e7680a8d0e33135a9c0022/Translations/pt-BR%20Brazilian%20(Reaper+SWS).ReaperLangPack</source>
-      </version>
-      <version name="6.36-1" author="Edison Defavari" time="2021-09-20T12:12:43Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/cb14e7b05d0682858f3a952dc7ba2e8c88780f83/Translations/pt-BR%20Brazilian%20(Reaper+SWS).ReaperLangPack</source>
-      </version>
-      <version name="6.36-2" author="Edison Defavari" time="2021-09-21T16:42:05Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/60602a29acf8ed6f4621b0c85824e1b23ebcb40a/Translations/pt-BR%20Brazilian%20(Reaper+SWS).ReaperLangPack</source>
-      </version>
-      <version name="6.36-3" author="Edison Defavari" time="2021-09-25T14:22:10Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/42daad0d2ffb013827a58dbe7800ca39fb3dd5f3/Translations/pt-BR%20Brazilian%20(Reaper+SWS).ReaperLangPack</source>
-      </version>
-      <version name="6.37" author="Edison Defavari" time="2021-10-13T18:49:59Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/6d7ac9c91bb0b9db940d91842f20430c9c67170b/Translations/pt-BR%20Brazilian%20(Reaper+SWS).ReaperLangPack</source>
-      </version>
-      <version name="6.38" author="Edison Defavari" time="2021-10-21T20:10:52Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/335e0f57668eb2899711afebb3b3166ec8762670/Translations/pt-BR%20Brazilian%20(Reaper+SWS).ReaperLangPack</source>
+    <reapack name="pt-BR Brazilian (REAPER+SWS).ReaperLangPack" type="langpack" desc="pt-BR Brazilian (REAPER+SWS)">
+      <version name="6.39" author="Edison" time="2021-10-30T13:26:14Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/8d81512d5a06d6929f14a497118cd8ade406cd12/Translations/pt-BR%20Brazilian%20(REAPER+SWS).ReaperLangPack</source>
       </version>
     </reapack>
     <reapack name="REAPER_SWS_fr_reapack.ReaperLangPack" type="langpack" desc="REAPER LangPack Français">
