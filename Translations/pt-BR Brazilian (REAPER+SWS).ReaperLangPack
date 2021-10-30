@@ -1,6 +1,6 @@
-#NAME:pt-BR Brazilian (Reaper+SWS)
-#AUTHOR:Edison Defavari
-#VERSION:6.38
+#NAME:pt-BR Brazilian (REAPER+SWS)
+#AUTHOR:Edison
+#VERSION:6.39
 
 #NAME:Português [pt-BR] - By Edison Defavari
  NOTE: this is the best starting point for making a new langpack.
@@ -298,6 +298,7 @@ BEE3F1BDC2A992A1=Propriedades do item de mídia
 A1A721902449610D=Origem do objeto de mídia
 ADFC12BF930BBFC9=Propriedades do objeto
 268986373F235EF0=batidas
+0B9EC8A19D767AFC=Sempre aparar conteúdo por trás das edições aguçadas
 3A2761697FE8C69E=Aparar conteúdo por trás de itens de mídia ao editar
 BD7850245F5A79EE=Importar
 AD510FC22D6EECAC=Item de MIDI vigente segue as mudanças do item na área de organização
@@ -399,7 +400,6 @@ B8A638E10D801ABE=Adicionar marcador elástico no cursor
 D48D28AC39A03009=Adicionar/editar marcador no cursor
 CF7AF55DCCD92445=Permitir FX antecipado
 BEDDCB0B40FD59A2=Permitir buffer de mídia
-0B9EC8A19D767AFC=Sempre aparar conteúdo por trás das edições aguçadas
 B4177AFBBA909492=Pista/plugin FX em itens como novo objeto
 B9A64123FC8187D3=Pista/plugin FX em itens como novo objeto (saída de MIDI)
 84630E171AD9A159=Pista/plugin FX em itens como novo objeto (saída mono)
@@ -492,6 +492,7 @@ E1E348931CD6C233=Item: &Propriedades...
 68B57E0793CA5AE1=Item: Propriedades...
 FF757325528C96CD=Item: Configurações para régua...
 BA6CAA916A3AEE75=Item: Configurações
+F6743C2AC6A59C3E=Medidas em LUFS, apenas os dois primeiros canais
 79A279EBE1DC53BC=LUFS-S (leitura=atual)
 3514B1D551F0F24D=LUFS-S (leitura=máxima)
 CBED1547C6300197=Cadeado
@@ -975,7 +976,6 @@ F8D05E3085FD2B41=Posições do loop: Definir posição do final
 B0BD565E6246F228=Posições do loop: Definir posição de início
 FDFF2C38C037D04E=Nada (sem ação)
 887AC55D66DDCCA9=Opções: Preferências de edição de MIDI e modificações do mouse...
-4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas/conexões, de MIDI
 DCFEAB8BD451EB5C=Mostrar lista de ações
 23CA90FBC72F010D=Alternar para: Mostrar a pista master e envelope do andamento
 12C3FAD652693FD1=Barra de ferramenta: Abrir barra de ferramenta 1 da MIDI via cursor do mouse
@@ -1104,7 +1104,7 @@ C67E45DEEC3C6B56=Caminho principal em banco de dados e pesquisas
 BAD073D9074C4F0A=Normalizar o volume visualizado se o volume do pico foi calculado
 0B35824C72FB30DC=Abrir projetos na aba atual
 44F0FFC2E0D387C7=Abrir projetos em nova aba
-C9A2902E912B5E70=Suprimir caminho da caixa
+C9A2902E912B5E70=Caminho da caixa do alto
 7296E08827DAF2B9=Remover arquivos ausentes de todos os bancos de dados
 231C15D6AF7233E9=Remover arquivos ausentes do banco de dados
 EF8CB5DF731746FD=Escanear todos os bancos de dados por novos arquivos
@@ -2173,7 +2173,9 @@ F09E4B5C35AA14B9=Cancelar
 5CA1E00000000000=1.10
 
 [DLG_168]  IDD_PROJECTSETTINGS_NOTES
+BB99289F7C682E97=Título:
 BB30EBB441D29823=Mostrar anotações ao carregar o projeto
+FBC77126B2213071=Quebra de linha
 42EF8539C63DAAFE=Autor:
 5CA1E00000000000=1.15
 
@@ -2197,7 +2199,7 @@ C92B788D0BB92260=Consolidar Pistas
 7CDFF1D2B38BE006=Configurações de consolidação
 CA2A2B5DBD0A0E62=Personalizada:
 B80BDA0C01658F27=Pistas:
-3EE82E06F8C5EE8E=A ser definido
+3EE82E06F8C5EE8E=Selecionada(s)
 94066D118035EEF6=Ignorar silêncio mais curto que
 0971916D9810DAA7=segundos (pode criar vários arquivos por pista)
 D1717A5C482193AF=Modo reamostragem:
@@ -3101,10 +3103,10 @@ D858BC186B3FE51D=Hz
 [DLG_262]  IDD_TCCONFIG
 085F3DE8AB4DE5DB=Habilitar sincronização do código de tempo para:
 7B212007C824F9D4=Usar entrada:
-763400CCB1720AD9=Tx de frames LTC (em branco ao usar configuração da tx de frames do projeto):
+763400CCB1720AD9=Tx de frames LTC (em branco ao usar configuração da tx de frames do proj):
 924B85587FB804D0=Iniciar playback no código de tempo válido quando parado
 568F5AEBDAE3AC60=Na falta do código de tempo, funcionamento livre para até:
-B84DF0FD53A73A72=ms (0=para sempre)
+B84DF0FD53A73A72=ms (0=sempre)
 43091CDD5367E425=Sincronizar por busca acima de:
 53CF5517B3119879=ms (padrão=1000)
 4702C127062CF8F4=Ressincronizar se a queda exceder:
@@ -3120,7 +3122,7 @@ FB4299296319B6E5=Visualize rapidamente este painel clicando com botão direito n
 D3E64988F293BA3A=Gravação
 D8B3B3186B8C817F=ms
 BAC64C1B2E060EE5=Fechar
-5CA1E00000000000=1.15
+5CA1E00000000000=1.10
 
 [DLG_263]  IDD_MIDIOUT_CONFIG
 D945A0A776B76497=Configurar Saída de MIDI
@@ -3939,6 +3941,7 @@ BEFCAA56940B8887=Loop original para itens importados
 F86B38011657919B=Seleção do tempo com gravação autopicotando o áudio, cria seção de loop
 81AD58C769B1844A=Loop original para itens grudados
 3A2761697FE8C69E=Aparar conteúdo por trás de itens de mídia ao editar
+0B9EC8A19D767AFC=Sempre aparar conteúdo por trás das edições aguçadas
 5CA1E00000000000=1.18
 
 [DLG_478]  IDD_PREFS_RENDER
@@ -4175,7 +4178,7 @@ F685FB3A91025549=Procurar...
 5CA1E00000000000=1.18
 
 [DLG_516]  IDD_LANG
-6C5B59EF704E3CB9=Escolher idioma no REAPER
+6C5B59EF704E3CB9=Escolher Idioma no REAPER
 60F1A9BC3DC0E3F4=Carregar sempre
 3B76403C5F6D3B14=Carregar uma vez
 
@@ -5125,6 +5128,7 @@ FAB04AB85CF8625D=Medidores
 C0A402815EE4A2E1=LUFS-M
 3514B1D551F0F24D=LUFS-S (leitura=máximo)
 79A279EBE1DC53BC=LUFS-S (leitura=atual)
+F6743C2AC6A59C3E=Medidas em LUFS, apenas os dois primeiros canais
 821B3CD32107333D=Pista: Cor
 2A155A1A970AC2FE=Ajustar pistas para cor personalizada...
 AB902561E815401D=Ajustar pistas para cores aleatórias
@@ -5442,6 +5446,7 @@ FAB04AB85CF8625D=Medidores
 C0A402815EE4A2E1=LUFS-M
 3514B1D551F0F24D=LUFS-S (leitura=máximo)
 79A279EBE1DC53BC=LUFS-S (leitura=atual)
+F6743C2AC6A59C3E=Medidas em LUFS, apenas os dois primeiros canais
 821B3CD32107333D=Pista: Cor
 2A155A1A970AC2FE=Ajustar pistas para cor personalizada...
 AB902561E815401D=Ajustar pistas para cores aleatórias
@@ -7259,6 +7264,7 @@ F13644BCE50E9EBB=Pista: Definir medidores para RMS estéreo
 7C525E4965D1F131=Pista: Definir medidores para LUFS-M (Loudness momentâneo)
 E257210F2DB20643=Pista: Definir medidores para LUFS-S (loudness a curto prazo, leitura=máximo)
 76185CF9C7667A62=Pista: Definir medidores para LUFS-S (loudness a curto prazo, leitura=atual)
+F05D94F0C8FAF2CB=Pista: Medidas em LUFS, apenas os dois primeiros canais
 3790A23C989F34FD=Matriz de renderização da região: Renderizar mixar master para todas as regiões
 59250E4CE92AEF38=Matriz de renderização da região: Renderizar todas as pistas para todas as regiões
 A3920193E27A5254=Matriz de renderização da região: Renderizar apenas as pistas selecionadas para todas as regiões
@@ -7297,6 +7303,9 @@ D5A3F01E52083547=Opções: Mostrar configurações para metrônomo/pré-rolagem
 4F4304F6242BC1AD=Opções: Alternar para o metrônomo
 AFD9DFA062531B7E=Opções: Habilitar metrônomo
 E3F8845BC7FB718B=Opções: Desabilitar metrônomo
+6D8F80C89D543616=Opções: Definir velocidade do metrônomo para 1x
+6D8C8AC89D52113D=Opções: Definir velocidade do metrônomo para 2x
+6D857EC89D4BDE2B=Opções: Definir velocidade do metrônomo para 4x
 FB59ABA39C11BF1C=Pré-rolagem: Alternar para a pré-rolagem na reprodução
 C7C7BCED88B61ED5=Pré-rolagem: Alternar para a pré-rolagem na gravação [duplicado descontinuado]
 16059EA9A2192A17=Pré-rolagem: Alternar para a pré-rolagem na gravação
@@ -8530,6 +8539,7 @@ DD9F5EE6DF45D828=Objeto: Definir todos os objetos criados na mesma gravação ir
 665B1CA1ECF3A5D2=Pista: Definir ícone da pista...
 8BEBD0C7D33DDA34=Pista: Remover ícone da pista
 9EE999C1280EFFB8=Mixer: Alternar para mostrar ícones da pista no mixer
+8E0D9A4A8F47E786=Enviar todas as notas off e todos sons off para todas saídas/conexões, de MIDI
 2558616332EF90D4=Alternar para: Tela cheia
 8533008EAB2DF95A=Minimizar o REAPER
 7E5F3749473BBBFA=Carregar/descarregar janela atualmente em destaque
@@ -8982,7 +8992,6 @@ A6F3EA432AA410A4=Inserir instrumento virtual em nova pista...
 2730763EB716675B=Importar letras para a pista...
 6B9A1E235CAF7E24=Exportar letras da pista...
 281B839DED6E7947=Pista: Aplicar deslocamento de tempo nas pistas originais recebidas (atraso/avanço)
-4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas/conexões, de MIDI
 23CA90FBC72F010D=Alternar para: Mostrar pista master e envelope do andamento
 96C3317B95606339=Limpar envelope do andamento
 3029AAC716696009=Grade: Definir para 1/128
@@ -9341,7 +9350,7 @@ FC19414CC54B044B=Memória %s: %uMB/%uMB\r\n\r\n
 86963CED3263ABD5=Sys %s: %uMB/%uMB\r\n\r\n
 74E4179B6447E89D=livre
 8168147E99383416=usada
-23DFDEDC9CF04735=%d FX: %.2f%% CPU
+23DFDEDC9CF04735=%d FX: %.2f%% de uso da CPU
 36A965ABAC0E2CF3=Desempenho
 953C6D46CA27A548=Uso da CPU
 0F2A70052EBB526C=Latência: %.0fms
@@ -9908,7 +9917,7 @@ C6599EACB5E203A5=Descarregar mídia atual
 3099E90A7E945F95=Extensão do arqu. enquanto o tipo de arqu. é exibido
 C67E45DEEC3C6B56=Caminho principal em banco de dados e pesquisas
 58703EC01AFC1E89=Caminho completo em banco de dados e pesquisas
-C9A2902E912B5E70=Suprimir caminho da caixa
+C9A2902E912B5E70=Caminho da caixa do alto
 283FE03EFCCB175F=Lista de atalhos
 71F69718E6B34204=Barras de rolagem na forma da onda
 F708A3878D906E99=Layout vertical
@@ -9998,7 +10007,7 @@ E7B63BC14820F88E=&Mostrar
 3099E90A7E945F95=Extensão do arqu. enquanto o tipo de arqu. é exibido
 C67E45DEEC3C6B56=Caminho principal em banco de dados e pesquisas
 58703EC01AFC1E89=Caminho completo em banco de dados e pesquisas
-C9A2902E912B5E70=Suprimir caminho da caixa
+C9A2902E912B5E70=Caminho da caixa do alto
 283FE03EFCCB175F=Lista de atalhos
 71F69718E6B34204=Barras de rolagem na forma da onda
 F708A3878D906E99=Layout vertical
@@ -10143,7 +10152,8 @@ D968CE1A66FC9337=Opções: Mostrar barras de rolagem na 'waveform' (forma da ond
 C85877D94D3C9FA0=Fechar janela do Explorer de mídia
 0AA9B453D19BDD97=Editar: Copiar arquivos
 78052C6B545E73A3=Editar: Colar arquivos
-84461C918871EA69=Opções: Ocultar caminho na caixa do alto
+6FE28BD209E5957B=Editar: Renomear arquivo
+84461C918871EA69=Opções: Ocultar caminho da caixa do alto
 F8C38A25CF45B84E=Limpar todas marcas temporárias
 A87D5F3B158BA44D=Mídia: Mostrar no explorer/finder
 11E5B3EC427DA8CF=Rescanear todos os arquivos no banco de dados
@@ -13099,6 +13109,7 @@ F0ED847FB4715E47=Loop: Pela metade a duração do loop
 C692AB8700BEA979=Mover o cursor para o fim do loop
 04EEA1AC562213F9=Mover o cursor para o início da seleção do tempo
 83621E4B868729F0=Mover o cursor para o fim da seleção do tempo
+4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas/conexões, de MIDI
 E3E61F01CACF8EAD=Seleção do tempo: Remover seleção do tempo e posições do loop
 01262900CB9ABE4B=Posições do loop: Remover posições do loop
 E9D9A68C20EC04ED=Seleção do tempo: Remover seleção do tempo
@@ -13345,7 +13356,6 @@ FDFF2C38C037D04E=Nada (sem ação)
 16A0B50E20E429AB=Visualizar: Mover o cursor de edição para o cursor do mouse
 B0BD565E6246F228=Posições do loop: Definir posição de início
 F8D05E3085FD2B41=Posições do loop: Definir posição do final
-4F54BFB1FE7FA7B1=Enviar todas as notas off para todas saídas/conexões, de MIDI
 DCFEAB8BD451EB5C=Mostrar lista de ações
 E78D9CDC4EDF8449=Visualizar: Ir para o cursor de edição
 0E44CD2EEA4BA863=Humanizar notas...
@@ -14187,6 +14197,7 @@ C9EFB0169A557A20=Mover crossfade e estender itens
 DF63CCB452075EE5=Mover crossfade ignorando seleção/agrupamento
 B1E6D180F7A8F589=Mover crossfade e estender itens ignorando seleção/agrupamento
 217836D49931FD15=Alterar curva do fade
+DDBB1059E28C1F29=Alterar curva do fade (referente a edição da borda)
 EB4A52FF3B99DCB8=Alterar curva do fade ignorando seleção/agrupamento
 5E2B1DE25C3CBC4C=Alterar curva do fade ignorando itens com crossfade
 5665A8CA7E7DB4F9=Alterar curva do fade ignorando itens com crossfade e seleção/agrupamento
@@ -15271,6 +15282,7 @@ D8DADBDCF727EC0B=Vai aplicar as configurações do fade-in e fade-out acima, e a
 2150029D694E5000=Ativa \"fonte do loop\" atributo p/ itens grudados. Arrastando a borda direita do item, automaticam. ele fica como loop de mídia.
 2DD1E32D6EFAB55E=Quando automaticamente autopicota uma gravação dentro da seleção do tempo, faz um loop do conteúdo da seleção do tempo ao estender as bordas do item resultante.
 CA312E99CAD52995=A edição da posição do item de mídia ou bordas p/ sobrepor os itens de mídia existentes, pode ser reproduzida em ambos os itens juntos ou aparar conteúdo dos itens existentes.
+1AC6782D422ADF26=Por padrão, as edições aguçadas sempre removerão o conteúdo existente atrás das áreas da edição aguçada ao finalizar a edição, como emendar uma fita.
 
 [prefs_kbd_help]
 F22AA82C438102B7=Você poderá manter um conjunto distinto de atalhos de teclado para usa-los somente durante a gravação.
@@ -15543,7 +15555,7 @@ D854C0186B3C0312=ID
 [prefs_mididev_help]
 C8EC4F41AE4CE266=Ativa entrada de dispositivos de MIDI que você deseja usar clicando com botão direito do mouse no nome do dispositivo e selecionando Habilitar entrada.
 6B8B2E2D5D43889C=Ativa saída de dispositivos de MIDI que você deseja usar clicando com botão direito do mouse no nome do dispositivo e selecionando Habilitar saída.
-F18BBB94E07C7D77=Isto irá enviar uma mensagem para a MIDI durante sua parada/reprodução, sobre todas as notas on/off.
+EB1FB6B6F4F4C813=Isto enviará a todas notas de MIDI off e todas mensagens de sons off ao parar/ao reproduzir.
 8C3BC63E5CE56671=Isto irá enviar mensagens para a MIDI durante sua parada/reprodução, sobre restaurar o tom e manter (CC#64).
 744D44D8300A6F70=Ative isto para conduzir a todo hardware de MIDI a partir de uma única linha, o que não é o ideal para o desempenho, mas pode ser mais compatível com algum hardware.
 F334C433C938F542=Fecha e reabre todos os dispositivos de MIDI e rescaneia para procurar novos dispositivos. Se possível.
@@ -16435,6 +16447,7 @@ B3D2C76823B56BAB=Canal %d
 C0A402815EE4A2E1=LUFS-M
 3514B1D551F0F24D=LUFS-S (leitura=máximo)
 79A279EBE1DC53BC=LUFS-S (leitura=atual)
+F6743C2AC6A59C3E=Medidas em LUFS, apenas os dois primeiros canais
 FAB04AB85CF8625D=Medidores
 F1707CB9030B35E0=Autoarmar gravação da pista ao seleciona-la
 081CECC31B65E0C4=Definir armar gravação automática da pista ao seleciona-la
@@ -16804,6 +16817,7 @@ A3B40840D7974DCA=Informações do item de mídia
 7D0FCDE52688E0C5=Formato de Saída
 CFF834D38DCD4B8C=Informações do computador
 A102825E3888AC4F=nome do projeto
+88F48C434F6133C1=título do projeto (da caixa de diálogo, Configurações do projeto/Notações)
 C4947C2D374CB35A=autor do projeto (da caixa de diálogo: Configurações do projeto/Notações)
 5DFBB2BCD0E02AD0=nome do arquivo de entrada
 5ACB584BCFCEF5B1=nome da pista
@@ -21771,11 +21785,11 @@ CE00C3235E535EAA=Salvar
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_181]  IDD_BR_CONTEXTUAL_TOOLBARS
-663C5EEBBD166FDD=SWS/BR: Barra de menus contextual
+663C5EEBBD166FDD=SWS/BR: Barra de ferramentas contextual
 ABFD88CA821491A4=Destacar janela sob o mouse:
 BAF6B5BDA6336892=Sobrepor posição:
-3E33C1793A918884=Manter barra de ferramentas sempre no topo
-A871266EBDD2A2DB=Definir barra de ferramentas em primeiro plano ao carregar
+3E33C1793A918884=Manter barra de ferramenta sempre no topo
+A871266EBDD2A2DB=Definir barra de ferramenta em primeiro plano ao carregar
 9D8FF32C4C98BE82=Autofechar ao perder o enfoque
 893212490096FE7C=Pista:
 94DA23296A5CCF2D=Organização
@@ -21789,7 +21803,7 @@ A36A2C06534E7C63=Definir como ativo os itens selecionados
 62F36E318AD87E88=Definir faixa do CC como última clicada
 A3F5ED668C48BDDC=Editor de MIDI inline
 9060EF362176E7E6=Contexto
-DAFC8FBBDCAFABD6=Barra de ferramentas
+DAFC8FBBDCAFABD6=Barra de ferramenta
 D2640AE225A16018=Fechar automaticamente
 1010D2E1DB88320F=Deslocar posição
 AADC236C38D60A97=Não fazer nada
@@ -21830,7 +21844,7 @@ A94AD4A428E77297=Piano roll
 DCF5F87361B99E99=Área de edição de notas
 8DA9EE320058D035=Faixa do CC
 9C0CC5D5FE81B737=Seletor de área do CC
-FF34F3425D9485CC=Barra de menus contextual
+FF34F3425D9485CC=Barra de ferramentas contextual
 BB6FE4A7A62EDA00=Salvar mudanças em
 831EC47C169E3F00=antes de fechar?
 013F7A1C304429DD=antes da mudança do preset?
@@ -21859,8 +21873,8 @@ CC95F09D1F9F8372=Adicionar item para a seleção e selecionar pista principal
 2F10D86AAAA85FA3=Selecionar envelope e adicionar item principal para a seleção
 3B7BF8FB1C0EBED8=Selecionar item principal
 6FC809C37311C40C=Adicionar item original para a seleção
-ABD2C169177718C2=Habilitar barra de ferramentas e auto fechar
-0DA89530FBB33492=Definir deslocamento da posição da barra de ferramentas...
+ABD2C169177718C2=Habilitar barra de ferramenta e auto fechar
+0DA89530FBB33492=Definir deslocamento da posição da barra de ferramenta...
 18C90F7E5DC51FCA=Tudo
 7666307E026A82D2=TCP
 E998E79C69A28AFB=Envelope:
@@ -21876,7 +21890,7 @@ D821FC186B110F6D=X:
 D81E72186B0DEF18=Y:
 
 [sws_DLG_182]  IDD_BR_CONTEXTUAL_TOOLBARS_POS
-4AD6612BE2D1A91C=Definir compensação da posição da barra de ferramentas
+4AD6612BE2D1A91C=Definir compensação da posição da barra de ferramenta
 D8A9BA186B8438DF=px
 D821FC186B110F6D=X:
 D81E72186B0DEF18=Y:
@@ -21966,23 +21980,23 @@ C2685F99E768EAE9=SWS/Shane: Renderizar regiões em lote
 B0B24C4FC053612E=SWS/Shane: Autorenderizar: Abrir caminho da renderização
 EE2948C4ED7D062D=SWS/Shane: Autorenderizar: Mostrar Instruções
 333D69025B3A6558=SWS/Shane: Autorenderizar: Preferências globais
-DEBE483FF999C9A8=SWS/BR: Barra de menus contextual...
-2AE09A478507933B=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 1
-2AE09B47850794EE=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 2
-2AE09C47850796A1=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 3
-2AE09D4785079854=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 4
-2AE09E4785079A07=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 5
-2AE09F4785079BBA=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 6
-2AE0A04785079D6D=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 7
-2AE09147850783F0=SWS/BR: Abrir/fechar barra de ferramentas contextual sob o cursor do mouse, preset 8
-C51F2B564D681E9C=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 1
-C51F2E564D6823B5=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 2
-C51F2D564D682202=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 3
-C51F28564D681983=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 4
-C51F27564D6817D0=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 5
-C51F2A564D681CE9=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 6
-C51F29564D681B36=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 7
-C51F34564D682DE7=SWS/BR: Alternar para somente a barra de ferramentas contextual sob o cursor do mouse, preset 8
+DEBE483FF999C9A8=SWS/BR: Barra de ferramentas contextual...
+2AE09A478507933B=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 1
+2AE09B47850794EE=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 2
+2AE09C47850796A1=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 3
+2AE09D4785079854=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 4
+2AE09E4785079A07=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 5
+2AE09F4785079BBA=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 6
+2AE0A04785079D6D=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 7
+2AE09147850783F0=SWS/BR: Abrir/fechar barra de ferramenta contextual sob o cursor do mouse, preset 8
+C51F2B564D681E9C=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 1
+C51F2E564D6823B5=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 2
+C51F2D564D682202=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 3
+C51F28564D681983=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 4
+C51F27564D6817D0=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 5
+C51F2A564D681CE9=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 6
+C51F29564D681B36=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 7
+C51F34564D682DE7=SWS/BR: Alternar para somente a barra de ferramenta contextual sob o cursor do mouse, preset 8
 6F5B0EB6F324AB0A=SWS/BR: Mover o cursor de edição para o próximo ponto do envelope
 ED054CA2A8966DEA=SWS/BR: Mover o cursor de edição para o próximo ponto do envelope e selecione-o
 34C9FAAB76A7A65B=SWS/BR: Mover o cursor de edição para o próximo ponto do envelope e adicionar para a seleção
@@ -23706,14 +23720,14 @@ BCCB7D6417FB7719=SWS/S&M: Desarmar todos os envelopes vigentes nas pistas seleci
 9C0453180776A984=SWS/S&M: Alternar para armar todos os envelopes do pan de recebidos, nas pistas selecionadas
 76BB16B1F56D6272=SWS/S&M: Alternar para armar todos os envelopes sem som recebidos, nas pistas selecionadas
 13547656BD761E2F=SWS/S&M: Alternar para armar todos os envelopes de plugins, nas pistas selecionadas
-8C6B18BA17ACC7C3=SWS/S&M: Selecionar apenas pista com envelope selecionado
-F5B9EEFA6E768276=SWS/S&M: Alternar barra de menus para habilitar autoatualizar
-7061C84717F5D87B=SWS/S&M: Barra de ferramentas - Alternar envelopes da pista para, tocar/cadeado/visualização do cadeado/escrita
-5FAB98C36CC87A39=SWS/S&M: Barra de ferramentas - Alternar item da seleção para offscreen (esquerdo)
-574BABFCDE53EDFA=SWS/S&M: Barra de ferramentas - Alternar itens da seleção para offscreen (direito)
-025B4001EF2CCF59=SWS/S&M: Barra de ferramentas - Alternar itens da seleção para offscreen (superior)
-48DC3CF516154ECF=SWS/S&M: Barra de ferramentas - Alternar item da seleção para offscreen (parte inferior)
-CDBE25ADEDF36E73=SWS/S&M: Barra de ferramentas - Alternar itens da seleção para offscreen
+8C6B18BA17ACC7C3=SWS/S&M: Selecionar apenas pista com envelope selecionado)
+F5B9EEFA6E768276=SWS/S&M: Alternar barra de ferramentas para habilitar autoatualizar
+7061C84717F5D87B=SWS/S&M: Barra de ferramenta - Alternar envelopes da pista para, tocar/cadeado/visualização do cadeado/escrita
+5FAB98C36CC87A39=SWS/S&M: Barra de ferramenta - Alternar item da seleção para offscreen (esquerdo)
+574BABFCDE53EDFA=SWS/S&M: Barra de ferramenta - Alternar itens da seleção para offscreen (direito)
+025B4001EF2CCF59=SWS/S&M: Barra de ferramenta - Alternar itens da seleção para offscreen (superior)
+48DC3CF516154ECF=SWS/S&M: Barra de ferramenta - Alternar item da seleção para offscreen (parte inferior)
+CDBE25ADEDF36E73=SWS/S&M: Barra de ferramenta - Alternar itens da seleção para offscreen
 27456E8F4023547D=SWS/S&M: Desmarcar itens offscreen
 D6190083F84CAA94=SWS/S&M: Encontrar
 54261E034B12BF75=SWS/S&M: Encontrar o próximo
@@ -24243,7 +24257,7 @@ DB63B3750AE8C9B2=Sobre a extensão SWS
 78B5F12B23A74F54=Abrir caminho da renderização
 1FB980B340A6E85D=Mostrar ajuda...
 B136FB814F9F369E=Parâmetros de comando...
-5B0C194A365B9BA2=Barra de menus contextual...
+5B0C194A365B9BA2=Barra de ferramentas contextual...
 25D60A905F096148=Gerador: Envios, sinal de áudio
 C2CE78DDDA66AA1E=Editor de coleção de ações...
 0ECC8A02360A8907=Processador de envelope...
@@ -24282,7 +24296,7 @@ CC9A79DF7457D50D=Habilitar ícone automático da pista
 FA8FAB6E419FC01D=Habilitar ações do marcador
 AE8EB49742B5C8E1=Habilitar verificação de entrada da gravação
 FD5065B680A43F5D=Habilitar régua vermelha durante a gravação
-E991E6DF3DF8C034=Habilitar autoatualizar a barra de menus
+E991E6DF3DF8C034=Habilitar autoatualizar a barra de ferramentas
 F65E388D0DE5B8F0=Automatizar Cor/Ícone/Layout
 DDAB6253F0B71B7C=Autorenderizar
 3F8019EEA8FDB58C=Preferências globais...
