@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (REAPER+SWS)
 #AUTHOR:Edison
-#VERSION:6.39
+#VERSION:6.41
 
 #NAME:Português [pt-BR] - By Edison Defavari
  NOTE: this is the best starting point for making a new langpack.
@@ -236,6 +236,7 @@ D847A2186B3145BC=MB
 3D05B40BFC6A1E40=Sincronização externa do código de tempo
 2ACB121355B0007A=Playback
 84225D657EA873E2=Dispositivo nome:
+0B19C6EEF866E6A8=Não enviar mensagens de reajustes
 30EF57A27EDFC686=(nenhum)
 6B4795AB9EC37475=Entrada:
 BA0F8B7E28468276=LFO
@@ -2671,7 +2672,7 @@ ADF734ADBE2B231C=Posições do loop
 766BE9F3488BDF6A=Bordas do item
 8CF779BCB57A8CCE=Fade do item/manejos do volume
 A1E55E108B89AF6A=Marcadores elásticos do item
-F778C14553BC7145=Envelopes do item
+D8E0BE34ECCD7051=Envelopes do objeto
 06EA0ABB8C68DB4B=Envelopes da pista
 C38622521AF10C6B=Marcadores de divisão do compasso
 698028640C29E8A9=Habilitar bloqueio
@@ -3132,6 +3133,7 @@ CB06E9745C2B8A27=Sem SPP/continuar
 B41C537F50256512=Abrir dispositivo em baixa latência/modo baixa precisão
 EE0A946D9F3B72B5=Deslocar saída para este dispositivo por:
 84225D657EA873E2=Dispositivo nome:
+0B19C6EEF866E6A8=Não enviar mensagens de reajustes
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 D8B3B3186B8C817F=ms
@@ -4717,7 +4719,7 @@ AEAD3FE261A95C2B=Acrescentar (Nome do mantenedor)
 3C141ED13464E790=Editar lista de caminhos...
 
 [DLG_594]  IDD_RENDER_NORMALIZE
-254542EBFE1FED8E=Pósprocess. de Renderização
+254542EBFE1FED8E=Pós-processo de Renderização
 A2596B858F081DFB=Normalizar para:
 BD1835DBC6549037=Teto limite para:
 D8D27C186BA6D499=dB
@@ -4818,7 +4820,7 @@ B273F6FD8CDD8005=Definir para off-line todas as mídias
 AAF58F581C039E15=Definir temporariamente off-line a mídia selecionada
 87BE54B161A71DD9=Forçar off-line o item de mídia selecionado
 EF23E440CDB08FB9=Forçar off-line o objeto selecionado do item de mídia inativo
-035B6104C9505C5A=Autoarmar gravação para todas as pistas, ao selecionar pista
+035B6104C9505C5A=Autoarmar gravação em todas as pistas, ao selecionar pista
 0FF6D47B1D880AE8=Remover pontos do envelope
 98671010090BFF52=Remover pontos do envelope na seleção do tempo
 53C694610CFB2708=Nova gravação se sobrepõe aos itens de mídia existentes
@@ -6378,6 +6380,7 @@ D97FFE186C3A6754=16
 4F32BF040299F0AA=Habilitar entrada para controle de mensagens
 85AC5941ABA23E19=Canal de origem
 2555373B75AA89B2=Saída
+0B19C6EEF866E6A8=Não enviar mensagens de reajustes
 
 [MENU_323]  IDR_CONTEXTS_23
 04943A07B3D83380=23ReamoteCtx
@@ -6676,14 +6679,14 @@ A77977CDCE6B436E=Mostrar todos os caminhos para VSTs
 7FD83CFAFD120049=45_ActionDlgCtx
 1D2C0C0BFB0D449F=Editar ação personalizada selecionada/ReaScript
 B365D6F10CF49E96=Deletar ação personalizada selecionada/ReaScript
-F86DA01979DBF767=Copiar ID do comando da ação selecionada
+F86DA01979DBF767=Copiar ID de comando da ação selecionada
 88671F5C9F600FB2=Copiar texto da ação selecionada
 325CE726D1C9B296=Armar ação selecionada
 32B36460E94E98E6=Desarmar ações
 EAA22874AC7EECF8=Lembrar último filtro da ação
 4B4705FB0C266569=Pesquisar por sinônimos de palavras comuns
 06F6E4D36435E6E6=Fechar ação após duplo click/enter
-A04C4EA23D1F025E=Mostrar ações IDs
+A04C4EA23D1F025E=Mostrar IDs das ações
 C0BE663525BD3669=Mostrar caminhos do ReaScript
 9B042869A79FA02B=Janela de ações na área de carregamento
 D1EB52BFBDF1AB33=Duplicar ação personalizada
@@ -8767,9 +8770,9 @@ F81142D73B50AEF3=Bloqueio: Definir divisão do compasso para modo de bloqueio
 FFFB2AD1BEFDD675=Bloqueio: Definir fade do item/manejos do volume para modo de bloqueio
 E62A167FEB7A3B9C=Bloqueio: Limpar fade do item/manejos do volume para modo de bloqueio
 2E2347ECAD7B62ED=Bloqueio: Alternar fade do item/manejos de volume para modo de bloqueio
-8DB54C8939112DBD=Bloqueio: Definir envelope do item para modo de bloqueio
-DFC37A305D4C8EBE=Bloqueio: Limpar envelope do item do modo de bloqueio
-8EE39152AEFA6525=Bloqueio: Alternar envelope do item para modo de bloqueio
+87BC05CAB60B4C15=Bloqueio: Definir envelope do objeto para modo de bloqueio
+E0BFECD6F2A58D16=Bloqueio: Limpar envelope do objeto do modo de bloqueio
+8853D89507D411CD=Bloqueio: Alternar envelope do objeto para modo de bloqueio
 A4B3EA87DD6C6C56=Bloqueio: Definir marcador elástico do item para modo de bloqueio
 03069A84BDCDE8CD=Bloqueio: Limpar marcador elástico do item do modo de bloqueio
 2EABAF42723657FE=Bloqueio: Alternar marcador elástico do item para modo de bloqueio
@@ -9246,11 +9249,10 @@ D970C4613F64FEE9=Conjunto de menus
 07193DE037235567=Pacotes de idiomas
 978572D4E373AE26=Banco de dados do Explorer de mídia
 801D0047969AE1F0=Interface de páginas da web
-91E2929E89C73B1C=Itens de automação
 1E16807B2D3F3649=Nota de MIDI/Nomes CC
 8CF4F0AFD0B7C40A=Tipo de arquivo
 3FEC959E1863B272=Calculando a lista de arquivos...
-A85AB8F8377C9DBB=%d arquivos falharam ao redigir!
+EC75B05D53404550=%d arquivos falharam ao gravar! ReaperConfigZip gravado, mas confirme para ter certeza de que os arquivos excluídos não eram essenciais.
 9356F5EE700B510F=Escreveu %d arquivos para ReaperConfigZip
 9BBB2F0CFF74EA58=Erros de escrita ReaperConfigZip
 D3B913526EEA2CB9=Sucesso!
@@ -9285,6 +9287,7 @@ BC15D33B8E7A1967= e REMOVER %d arquivos!
 18347C10C98CD94D=A importação da configuração vai exigir o reinício do REAPER. Você será alertado a salvar qualquer projeto aberto, e terá que rever a configuração antes de instalar. Proceder?
 5ED4338681DE1E25=Importar configuração?
 C004CD40F2057E29=Cadeias de FX
+91E2929E89C73B1C=Itens de automação
 2A6ED1B48E88BCC9=Status
 D840E3186B2B9581=OK
 ADE62F1CFD2974B6=Escaneando...
@@ -9299,7 +9302,7 @@ CEAEE7A333DCADF2=Abortado
 ACD3FB6DDC3170C6=Adicionar arquivos para lista de arquivos do conversor:
 0378D5027A3988C9=Não é possível abrir o arquivo intermediário
 5A9484C5B05BD001=Não é possível abrir a fonte do arquivo
-E646D5239C857F26=Não é possível abrir o destino do arquivo
+29007787B7506152=Não é possível abrir o destino do arquivo %s
 BBDC409790A65FBB=INIC: REAPER %s: gravando no arquivo de log %s\n
 D07889E3AEED7783=INIC: REAPER %s: conversor em lote carregando arquivo de trabalho %s\n
 6DFE63E45D8A02BD=Erro ao carregar lista de conversor em lote
@@ -9458,9 +9461,9 @@ D72D35942B75A505=YAMAHA 01X
 E399564E58F138A9=Behringer BCF2000 (usando preset 1)
 DF249D69F709EDAF=PreSonus 
 789C954A015F4BD9=PreSonus FaderPort v2 (2018)
-570E4608A519946D=Controlador Mackie universal
-EAD02982B9759BDB=Controlador Mackie estendido
-56DC84781C5106BF=OSC (Controlador de som aberto)
+570E4608A519946D=Controlador Mackie Universal
+EAD02982B9759BDB=Controlador Mackie Extender
+56DC84781C5106BF=OSC (Controlador de Som Aberto)
 3B480EA7AA22E148=Frontier Tranzport
 0A2E68C3B74ED940=Interface do navegador Web
 
@@ -13822,7 +13825,7 @@ F51ECA424BB2FCAA=Ocultar linhas não utilizadas, da visualização de notas pers
 8FFC5D9C4282BC80=Não é possível refazer
 1CC8B1FED5E6DF0E=Importar letras
 996CED950F6BF13F=Remover faixa do CC
-BD6262B7516C216E=Editar vizualização da linha de nota
+BD6262B7516C216E=Editar nota vizualizada na linha
 11423AF87C2E6B17=Mudar nome da nota de MIDI
 FD67F33F45A9A52C=Editar andamento / divisão do compasso
 4DCD2DDBB18662EA=Editar armadura da clave
@@ -14000,9 +14003,6 @@ E217E1085C7ED06D=Pesquisando...
 [mixer]
 63F6D385957D048A=Mixer da master
 D66D409D600C2D04=Mixer
-
-[mousemap]
-167FBDFE83A381FB=(padrão de fábrica)
 
 [mousemaps]
 C21294A0BFD63FFD=Elaborar
@@ -15540,6 +15540,7 @@ D76E00820D574366=Limite de tempo do toque para substituir a gravação se uma me
 788251BDE052B641=<não presente>
 2582E469DA94B981=!!! N/A: Habilitado
 4B1F49AD75A98455= [baixa latência]
+2049E2F99F1F358D= [sem reajuste]
 C6A800DD714D71FA=+Alarme
 9A2FCC4EA3C46B0D=+Alarme/NoSPP
 8232A51E86B3CA66=Habilitado+Controle
@@ -18487,7 +18488,7 @@ E26F665CE6F14AAC=Alternar para: Itens sem som
 E92114FAB5CCF23E=Itens sem som
 7B06006270CD1DFD=Itens com som
 4E11481E481D63A9=Ajustar/não ajustar o item sozinho
-6D71A233860DB29E=Alternar para: Envelope do item
+ECD0FDADD01E32F6=Alternar para: Envelope do objeto
 D5D8531CB9CC5C0E=Alternar para: Pistas sem som
 BF410278340A6E37=Alternar para: Pista com fase
 5FBAF2DCD5023BB4=Alternar para: Pistas sozinhas
@@ -18524,7 +18525,7 @@ F750BEB2EFE62A44=Selecionar pontos do envelope
 2E293E7B0F0420A6=Definir ponto de tensão bezier do envelope
 3376D12B4DF684ED=Inserir 4 pontos no envelope
 921660B161722BD2=Cortar pontos do envelope
-FC7FDFEDE2BF1A6D=Limpar envelope do item
+2DFA58E5C11CD111=Limpar envelope do objeto
 409FC815DC6A118B=Todas as pistas sem som
 EC4AD6CACCE6201E=Limpar todas as pistas sem som
 DC694D93E12E5D41=Todas as pistas sozinhas
