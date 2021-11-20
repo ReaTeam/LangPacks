@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (REAPER+SWS)
 #AUTHOR:Edison
-#VERSION:6.41
+#VERSION:6.42
 
 #NAME:Português [pt-BR] - By Edison Defavari
  NOTE: this is the best starting point for making a new langpack.
@@ -1142,7 +1142,7 @@ DA93338F06D3E461=Definir como favorita
 0A8BAF4C6945400F=Duração
 6A06D6C989A3EF64=Deslocar
 502001D7ACECC754=Início do deslocamento
-AF21F624E39AF297=Pista: Número
+AF21F624E39AF297=Pista: Quantidade
 2D126F1D4BD6B8C7=Tipo
 ACE17ED77A0CFB39=Inserir no projeto
 D204E3D46BB8DD12=Abrir projeto
@@ -2349,7 +2349,7 @@ BB1D7DBC1BA8233C=Matriz de roteamento
 EA615A5997239616=Editar comentário FX
 
 [DLG_184]  IDD_TSMARKEREDIT
-FD46A57F2E4690CC=Editar Andamento/Marcador de Div. do compasso
+FD46A57F2E4690CC=Editar Andamento/Marcador de Div. do Compasso
 127C295DE82AD1B8=Definir andamento:
 30CEDD945AFC126E=Definir divisão do compasso:
 D6120A6699DC844C=Base da BPM:
@@ -2363,7 +2363,7 @@ F9519A70026F7B52=Posição:
 DA1E84CE6CE89AC1=Ajuda (batida padronizada)
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
-5CA1E00000000000=1.40
+5CA1E00000000000=1.30
 
 [DLG_185]  IDD_SAVEOPTIONS
 F82D8812ADB6D26E=Crie subdiretório para o projeto
@@ -10308,7 +10308,7 @@ B6FF490C00814E6B=Pista #
 44D502BC3E71FBB7=Canais
 502001D7ACECC754=Início do deslocamento
 5D3E4AAB7C030AF2=Pico: Volume
-AF21F624E39AF297=Pista: Número
+AF21F624E39AF297=Pista: Quantidade
 
 [explorer_menu]
 C467388DF98DD7C1=Adicionar para lista de atalhos
@@ -11029,7 +11029,7 @@ C70154D17552CC8A=Não foram encontradas letras na pista
 
 [marker]
 84B7EB53E01864F4=Adicionar Marcador
-5681A0BC2DF9EB72=Marcador do Andamento e Divisão do Compasso
+5681A0BC2DF9EB72=Andamento/Marcador de Divisão do Compasso
 0F39829489A7CAC9=Definir padrão de rítmo:
 86170C822DFBE9E0=Este marcador de divisão do compasso forçará o compasso anterior a terminar em %s,\r\nmas o próprio marcador será posicionado em %s.
 9800ADB742F5B175=Mover mudança da divisão do compasso para %s?
@@ -15686,7 +15686,7 @@ DDDAF906972AD14A=Zoom horizontal
 [prefs_mouse_help]
 F67975F4767A253F=Mensagens são passadas para a janela, pela roda do mouse sob o cursor do mouse (padrão) ou na janela atualmente destacada/vigente.
 59FD2A0A725F45F2=Quando o cursor do mouse está sobre qualquer fader, a roda do mouse pode mover o fader, ou não.
-F7E9AF5F31BC16FE=Permite editar pela roda do mouse todos os mixers, plugins, e enviar faders, mas não faders de volume/pan nos painéis da pista e controle do misturador.
+F7E9AF5F31BC16FE=Permite editar pela roda do mouse todos os mixers, plugins, e enviar faders, mas não faders de volume/pan nos painéis da pista e controle do mixer.
 0C8C2D8F2CF852F7=Desabilita da roda do mouse a edição da taxa de reprodução do projeto, andamento do projeto início/final da seleção do tempo e duração dos campos na área do transporte.
 51DD672ACD88C4D7=Edição de campos via roda do mouse da seleção do tempo no transporte, pode mudar a seleção do tempo em uma pequena quantidade ou pela batida na grade do projeto.
 3D42B29B6D5A6AC7=Alguns 'trackpads' podem enviar rolagem de mensagens. O Reaper poderá tentar convertê-los em mensagens através da roda do mouse.
@@ -16663,7 +16663,7 @@ C9C02344D7F08EBA=Itens de mídia selecionados
 473036F393488FA0=Itens de mídia selecionados via master
 453B50A2B5FC16D1=Áreas de edição aguçada via master
 7C52FAD1998A97D7=Velocidade máxima off-line
-ECEF5A49F432EB7D=1x Off-line
+ECEF5A49F432EB7D=1x off-line
 0694A6949DB4FAA8=Renderizar on-line
 3EFDB5F495A9454B=Renderizar off-line (Ociosa)
 17A9CDE22D90C248=Renderizar 1x off-line (Ociosa)
@@ -16720,7 +16720,7 @@ B40EBB4EC8D826B7=LUFS-I:  loudness de todo o arquivo renderizado, calculado por 
 FAF92150674645B7=Título
 DB6AFFF8CBB64A68=Artista
 D23E76ECCBF7CD46=Álbum
-AF21F624E39AF297=Pista: Número
+AF21F624E39AF297=Pista: Quantidade
 4435244E8273302A=Gênero
 1F7997A0644DE09B=Data
 44528C2D3C7A6A52=Andamento (BPM)
