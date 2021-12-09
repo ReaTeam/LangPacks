@@ -1,12 +1,9 @@
-﻿#NAME:REAPER_SWS_ru_reapack-utf8/русский
-;Version: 1.1.2
-;Author: shredthesky, Nikitich, Roland_Hyper, MPL
-;Link: http://stash.reaper.fm/v/12052/Russian.ReaperLangPack
-;Link: http://stash.reaper.fm/v/29926/Russian.ReaperLangPack
-;Link: http://stash.reaper.fm/v/17191/Russian.ReaperLangPack
-;changelog: 
-;	+ 1.1.2	15.03.2017 by MPL: VST presets section, some errors and actions
-:	+ 1.1.0	15.03.2017 by MPL: merged shredthesky, Nikitich, Roland_Hyper langpacks
+#NAME:REAPER_SWS_ru_reapack-utf8/русский
+#AUTHOR:shredthesky, Nikitich, Roland_Hyper, MPL
+#VERSION:1.1.2
+#CHANGELOG:+ 1.1.2	15.03.2017 by MPL: VST presets section, some errors and actions
+#PROVIDES:REAPER_SWS_ru_reapack-utf8/New file 1.ReaperLangPack
+#LINK:http://stash.reaper.fm/v/17191/Russian.ReaperLangPack
 
 ; NOTE: this is the best starting point for making a new langpack.
 ; As you translate a string, remove the ; from the beginning of the
