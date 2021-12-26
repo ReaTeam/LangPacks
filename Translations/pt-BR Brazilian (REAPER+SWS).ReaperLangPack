@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (REAPER+SWS)
 #AUTHOR:Edison
-#VERSION:6.43
+#VERSION:6.43-1
 
 #NAME:Português [pt-BR] - By Edison Deff
  NOTE: this is the best starting point for making a new langpack.
@@ -16773,8 +16773,8 @@ C129889B8F00B0F1=arquivo
 6E94EBACB2B7E74E=Renderizar 1 arquivo
 0F54E3E0D9AAABFF=Renderizar %d arquivos
 AAEC9E4F51E61BFA=Renderizar (sem arquivos)
-EED1AC952953EE12=Configurações da última renderização
-D3EF81DC9ACE2E0E=Limites e saída padrão/tipo de arquivo
+021BC1B5D3C6B681=Configurações de renderização do projeto
+A82D8163A8484674=Limites e saída
 3912E287492971ED=Opções e formatos
 7807BF68DE4D492B=Todas as configurações
 99F514AA4253AD7A=Renomear preset da renderização
@@ -20188,7 +20188,7 @@ E61FC1343A1814BE=Cores aleatórias são atribuídas a partir da paleta. Para pis
 9F29D438F4B06825=Se 'Mostrar Taxa do Play' estiver ligada, define o tamanho do controle da taxa do play. DICA : Clique com o botão direito do mouse no controle da taxa de reprodução para ajustar o seu intervalo.
 E95E5BB5E74CD602=Estas configuraç. fazem parte do seu projeto REAPER e serão salvas quando ele for salvo (exceto para 'Rolagem para pista selecionada', que é uma prefer. do REAPER)
 
-[common] SWS 2.12.1.3
+[common] SWS 2.13.0.0
 B2BB1E7719F22B98=Item
 DDDBC4B59922776E=Pista master
 D0C04B9E79D271AE=Pista
