@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (REAPER+SWS)
 #AUTHOR:Edison
-#VERSION:6.46
+#VERSION:6.46-1
 
 #NAME:Português [pt-BR] - By Edison Deff
  NOTE: this is the best starting point for making a new langpack.
@@ -95,7 +95,7 @@ ABEC79059CAD0B0E=Apelido nome:
 08329D07B4EB939C=+
 0922F78BE865FE0C=Parâm.
 D66D409D600C2D04=Mixer
-23ECEDA49DF34EDF=Menu, preset
+23ECEDA49DF34EDF=Menu, Preset
 D82BED186B194A75=UI
 E9B5F27ED466AEF5=ins
 3D9CBC3C216900AD=Reproduzir
@@ -123,7 +123,7 @@ E5566C4604653F75=Desfazer histórico
 79DCBE1CDE37B4F3=Projeto inteiro
 2555373B75AA89B2=Saída
 0629736B3FAE9E4C=Processo
-D1717A5C482193AF=Reamostrag. modo:
+D1717A5C482193AF=Reamostragem modo:
 E19CAC48E2E6EA85=Taxa de amostragem:
 720CB39E31676E27=Início:
 97D6D411868C112C=Seleção do tempo
@@ -497,7 +497,7 @@ FF757325528C96CD=Item: Configurações para régua...
 BA6CAA916A3AEE75=Item: Configurações
 F6743C2AC6A59C3E=Medidas em LUFS, apenas os dois primeiros canais
 79A279EBE1DC53BC=LUFS-S (leitura=atual)
-3514B1D551F0F24D=LUFS-S (leitura=máxima)
+3514B1D551F0F24D=LUFS-S (leitura=máximo)
 CBED1547C6300197=Cadeado
 C7F67A5666962B47=Ver cadeado
 CA47517BDEFA4232=Linear
@@ -1986,7 +1986,7 @@ B953726494A1AB01=No projeto:
 4D5B21719C8D85CE=Procurar pelo arquivo...
 
 [DLG_143]  IDD_JUMPTOTIME
-D8609045F0F81B85=Pular para: tempo/marcador/região
+D8609045F0F81B85=Pular para: Tempo/Marcador/Região:
 31DE10C994E4CA7E=Pular para:
 F907EC1A20A88F39=mm:ss.xxx
 7A26DFEB5082FE7A=pula para minutos:segundos.frações
@@ -2043,7 +2043,7 @@ D66D409D600C2D04=Mixer
 0922F78BE865FE0C=Parâm.
 E9B5F27ED466AEF5=ins
 D82BED186B194A75=UI
-23ECEDA49DF34EDF=Menu, preset
+23ECEDA49DF34EDF=Menu, Preset
 
 [DLG_153]  IDD_PREFS_MIDI
 138115F421695B0D=MIDI: Adicionar joystick...
@@ -2236,7 +2236,7 @@ BF7FC25E072FBD3F=Atualizar projetos com arquivos consolidados
 E19CAC48E2E6EA85=Taxa de amostragem:
 D858BC186B3FE51D=Hz
 67EF32DE1BAE7097=Canais:
-D1717A5C482193AF=Reamostrag. modo:
+D1717A5C482193AF=Reamostragem modo:
 3BF0AA22A506F11A=Curingas
 2555373B75AA89B2=Saída
 F685FB3A91025549=Procurar...
@@ -2946,7 +2946,7 @@ F812C7145E261C23=Remover
 5CA1E00000000000=1.25
 
 [DLG_242]  IDD_BOUNCEDLG
-617F42B9C4DC5662=Salvar saída ao vivo para o disco (bounce - exportar/renderizar)
+617F42B9C4DC5662=Salvar Saída ao Vivo no Disco Local (bounce - exportar/renderizar)
 B3D229CC512D97AE=Salvar saída apenas durante o playback ou gravação
 5259502ECA6BB18D=Parar de salvar saída na 1ª parada
 7554B3A3441F4F9D=Não salvar quando estiver abaixo de
@@ -3158,7 +3158,7 @@ ABEC79059CAD0B0E=Apelido nome:
 78109A39D4A407B9=Conexão: Conector de Pino
 
 [DLG_265]  IDD_AUHOST
-23ECEDA49DF34EDF=Menu, preset
+23ECEDA49DF34EDF=Menu, Preset
 08329D07B4EB939C=+
 0922F78BE865FE0C=Parâm.
 E9B5F27ED466AEF5=ins
@@ -3387,18 +3387,18 @@ F09E4B5C35AA14B9=Cancelar
 5CA1E00000000000=1.13
 
 [DLG_286]  IDD_ITEMNOTES
-4FCBE096B4C5B9B5=Anotações para o item
+4FCBE096B4C5B9B5=Item: Anotações
 02B2B73F93C4E5AA=Tecla 'Enter' para fechar, Shift+Enter para nova linha
 6C8E4558335588CC=Esvaziar
 FBC77126B2213071=Quebra de linha
-671BB397A450E74A=Sem imagem carregada 
+671BB397A450E74A=Sem imagem carregada
 386EB65EE2979317=Carregar
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 D7323C887B0A2951=Aplicar
 
 [DLG_288]  IDD_THEMEBLENDMODE
-5244434E108C0E50=Misturar o tema/Alfa
+5244434E108C0E50=Tema: Mesclado/Alfa
 08D901F467AB84C1=Alfa:
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
@@ -3485,7 +3485,7 @@ CC85D146650F3E66=24 bit
 F97A12BF98D450CF=Taxa de amostragem:
 
 [DLG_423]  IDD_UNKNOWN_PROJITEMS
-3C52E51274C6ADB4=Aviso de carregamento do projeto
+3C52E51274C6ADB4=Projeto: Aviso de Carregamento
 A5A07A87161ECB6C=Mostrar detalhes
 D840E3186B2B9581=OK
 
@@ -3528,7 +3528,7 @@ BAC64C1B2E060EE5=Fechar
 
 [DLG_428]  IDD_RPPDROPDLG
 6D40D8F11B133E58=Abrir RPP escolhido
-0AB548C9DCD86472=Abrir projeto
+0AB548C9DCD86472=Abrir Projeto
 1BA2C759F32B1E78=Inserir projeto como item de mídia
 866FE917BA950796=O arquivo:
 083DD321703A8821=Foi deixado dentro do REAPER. Escolha como proceder.
@@ -3590,11 +3590,11 @@ F09E4B5C35AA14B9=Cancelar
 5CA1E00000000000=1.50
 
 [DLG_443]  IDD_CONSOLE
-2F78A0EE7C16A283=Console de depuração (debug)
+2F78A0EE7C16A283=Console de Depuração (debug)
 87DB547E0C57B4B8=Rodar
 
 [DLG_444]  IDD_CONVERTER
-CF8CEC995AA54B2C=Usar diretório de origem do arquivo
+CF8CEC995AA54B2C=Diretório do arquivo de origem
 E3A550B7DF8959EF=Abrir...
 FA2FC8DBB6212E69=Preservar hora original de início
 6882EA606C9A4C9C=Usar FX
@@ -3618,10 +3618,10 @@ F685FB3A91025549=Procurar...
 C1F07AAFF4522636=Arquivo nome:
 3BF0AA22A506F11A=Curingas
 5493EE7052DCF71B=Opções
-E19CAC48E2E6EA85=Tx de amostrag:
+E19CAC48E2E6EA85=Taxa de amostragem:
 D858BC186B3FE51D=Hz
 67EF32DE1BAE7097=Canais:
-D1717A5C482193AF=Reamostrag. modo:
+D1717A5C482193AF=Reamostragem modo:
 3D9E5395958AA558=Normalizar/Limitar...
 86C526176585552D=Formato de saída:
 5CA1E00000000000=1.18
@@ -4109,7 +4109,7 @@ E77A387AEFCAFEE6=Renderizar para:
 E19CAC48E2E6EA85=Taxa de amostragem:
 D858BC186B3FE51D=Hz
 67EF32DE1BAE7097=Canais:
-D1717A5C482193AF=Reamostrag. modo:
+D1717A5C482193AF=Reamostragem modo:
 3D9E5395958AA558=Normalizar/Limitar...
 212B7E992662BAE7=Marcadores do obj.
 2555373B75AA89B2=Saída
@@ -4301,7 +4301,7 @@ B701095B99D9C8B1=Conteúdo da onda
 82A19AF23629AFE2=Anterior
 011BD24D18CA513E=Próximo
 9354CE4B6A8F54A0=Editados 0 crossfades
-23ECEDA49DF34EDF=Menu, preset
+23ECEDA49DF34EDF=Menu, Preset
 DDFC41E99D604844=Editor de Crossfade
 08329D07B4EB939C=+
 6D27CBDC5943D7B6=Formato:
@@ -4853,7 +4853,7 @@ A08635B6D11AEFF2=Reconstruir picos nos itens selecionados
 B273F6FD8CDD8005=Definir para off-line todas as mídias
 AAF58F581C039E15=Definir temporariamente off-line a mídia selecionada
 87BE54B161A71DD9=Forçar off-line o item de mídia selecionado
-EF23E440CDB08FB9=Forçar off-line o objeto selecionado do item de mídia inativo
+EF23E440CDB08FB9=Forçar off-line o objeto inativo do item de mídia selecionado
 035B6104C9505C5A=Autoarmar gravação em todas as pistas, ao selecionar pista
 0FF6D47B1D880AE8=Remover pontos do envelope
 98671010090BFF52=Remover pontos do envelope na seleção do tempo
@@ -6110,17 +6110,17 @@ BD6665EE0A2BDB92=Gama da taxa de reprodução do fader: 0.9-1.1
 [MENU_312]  IDR_CONTEXTS_12
 90EE71234A070984=12PerfCtx
 1E06E4405DEA8BB9=Exibir gráfico da CPU
-A92306A0DFCF9F5C=Exibir gráfico da CPU em tempo real (RT)
+A92306A0DFCF9F5C=Gráfico da CPU em tempo real (RT)
 B262FAD75BA8BA4A=Exibir uso da CPU
-27A29CDA117BD72F=Exibir CPU em tempo real (RT)
-15F8208C8ADE370D=Exibir bloquear tempo de processamento RT mais longo
+27A29CDA117BD72F=CPU em tempo real (RT)
+15F8208C8ADE370D=Bloquear tempo de processamento RT mais longo
 B7F32A9F98A13DBE=Manter tempo de processamento RT do bloco mais longo
 BDCA3CD61B25F6F5=Exibir contadores xrun
 1D8E0673D38702E7=Exibir espaço em uso no disco
 7B7E834E49D135B0=Exibir uso de memória RAM
 EC37BCC6C18B2137=Mostrar memória RAM livre no sistema, ao invés do uso
 0E1582F9AD466D68=Exibir carregamento do vídeo
-0B046CABAC6AEF1E=Exibir uso do FX na CPU
+0B046CABAC6AEF1E=Exibir uso de FX na CPU
 1A64FFC5FC821B62=Reajustar gráfico
 EEB77FAA4A9ACCDA=Medidor de Desempenho, na área de carregamento
 BAC64C1B2E060EE5=Fechar
@@ -8076,14 +8076,14 @@ FBECE4010CFB26AE=Pista, propriedades: Definir base de tempo da pista
 0B2E97A4EA7B98BA=Pista, propriedades: Não definir livre posicionamento do item
 3875CA617E72CF3E=Item, propriedades: Normalizar itens (pico/RMS/LUFS)...
 326F2ED305F81F19=Item, propriedades: Normalizar itens usando as configurações mais recentes
-658AFF545BCC5BE7=Item, propriedades: Normalizar itens usando as configurações mais recentes (reajustar para a unidade se já está normalizada)
+658AFF545BCC5BE7=Item, propriedades: Normalizar itens usando as configurações mais recentes (reajustar para a unidade se já está normalizado)
 E76A259ED24EFB2E=Item, propriedades: Normalizar itens usando configurações mais recentes (ganho normal)
 D47EFEC81B2DFEBE=Item, propriedades: Normalizar itens usando configurações mais recentes (separadamente)
 13B95E3B39EC5AC3=Item, propriedades: Normalizar itens para pico de +0dB
 132B4661FCB2A730=Item, propriedades: Normalizar itens juntos (ganho normal) para pico de +0dB
 F457B882761F8CDD=Item, propriedades: Normalizar itens para pico de +0dB (redefinir para a unidade se já normalizado)
 9B436B4B2AB60C60=Item, propriedades: Normalizar itens juntos (ganho normal) para pico de +0dB (redefinir para a unidade se já normalizado)
-00B213EBE008A4B7=Item, propriedades: Reajustar ganho do objeto do item para +0dB (não normalizada)
+00B213EBE008A4B7=Item, propriedades: Reajustar ganho do objeto do item para +0dB (não normalizado)
 FA3BB1A7D36E6AC9=Objeto: Empurrar volume dos objetos vigentes em +1dB
 A363F596889180FB=Objeto: Empurrar volume dos objetos vigentes em -1dB
 C0225102DCD5B773=Item: Reajustar volume dos itens para +0dB
@@ -8392,7 +8392,7 @@ D968B0858A8BC388=FX: Ativar/evitar envelope da pista para último parâmetro FX 
 DFC0C42EE13ECFBD=FX: Definir apelido para o último parâmetro FX tocado
 E765D213EC1BD901=FX: Mostrar no TCP o último FX destacado, embutido na UI
 3714F11419BB27D6=FX: Mostrar no MCP o último FX destacado, embutido na UI
-A1C8BA6B1177C326=FX: Alternar 'delta solo' para o último FX focado
+A1C8BA6B1177C326=FX: Alternar 'delta solo' para o último FX destacado
 93209C9BF56482F0=Opções: Mostrar inserções FX no TCP (quando tamanho permitir)
 20C00CF45083E3AD=Opções: Mostrar envios no TCP (quando tamanho permitir)
 FFC84D2E30F73071=FX: Mostrar no TCP todo FX embutido na UI (pistas selecionadas)
@@ -9366,7 +9366,7 @@ DAE5814446B8B4CC=Erro ao inicializar um ou mais itens na cadeia FX
 666808265EA4A933=(de origem)
 05ED68EDE7875DDC=Conversor de arquivo da cadeia FX
 83AF965762B83885=Adicionar arquivos...
-784BBA608AB475FA=Adicionar item/itens de mídia(s) selecionado(s)
+784BBA608AB475FA=Adicionar item/itens de mídia selecionado(s)
 580B8CA7D89F7839=A lista de arquivos para conversão está vazia!
 6F13FF51863927AD=Erro na conversão de arquivo
 8505C3F245AA0D03=Você precisa especificar a pasta de saída!
@@ -10588,8 +10588,8 @@ D8EBBC7D134E537B=Erro ao carregar presets da biblioteca, não é possível abrir
 30FA90CAEA2BB126=Importar presets da biblioteca:
 586CD01FC87A271B=Exportar presets para biblioteca:
 DAF16654F60CC4B8=Erro de escrita para o arquivo de presets da biblioteca! Disco cheio?
-A812A7FC8E6BC23F=OFF-LINE -
-F5BFBD4D49BA078B=EVITADO -
+A812A7FC8E6BC23F=OFF-LINE - 
+F5BFBD4D49BA078B=EVITADO - 
 F025E1B89F09259C=Renomear parâmetro:
 4A10D846929E1CBE=[parâmetro anônimo]
 D9A9B8F7F03C1A59=Salvar cadeia de FX:
@@ -10995,7 +10995,7 @@ D9A575186C5A4DC6=&9
 0922F78BE865FE0C=Parâm.
 D489C67E376967C8=I/O
 C39132F1A8047E9F=Editar...
-23ECEDA49DF34EDF=Preset, Menu
+23ECEDA49DF34EDF=Menu, Preset
 
 [jsfx_DLG_113]  IDD_VST_CFG
 FED4BAE64DE08140=Efeito:
@@ -15680,10 +15680,10 @@ C486CCEB98553CDB=Imagem do mapa de cor é usada para elaborar notas no editor de
 E861071839375D82=Ação padrão
 2B7BB58DFAF56D3E=Emular o botão direito do mouse
 35621EC3B82801D7=(mudar isto em Edição de comportamento/Mouse)
-FABEBC53FF603266=Por padrão, as edições de borda afetam todos os itens agrupados/selecionados com bordas que ocorrem na mesma posição na linha do tempo
-DED5D3F1743B41E8=Por padrão, as edições de fade/crossfade afetar todos os itens agrupados/selecionados com bordas que ocorrem na mesma posição timeline.
+FABEBC53FF603266=Por padrão, as edições de borda afetam todos os itens agrupados/selecionados com bordas que ocorrem na mesma posição na linha do tempo.
+DED5D3F1743B41E8=Por padrão, as edições de fade/crossfade afetam todos os itens agrupados/selecionados com bordas que ocorrem na mesma posição na linha do tempo.
 16F1BFB32D77743D=Neste contexto manejos com ações do mouse na metade inferior de cada faixa do objeto de um item mídia.
-31B16734A39D8277=Neste contexto afeta posições do loop quando o mouse está na régua da MIDI, ou a seleção tempo quando o mouse está na faixa divisora do CC da MIDI.
+31B16734A39D8277=Neste contexto afeta posições do loop quando o mouse está na régua da MIDI, ou a seleção do tempo quando o mouse está na faixa divisora do CC da MIDI.
 11B2AC79CAC168E5=Sempre que mover pontos do envelope/comportamentos de cópia também são afetados pelas configurações no menu Opções/Pontos do envelope.
 04CF06EAF72A544E=Modificadores do mouse criam áreas de edição aguçadas no contexto da Área de organização, click direito-arraste.
 9FC9D36E8164295C=Mover área\0Apenas mover
@@ -16819,9 +16819,9 @@ AAEC9E4F51E61BFA=Renderizar (sem arquivos)
 A82D8163A8484674=Limites e saída
 3912E287492971ED=Opções e formatos
 7807BF68DE4D492B=Todas as configurações
-99F514AA4253AD7A=Renomear preset da renderização
+99F514AA4253AD7A=Renomear Preset da Renderização
 BA3392D97006BF35=Incluir diretório de saída
-004DC15672AB96AA=Preset da renderização
+004DC15672AB96AA=Preset da Renderização
 5E7C99D3AAB0A3D1=1 item de mídia
 B27350F6CC3B912A=1 região
 90A904D1BA53592F=%d regiões
@@ -16908,7 +16908,7 @@ AF63BD4C8601B7DF=
 09A01E8714A0B688=Comentário
 DB6AFFF8CBB64A68=Artista
 1F7997A0644DE09B=Data
-125D328B422FE52F=Dado musical
+125D328B422FE52F=Dado Musical
 4435244E8273302A=Gênero
 C22D827E2CB7D166=Clave (maior/menor)
 3890BE5EE2B48715=Loop
@@ -17011,8 +17011,8 @@ A3B40840D7974DCA=Informações do item de mídia
 7D0FCDE52688E0C5=Formato de Saída
 CFF834D38DCD4B8C=Informações do computador
 A102825E3888AC4F=nome do projeto
-88F48C434F6133C1=título do projeto (da caixa de diálogo, Configurações do projeto/Notações)
-C4947C2D374CB35A=autor do projeto (da caixa de diálogo: Configurações do projeto/Notações)
+88F48C434F6133C1=título do projeto (da caixa de diálogo, Configurações do projeto/Anotações)
+C4947C2D374CB35A=autor do projeto (da caixa de diálogo: Configurações do projeto/Anotações)
 5DFBB2BCD0E02AD0=nome do arquivo de entrada
 5ACB584BCFCEF5B1=nome da pista
 A10E65A5570F945B=pista nome, incluindo caracteres reduzidos
@@ -17209,7 +17209,7 @@ BCFA8A3A8430A743=Saída do hardware de MIDI
 591EDC24B6EB457A=O roteamento detalhado para pistas sozinhas podem ser visualizados e editados usando a janela de diálogo de roteamento da pista (clique no botão I/O de roteamento da pista).
 994346CC39A89189=As pistas podem hospedar Fx de pista, e objetos do item de mídia podem hospedar via plugin FX.
 9D39235B1E64F00C=O FX de pista pode receber áudio de quaisquer canais da pista, e saída de áudio para quaisquer canais da pista.
-25979D811E089930=O FX do objeto pode receber áudio de qualquer canal de item de mídia e enviar áudio para qualquer canal da pista
+25979D811E089930=Objeto FX pode receber áudio de qualquer canal de item de mídia e enviar áudio para qualquer canal da pista.
 A50C284AAE0C571D=O roteamento detalhado para qualquer FX também pode ser visualizado e editado utilizando a janela de diálogo de plug-in do pino conector (clique no botão FX ativado/desativado).
 0A205373C4A0113C=No encadeamento FX secundário (sidechaining) usa-se um sinal de áudio (sinal de origem) para desencadear um efeito que é aplicado a um outro sinal de áudio (sinal do alvo).
 B370D4C8DAB2AB19=Isto pode ser realizado através da criação de um envio a partir da pista de origem, para os canais de número mais altos na pista alvo.
@@ -18887,8 +18887,8 @@ A8DB5D299ABE5C3D=Definir cor da pista
 9A5B948053ACC49F=Definir cor do item
 45E1EA4DE02F1C8B=Ajustar cor do item
 C96348B8910C32FF=Definir cor para todos os itens com o mesmo passo de gravação
-4A9F107D40BE505D=Mover compilação para a faixa superior
-48CD0CD58E3389B5=Mover item para a faixa superior
+4A9F107D40BE505D=Mover compilação para faixa de cima
+48CD0CD58E3389B5=Mover item para a faixa de cima
 C0BC84AE2DD4AAFE=Remover seleção do tempo
 E4875AC9F59FEB5C=Converter objeto de MIDI vigente para evento no projeto
 C64B82D4573E67BC=Converter para arquivo (fantasma copiável) o objeto de MIDI vigente
@@ -19367,7 +19367,7 @@ F65CD38614815711=Próximo objeto
 5CCBCB0963EC10AD=Objeto anterior
 689B1F98F86E6198=Inserir ponto no envelope
 081CECC31B65E0C4=Definir armar gravação automática da pista ao seleciona-la
-84EFD288FCD3D0A3=Pista: Aplicar deslocamento do playback da mídia para pistas originais recebidas (atraso/avanço)
+84EFD288FCD3D0A3=Pista: Aplicar deslocamento do playback da mídia nas pistas originais recebidas (atraso/avanço)
 96C3317B95606339=Limpar envelope do andamento
 23CA90FBC72F010D=Alternar para: Mostrar pista master e envelope do andamento
 B932D1923DE5FA34=Adicionar ponto no envelope
@@ -19593,7 +19593,7 @@ FA363E82A44BE9CC=Ajuda
 D840E3186B2B9581=OK
 
 [video2_DLG_159]  IDD_ITEMINFO2_CHILD
-23ECEDA49DF34EDF=Menu, preset
+23ECEDA49DF34EDF=Menu, Preset
 0922F78BE865FE0C=Parâm.
 08329D07B4EB939C=+
 
@@ -19943,7 +19943,7 @@ CAB942781F4ABCB4=Trecho desc CAFF é inválido
 A4F7A7C8A8B2B5CB=Erro ao ler trecho desc CAFF
 9D959EBB854D1F7C=CAFF tem taxa de amostragem inválida
 7AC8ACCF8B72AA89=CAFF tem tipo de dados compactado não compatível
-94410F9A457FC64C=contagem de canal CAFF inválida
+94410F9A457FC64C=Contagem de canal CAFF inválida
 D8212A294135E028=CAFF é PCM de ponto flutuante, mas não de 32/64 bits
 186A2201487AA81D=CAFF é PCM, mas profundidade de bits não suportada
 C6CDD48AD98172C0=Bloco de dados CAFF muito curto
@@ -20353,7 +20353,7 @@ DE098B29579EDB65=Anexar playlist ao projeto
 688D5ED4BF7DBF10=ATUAL
 2504F093844EA941=Coletar o projeto para playlist
 BDAEE878964B2813=Colar playlist via cursor de edição
-D9E4C067FEE02BBB=Playlist da região
+D9E4C067FEE02BBB=Playlist da Região
 08329907B4EB8CD0=/
 18C90F7E5DC51FCA=Tudo
 10D0E37E59744608=BPM
@@ -20379,7 +20379,7 @@ DDAB6253F0B71B7C=Autorenderizar
 14AB0E343C321037=Mostrar todas as pistas
 
 [fx]
-2B37998FE21F1A9B=FX:
+2B37998FE21F1A9B=FX: 
 340461BC0069FBA9=Monitorando
 480A73B43C308366= (pasta)
 46D03EC1B9E16763= (entrada, cadeia de FX)
@@ -20587,11 +20587,11 @@ B8E9E8402ED408CA=Colar snapshot
 5CA1E00000000000=1.35
 
 [sws_DLG_102]  IDD_MARKERLIST
-2AE01E934C7C2028=SWS: Lista de marcadores
+2AE01E934C7C2028=SWS: Lista de Marcadores
 3A40C1D3E530A213=Visualizar rolagem
 2D126F1D4BD6B8C7=Tipo
 D854C0186B3C0312=ID
-15240CFCAE127DEF=Lista de marcadores
+15240CFCAE127DEF=Lista de Marcadores
 B6FAAE1CF0D62E5A=Deletar definição do marcador...
 509B0D4671855999=Carregar %s
 1A5D047A8EE44F7F=Deletar marcador(es)selecionado(s)
@@ -20640,17 +20640,17 @@ E7E40CCC77CC12FB=Converter regiões em marcadores
 5CA1E00000000000=1.50
 
 [sws_DLG_103]  IDD_SAVE
-5360C4036D9DC564=Salvar definição do marcador
+5360C4036D9DC564=Salvar Definição do Marcador
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_104]  IDD_LOAD
-E41E61994E062A2F=Carregar lista de marcadores
+E41E61994E062A2F=Carregar Lista de Marcadores
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_105]  IDD_FORMAT
-133133685E776F20=Exportar formato
+133133685E776F20=Exportar Formato
 406921A076796A6A=Desc
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
@@ -20661,7 +20661,7 @@ D85BA7186B41F745=Ir
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_107]  IDD_COLOR
-B12C390E816E09FC=Gerenciador de cor SWS
+B12C390E816E09FC=Gerenciador de Cor SWS
 73A9525DDD11344D=Cor1
 73A94F5DDD112F34=Cor2
 9544B032DD69EE2E=Definir cores personalizadas...
@@ -20692,7 +20692,7 @@ C5531D0DEE1F0D0D=Entrada
 [sws_DLG_109]  IDD_ABOUT
 03AAF458EEA78F41=Versão
 4FF8D8A2620BB238=%s criada em %s
-0F4D4ED9D178123D=Sobre a extensão SWS/S&M
+0F4D4ED9D178123D=Sobre a Extensão SWS/S&M
 F38436E0DA1AD159=&Novidades...
 552BA1E587EBA1AF=Extensão SWS/S&&M, um plugin REAPER.
 A09F3B03C26FB456=String versão
@@ -20744,7 +20744,7 @@ DCEF2B4D03DE723C=Nome
 5C048676E8CE02CB=Info
 
 [sws_DLG_114]  IDD_RECVMISSING
-6FC93C25ACED6CC7=SWS: Snapshot faltando recebimento
+6FC93C25ACED6CC7=SWS: Snapshot Faltando Recebimento
 4B9291523F3755D1=&Ignorar
 71FDC2D218828DA6=Selecionar nova pista de recebimento:
 7C94E6057F59C7F6=&Deletar envio
@@ -20817,7 +20817,7 @@ C692B0BB578D0C51=Renomear selecionado %d / %d
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_117]  IDD_ITEMPANVOLDIALOG
-324B2BD1B1906185=Definir Vol/Pan dos objetos
+324B2BD1B1906185=Definir Vol/Pan dos Objetos
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 8FC86C263760ACB9=Volume
@@ -20834,7 +20834,7 @@ D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_119]  IDD_SELECT_NTH_ITEMDLG
-7A80E66A8E89C7D7=Selecionar itens
+7A80E66A8E89C7D7=Selecionar Itens
 540549D353EF57FE=Pular intervalo
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
@@ -20842,7 +20842,7 @@ F09E4B5C35AA14B9=Cancelar
 6A06D6C989A3EF64=Deslocamento
 
 [sws_DLG_120]  IDD_EXOCOM_PARDLG
-C0F7894FD524F5EA=SWS: Parâmetros de comando da extensão
+C0F7894FD524F5EA=SWS: Parâmetros de Comando da Extensão
 B503E333C53DD0D6=Fades
 846446D3DC34DFE4=Configuração A
 019CDF124DE07C59=Tempo do fade-in
@@ -20882,13 +20882,13 @@ F09E4B5C35AA14B9=Cancelar
 5CA1E00000000000=1.15
 
 [sws_DLG_121]  IDD_ITEMVOLUME
-8E7FF9B1E86B2BF6=Definir volume dos itens
+8E7FF9B1E86B2BF6=Definir Volume dos Itens
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 8FC86C263760ACB9=Volume
 
 [sws_DLG_122]  IDD_DISKSPACECALC
-AAF5B4851744CAA4=Calculador de espaço no disco
+AAF5B4851744CAA4=Calculador de Espaço no Disco
 CE3FB9B2713FAB0B=Bits
 1CD8AB9E28F54E4F=Taxa de amostragem
 F643A58669E9FB44=Número de pistas mono
@@ -20897,14 +20897,14 @@ DEA023F867AAB9A6=Minutos para gravar
 D840E3186B2B9581=OK
 
 [sws_DLG_124]  IDD_RENDITEMS
-6782BDF4D6CFA94D=Renderizar calda de itens com
+6782BDF4D6CFA94D=Renderizar Calda de Itens com
 03A45137FB4A30ED=Usar duração da calda 
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 1616D990C579771C=segundos
 
 [sws_DLG_125]  IDD_SCALEITEMPOS
-5A999B694D0CD6D2=Posições do item na escala
+5A999B694D0CD6D2=Posições do Item na Escala
 95AC42976522CF79=Posição da escala
 2A4F855EB4CFE71A=Duração da escala
 0832A307B4EB9DCE=%
@@ -20913,7 +20913,7 @@ F09E4B5C35AA14B9=Cancelar
 D7323C887B0A2951=Aplicar
 
 [sws_DLG_126]  IDD_RANDTEMPOS
-5BAF63EA2D22A4DD=Randomizar posições do item
+5BAF63EA2D22A4DD=Randomizar Posições do Item
 167203A029933A25=Gama aleatória
 108900981B95C884=Mover itens agrupados pelo mesmo montante
 D840E3186B2B9581=OK
@@ -20921,7 +20921,7 @@ F09E4B5C35AA14B9=Cancelar
 1616D990C579771C=segundos
 
 [sws_DLG_128]  IDD_TAKEMIXER
-00E56672AF70D30D=Mixer do objeto
+00E56672AF70D30D=Mixer do Objeto
 2C5B5609D9FC338D=Objetos
 52CC8F86890099B7=Reajustar Volume
 408B5F867E65ED09=Reajustar Pan
@@ -20929,7 +20929,7 @@ D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_129]  IDD_REPOSITEMS
-0A300D2B0310EF45=Reposicionar itens
+0A300D2B0310EF45=Reposicionar Itens
 9BDC902132956BD4=Início do item
 B67527171C8EE38D=Fim do item
 CB4A9CA71E592EDF=Intervalo de tempo
@@ -20939,7 +20939,7 @@ F09E4B5C35AA14B9=Cancelar
 1616D990C579771C=segundos
 
 [sws_DLG_130]  IDD_TAKEFINDER
-7D6059CC47E1A557=Procurar objetos
+7D6059CC47E1A557=Procurar Objetos
 217B7ED240393E16=Procurar nomes do objeto
 0C32D6987569B635=Apenas objetos vigente
 F5DAB5BC2528539A=Pesquisar nomes de arquivos da mídia de origem
@@ -20952,14 +20952,14 @@ F09E4B5C35AA14B9=Cancel
 C4A363311CEA4818=Info item/pista
 
 [sws_DLG_132]  IDD_ITEMPOSREMAP
-04AD86A94E0930E3=Reatribuir posições do item
+04AD86A94E0930E3=Reatribuir Posições do Item
 F482485C579BF14E=Curva
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 D7323C887B0A2951=Aplicar
 
 [sws_DLG_134]  IDD_MEDIADLG
-2D46049BE9D59D77=Arquivos de mídia do projeto
+2D46049BE9D59D77=Arquivos de Mídia do Projeto
 D0B296990576A50F=Encontrar arquivos ausentes...
 B7098127B3AD15BE=Deletar arquivos selecionados
 91F0C92D28474119=Mostrar apenas arquivos não usados
@@ -20977,7 +20977,7 @@ D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_136]  IDD_AUTORENAMETAKES
-FCF195D781CFC0C1=Autorenomear objetos
+FCF195D781CFC0C1=Autorenomear Objetos
 1B0AB5E5F92D1576=Preset:
 2A65BC5152BB9B07=Personalizar presets no SWS-RenamePresets.txt
 A19F3A37743261C3=Códigos válidos de substituição para uso:\r\n[trackname] [foldername] [dado] [takeamenoext] [tracknum] [GUID] [inctrackorder] [inctimeorder]
@@ -21055,7 +21055,7 @@ D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 
 [sws_DLG_146]  IDD_PROJLIST
-6BFC7C2E8894440D=SWS: Lista de projetos
+6BFC7C2E8894440D=SWS: Lista de Projetos
 0832A507B4EBA134=#
 DCEF2B4D03DE723C=Nome
 9F31623C59553158=Caminho
@@ -21081,7 +21081,7 @@ BAC64C1B2E060EE5=Fechar
 5CA1E00000000000=1.20
 
 [sws_DLG_148]  IDD_PADRE_ENVPROCESSOR
-BD021A1BFE2F07AD=Processador Padre de envelopes
+BD021A1BFE2F07AD=Processador Padre de Envelopes
 C87A83B1C688588A=(-100 até +100%)
 3C7E2848E48690C4=(0 até 200%)
 270D8C3D35B73337=Processar!
@@ -21108,7 +21108,7 @@ E998E79C69A28AFB=Envelope:
 5CA1E00000000000=1.15
 
 [sws_DLG_149]  IDD_SNM_CUEBUSS
-6FA49FB22DC1F8FD=S&M - Criar envios de sinal de áudio/retorno a partir seleção da pista
+6FA49FB22DC1F8FD=S&M - Criar Envios de Sinal de Áudio/Retorno a Partir da Seleção da Pista
 D8ACD3F8FCD62887=Recebimento tipo:
 6DDDB6ED10F62234=Mostrar janela de roteamento
 BCA33A34D7B6E352=Criar envios de sinal de áudio/retorno a partir do modelo da pista (/manual)
@@ -21284,7 +21284,7 @@ E4A81E97DC43CB12=Aviso - S&M
 49657903B7B9A626=Sem título
 
 [sws_DLG_151]  IDD_ZOOMPREFS
-5F14D27D84EF972F=SWS: Preferências de zoom
+5F14D27D84EF972F=SWS: Preferências de Zoom
 FF481683E91B1E9A=Ferramenta de zoom
 B6C53D03D9DBAE43=Zoom com o botão do meio do mouse (substitui preferências do REAPER)
 AA860FCFE9DD66F4=Modificador:
@@ -21369,7 +21369,7 @@ AC0739EB8C64649F=Anotações para a pista
 011BD24D18CA513E=Próximo
 
 [sws_DLG_155]  IDD_SNM_LIVE_CONFIGS
-AAD13627A4F25BE3=S&M - Configurações ao vivo
+AAD13627A4F25BE3=S&M - Configurações ao Vivo
 53594D1903749311=Retorno do OSC (Controle de som aberto)
 C1D43464B7890374=(Dispositivo OSC não encontrado)
 83CEDDAC8FB7324E=Copiar
@@ -21449,7 +21449,7 @@ A9E4C8581905652D=Todos os envelopes para as pistas selecionadas serão removidos
 D0C04B9E79D271AE=Pista
 56044C95F9D03C20=Cadeia de FX
 0FA72D95CADAE6E8=Erro - S&M
-70D4753314A4DF9A=Configurações ao vivo
+70D4753314A4DF9A=Configurações ao Vivo
 D8B3B3186B8C817F=ms
 8C31172F4138BA99=S&M - Carregar pista modelo
 5493EE7052DCF71B=Opções
@@ -21500,7 +21500,7 @@ FE8EF526CB544DC5=Aplicar groove
 B08B1C53FD383A90=Selecionar pasta contendo os grooves
 D7108D8D1C4C5804=** Groove do usuário **
 8917FB51F83F36E0=FNG: carregar e aplicar groove - 
-754FA8890746E6DC=Lista de projetos
+754FA8890746E6DC=Lista de Projetos
 B4818A7FD82EB4F5=4º
 93E0BE7FC6468F51=8º
 CA769A55ED0B4E98=16º
@@ -21511,7 +21511,7 @@ ADCCCE555F6C1099=Groove
 5CA1E00000000000=1.30
 
 [sws_DLG_158]  IDD_AUTORENDER_METADATA
-150BAA9578411A8B=Autorenderizar - Metadados do projeto
+150BAA9578411A8B=Autorenderizar - Metadados do Projeto
 DB6AFFF8CBB64A68=Artista
 D23E76ECCBF7CD46=Álbum
 4435244E8273302A=Gênero
@@ -21537,7 +21537,7 @@ F09E4B5C35AA14B9=Cancelar
 F685FB3A91025549=Procurar...
 
 [sws_DLG_159]  IDD_RECINPUTCHECK
-0E4D0C064E75221B=SWS: Verificar entrada da gravação
+0E4D0C064E75221B=SWS: Verificar Entrada da Gravação
 4EAD82AA45A1C2BA=&Gravar
 3A0049D3AFCF14FF=Você está prestes a gravar com várias pistas configuradas para a mesma entrada. Isto vai resultar em várias cópias do mesmo áudio. Tem certeza?
 3DC4ADC362FD2077=Não mostrar esta mensagem novamente
@@ -21545,14 +21545,14 @@ FB13D526673DCE9D=&Cancelar
 5CA1E00000000000=1.15
 
 [sws_DLG_160]  IDD_AUTORENDER_PREFERENCES
-11E521717DB51064=Autorenderização - Preferências globais
+11E521717DB51064=Autorenderização - Preferências Globais
 FF4B22A65467D55F=Caminho padrão da renderização
 D840E3186B2B9581=OK
 F09E4B5C35AA14B9=Cancelar
 F685FB3A91025549=Procurar...
 
 [sws_DLG_161]  IDD_SNM_CYCLACTION
-CBB9B20B43A1F81B=S&M - Coleção de ações
+CBB9B20B43A1F81B=S&M - Coleção de Ações
 C9CC1926902BCA47=Se a próxima ação estiver ON
 117E0D86FA51FFEB=Se a próxima ação estiver OFF
 DE5356E6F7313312=Se ambas as próximas ações estiverem ON
@@ -21602,7 +21602,7 @@ A71EFA284A1D01CB=Salvar ações da coleção antes de abandonar o editor ?
 A2079DC8CF0D9B1B=Nomes das ações da coleção não podem conter nenhum dos seguintes caracteres:
 2B59BE12B0DED7FF=----- Intervalo -----
 A44A5AD8F084AC8A=Os comandos não podem conter caracteres: 
-088804BE869424BC=Coleção de ações
+088804BE869424BC=Coleção de Ações
 3A39C76003695360=Seção:
 0B3690D38AA97039=Consolidar pontos desfeitos
 9A6F6ACF85DE6180=Previnir atualização da UI
@@ -21653,7 +21653,7 @@ FAC97F2DD71B564E=Esticar para caber
 4C3DFD501D9A9263=Slot de imagem %d: %s
 
 [sws_DLG_163]  IDD_IX_LABELDLG
-D3405D0157B94207=Processador de etiqueta
+D3405D0157B94207=Processador de Etiqueta
 435E958DBA6E27A7=Digite o texto para nova(s) etiqueta(s):
 121AD4DEF893E1C7=Processar todas selecionadas
 5334D782885EC882=Todos os argumentos são opcionais. Os seguintes são todos válidos: /E /E[3] /E[3,9]:\n
@@ -21678,7 +21678,7 @@ F09E4B5C35AA14B9=Cancel
 5CA1E00000000000=1.10
 
 [sws_DLG_165]  IDD_SNM_RGNPLAYLIST
-DC55DAA37DC46518=S&M - Playlist região
+DC55DAA37DC46518=S&M - Playlist Região
 9FB17EBACD9AA956=Contar loop
 5B664677E1A91155=Início
 F7B45F7E4B7A392C=Fim
@@ -21740,7 +21740,7 @@ FEAA423291739449=Região não encontrada no projeto!
 6BAAC29315002C84=Xenakios - Aviso
 0832A507B4EBA134=#
 DCEF2B4D03DE723C=Nome
-D9E4C067FEE02BBB=Playlist da região
+D9E4C067FEE02BBB=Playlist da Região
 688D5ED4BF7DBF10=ATUAL
 49657903B7B9A626=Sem título
 3D9CBC3C216900AD=Reproduzir
@@ -21837,7 +21837,7 @@ CA769A55ED0B4E98=16º
 5CA1E00000000000=1.35
 
 [sws_DLG_169]  IDD_SNM_LIVE_CONFIG_MON
-8DA31D154DE138C8=S&M - Monitor de configuração ao vivo
+8DA31D154DE138C8=S&M - Monitor de Configuração ao Vivo
 0ED7484B857129D7=[Pista %d]
 50127BB2304A9964=<ESVAZIAR>
 2D9CAF12B9BCA505=<DESABILITADO>
@@ -21847,12 +21847,12 @@ AFFDE189FAEDFA4C=Configuração ao vivo #%d - Monitor
 688D5ED4BF7DBF10=ATUAL
 
 [sws_DLG_170]  IDD_BR_TEMPO_SHAPE_OPTIONS
-72C937C0FCC167DC=SWS/BR: Opções de formato do andamento
+72C937C0FCC167DC=SWS/BR: Opções de Formato do Andamento
 F1E54332608396D1=Divisão do ponto médio criado, de:
 5CA1E00000000000=1.25
 
 [sws_DLG_171]  IDD_BR_RANDOMIZE_TEMPO
-562277633B67DC4F=SWS/BR: Randomizar marcadores do andamento
+562277633B67DC4F=SWS/BR: Randomizar Marcadores do Andamento
 9D5C7A18167944A1=Mínimo
 4426440E5B298EB7=Máximo
 B881BAC2270756E5=Randomizar andamento selecionado até:
@@ -22078,7 +22078,7 @@ A94AD4A428E77297=Piano roll
 DCF5F87361B99E99=Área de edição de notas
 8DA9EE320058D035=Faixa do CC
 9C0CC5D5FE81B737=Seletor de área do CC
-FF34F3425D9485CC=Barra de ferramentas contextual
+FF34F3425D9485CC=Barra de Ferramentas Contextual
 BB6FE4A7A62EDA00=Salvar mudanças em
 831EC47C169E3F00=antes de fechar?
 013F7A1C304429DD=antes da mudança do preset?
@@ -22086,7 +22086,7 @@ BB6FE4A7A62EDA00=Salvar mudanças em
 129523186D7D9F86=Janela principal
 80B3D31D206014D8=Horizontal: esqu.
 7A598338BBB2A5E0=Horizontal: meio
-0878E6C27A479D8D=Horizontal: dir.
+0878E6C27A479D8D=Horizontal: direita
 6AE78F9E31061A1C=Vertical: de baixo
 C4C42B5D01D7FBEE=Vertical: meio
 8618BD4327E9E2AA=Vertical: topo
@@ -23373,7 +23373,7 @@ AFEF1989A0F4CB5C=SWS: Dividir itens nas áreas de seleção de tempo/edição ag
 3FFFB2EF0E089624=SWS_SMARTSPLIT
 AA00B26E150349C3=SWS: Dividir itens nas áreas de seleção do tempo/edição aguçada (se existir), também via cursor de edição (também durante o playback)
 C8132234D8970762=SWS_SMARTSPLIT2
-7014E85B73C75FF0=SWS: Dividir itens nas áreas de seleção do tempo/edição acuçada, cursor de edição, cursor de reprodução (durante o playback) ou cursor do mouse
+7014E85B73C75FF0=SWS: Dividir itens nas áreas de seleção do tempo/edição aguçada, cursor de edição, cursor de reprodução (durante o playback) ou cursor do mouse
 F463E04B2A04282D=SWS_TRIPLESPLIT
 DD8C7FE656F84E27=SWS: Dividir itens nas áreas de seleção do tempo/edição aguçada, cursor de edição (também durante o playback) ou cursor do mouse
 49DE3EB865102CAD=SWS_TRIPLESPLIT2
@@ -23519,8 +23519,8 @@ F20AED71395EA088=SWS: Definir pista master para: Sem som a saída 3
 D5CA102AE124D455=SWS: Definir pista master para: Com som a saída 3
 53C0DB6C185C181C=SWS: Definir pista master para: Com som a saída 4
 5AAE5B48AE49DD73=SWS: Definir pista master para: Com som a saída 5
-9EE5DF21B18AB5B0=SWS: Definir todas todas as saídas da pista master para: Com som 
-4375132EC89DA089=SWS: Definir todas todas as saídas da pista master para: Sem som 
+9EE5DF21B18AB5B0=SWS: Definir todas as saídas da pista master para: Com som 
+4375132EC89DA089=SWS: Definir todas as saídas da pista master para: Sem som 
 1613649B3FA7CAC3=SWS: Empurrar volume da master + 1dB na saída 1
 2BA9C0AAB2133331=SWS: Empurrar volume da master - 1dB na saída 1
 8B32DEDF9F397671=SWS: Definir volume da master para 0dB na saída 1
@@ -23944,7 +23944,7 @@ BCCB7D6417FB7719=SWS/S&M: Desarmar todos os envelopes vigentes nas pistas seleci
 9C0453180776A984=SWS/S&M: Alternar para armar todos os envelopes do pan de recebidos, nas pistas selecionadas
 76BB16B1F56D6272=SWS/S&M: Alternar para armar todos os envelopes sem som recebidos, nas pistas selecionadas
 13547656BD761E2F=SWS/S&M: Alternar para armar todos os envelopes de plugins, nas pistas selecionadas
-8C6B18BA17ACC7C3=SWS/S&M: Selecionar apenas pista com envelope selecionado)
+8C6B18BA17ACC7C3=SWS/S&M: Selecionar apenas pista com envelope selecionado
 F5B9EEFA6E768276=SWS/S&M: Alternar barra de ferramentas para habilitar autoatualizar
 7061C84717F5D87B=SWS/S&M: Barra de ferramenta - Alternar envelopes da pista para, tocar/cadeado/visualização do cadeado/escrita
 5FAB98C36CC87A39=SWS/S&M: Barra de ferramenta - Alternar item da seleção para offscreen (esquerdo)
@@ -24730,7 +24730,7 @@ E4A81E97DC43CB12=Aviso - S&M
 5CAF42B0F32898DF=Confirmação - S&M
 
 [sws_menu]
-B10DD5D989FB13A9=%s, na área de carregamento
+B10DD5D989FB13A9=%s na área de carregamento
 82EE5475CB6FCE9F=Fechar janela
 A91295546C060170=Colunas visíveis
 28450354F52CB7AE=Reajustar
@@ -24972,4 +24972,4 @@ C1465F1541F206A8=Mostrar apenas no TCP
 200583DC68E1378B=Ocultar não selecionada
 14AB0E343C321037=Mostrar todas as pistas
 D7B51CFC5837E755=Renomear
-D85ED6186B447CF9=FX
+D85ED6186B447CF9=FX 
