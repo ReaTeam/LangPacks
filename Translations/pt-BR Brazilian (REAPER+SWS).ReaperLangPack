@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (REAPER+SWS)
-#AUTHOR:Edison
-#VERSION:6.47
+#AUTHOR:Edison Deff
+#VERSION:6.49
 
 #NAME:Português [pt-BR] - By Edison Deff
  NOTE: this is the best starting point for making a new langpack.
@@ -741,7 +741,7 @@ D865D2186B4A94DB=DX
 FF98B17E4FBAAA76=DXi
 2D4BDC5DCCE1B42E=Presets do padrão FX
 83ACA278C2C00834=Desenvolvedores
-146E11E319517217=Janela Navegador FX, na área de carregamento
+146E11E319517217=Navegador FX, na área de carregamento
 11073FEB55862AAF=Duplicar FX JS...
 AF37280A3522723A=Plug-ins duplicados de diferentes tipos
 2A31DB0B5883713A=Editar FX JS...
@@ -840,22 +840,7 @@ C39132F1A8047E9F=Editar...
 166EA90B165E1A9C=Notificações de automação
 6C837121717D4EA3=Evitar carregar desfazer condições, quando possível
 7C52DE0969C08A82=Liberar plug-in em modo de compatibilidade
-674FB3DE1B272051=Canal 1
-B38F0368237C04D3=Canal 10
-B38F0268237C0320=Canal 11
-B38F0568237C0839=Canal 12
-B38F0468237C0686=Canal 13
-B38F0768237C0B9F=Canal 14
-B38F0668237C09EC=Canal 15
-B38F0968237C0F05=Canal 16
-674FB0DE1B271B38=Canal 2
-674FB1DE1B271CEB=Canal 3
-674FB6DE1B27256A=Canal 4
-674FB7DE1B27271D=Canal 5
-674FB4DE1B272204=Canal 6
-674FB5DE1B2723B7=Canal 7
-674FAADE1B271106=Canal 8
-674FABDE1B2712B9=Canal 9
+B3D2C76823B56BAB=Canal %d
 A2AD8A8A1376F812=Configurações de compatibilidade
 F3BA3A8E6686C922=Configurações de notificação padrão (em Preferências/VST)
 B814E3BFB72A607B=Deletar preset
@@ -869,10 +854,8 @@ C514867DEFC3A26A=Ignorar quando a janela do plug-in não está aberta
 A323B989757B042A=Importar porção de arqu. VST/banco (.fxp/.fxb)...
 1E031E71B52167CD=Importar preset da biblioteca (.rpl)...
 18A8E487E05046F8=Informar ao plug-in quando o canal da pista mudar
-2C9B3CFBB25105DC=Linkar todos canais em sequência
 E485FC63E796EFFA=Mover para baixo
 A35385C769502F3F=Mover para cima
-DF45382BC646671C=Sem linkar
 9590CA1D43A60188=Estado do tamanho dos dados do plug-in:  0 kB
 4523D3871D7D7B77=Processar todas as notificações
 888CF2A8F9990B9E=Renomear preset...
@@ -899,7 +882,6 @@ A354AA07A4DF9BBD=Habilitar agrupamento
 FE0BBBB916484A16=Nova janela de compartimento do projeto
 9F31623C59553158=Caminho
 D1EB52BFBDF1AB33=Duplicar ação personalizada
-7F8BE88D07D058A1=Linkar mudança do programa de MIDI 
 3E6F5B4FF4F5BC43=Criar nova pasta...
 D86C7175F627BC38=Selecionar todos os itens
 271D7187C80C7F43=Editor de MIDI
@@ -1071,7 +1053,7 @@ D114588CD086B6AD=Personalizar: Etiquetas
 6C1E03322EDDC845=Ação padrão (duplo click, ou tecla Enter)
 4FD05B38F218AA35=Exibir posição de visualização em frações de segundos
 AADC236C38D60A97=Não fazer nada
-A646042E5765A52A=Janela Explorer de Mídia, na área de carregamento
+A646042E5765A52A=Explorer de Mídia, na área de carregamento
 2A626E380F22C76E=Ativar looping ao inserir uma parte selecionada da mídia
 60E02620BF0CDCE8=Arquivo: Nome
 3099E90A7E945F95=Extensão do arqu. enquanto o tipo de arqu. é exibido
@@ -1530,7 +1512,6 @@ F7555C0F482AB3C9=Fonética (Speech)
 DE99D08FB71B46E9=Rápido
 988C99144976855B=ReaRoute %d
 BA66149397E5F1AE=Todos os canais
-B3D2C76823B56BAB=Canal %d
 081CECC31B65E0C4=Definir armar gravação automática da pista ao seleciona-la
 8F22DBF788C71CFA=Todas as pistas
 8BEB3C381FB2F1CE=Cor
@@ -1632,7 +1613,7 @@ E9C70EA3B03F0A91=Permitir aos projetos substituir a taxa de amostragem do dispos
 5CA1E00000000000=1.15
 
 [DLG_120]  IDD_MISCSRCINFO
-7E57903FDA4E3E8E=Arquivo de mídia: Propriedades
+7E57903FDA4E3E8E=Arquivo de Mídia: Propriedades
 3BF92ABFA8425D90=Tipo de arquivo:
 C01085DD37178417=Informações do arquivo:
 BAC64C1B2E060EE5=Fechar
@@ -2556,7 +2537,7 @@ D79B80390AF6D43D=Habilitar plug-ins DX
 5943CFA1B2AB7A62=Rescanear...
 8611A60A7EE376FB=Escanear por plug-ins novos/atualizações ao iniciar
 C14B8D54F4D0074D=Se vários VSTs são escaneados e tem o mesmo nome dll, apenas 1 estará disponível: O plugin encontrado mais tarde na lista de caminhos, ou o mais acima na estrutura de diretórios de um determinado caminho.
-B5A31DD6277997A5=Padrão do VST para UI genérica (em vez do plug-in da UI)
+B5A31DD6277997A5=Padrão do VST para UI genérica (em vez da UI do plug-in)
 401188713EF0876C=Modo do botão: (knob)
 BED87C6BBD50429C=VST - compatibilidade
 62A7D2B1D8ABD3B3=Não nivelar plug-ins de sintetizador ao parar/restaurar
@@ -3571,7 +3552,7 @@ F09E4B5C35AA14B9=Cancelar
 87DB547E0C57B4B8=Rodar
 
 [DLG_444]  IDD_CONVERTER
-CF8CEC995AA54B2C=Diretório do arquivo de origem
+CF8CEC995AA54B2C=Arquivo de origem: Usar o diretório
 E3A550B7DF8959EF=Abrir...
 FA2FC8DBB6212E69=Preservar hora original de início
 6882EA606C9A4C9C=Usar FX
@@ -4339,6 +4320,7 @@ F09E4B5C35AA14B9=Cancelar
 51B9D32E1177B86C=Pista única
 9B6EF7252D32268B=Inserir vários itens de mídia em pistas separadas, ou sequencialmente em uma pista única?
 F09E4B5C35AA14B9=Cancelar
+5CA1E00000000000=1.15
 
 [DLG_537]  IDD_TAKEMARKEREDIT
 03CEB533F4CB2DB4=Editar Marcador do Objeto
@@ -4578,7 +4560,7 @@ D8D27C186BA6D499=dB
 E99EBA7FF6970DBB=...
 
 [DLG_583]  IDD_POOLEDENV_PROPS
-746BF375580CA27C=Item de automação: Propriedades
+746BF375580CA27C=Item de Automação: Propriedades
 A24AA748B77E55CA=Início do deslocamento:
 73308D8A0ED2FDE9=Tempo de transição:
 EC13362C7BC70625=Taxa de reprodução:
@@ -5271,7 +5253,7 @@ C1EB5BB70B3F6A09=Grupo de pistas com recebimentos, à esquerda
 5E168E18A7B10444=Agrupar envios com inserções FX (pré/pós)
 26E1FA1A4629B413=Mostrar ícones da pista no mixer
 9A9CC96E950DDAAE=Mostrar ícone para a última pista da pasta
-BE29F73DED2A5B44=Janela Mixer, na área de carregamento
+BE29F73DED2A5B44=Mixer, na área de carregamento
 0722451274F43B5D=Fechar\tCtrl+M
 D66D409D600C2D04=Mixer
 DDDBC4B59922776E=Pista master
@@ -6212,7 +6194,7 @@ D7B29E9AA6329895=Mostrar UI, embutida no MCP
 
 [MENU_318]  IDR_CONTEXTS_18
 922768F1528B9C30=18NavCtx
-FD95107AE618F7DA=Janela Navegador, na área de carregamento
+FD95107AE618F7DA=Navegador, na área de carregamento
 5BA532B79E210468=Fechar Navegador
 
 [MENU_319]  IDR_CONTEXTS_19
@@ -6467,10 +6449,13 @@ B2FBA7309089EE8E=Mostrar FX da pista: quando vazia
 0A406B52D72D3189=Alternar pista para: Sem som
 
 [MENU_329]  IDR_CONTEXTS_29
+D6462ED13E664A7B=Linkar mudança para programa de MIDI
+DF45382BC646671C=Sem linkar
+2C9B3CFBB25105DC=Linkar todos canais em sequência
 1B3F61637690E60D=29VstHost
 9D47E822CDB8B9C4=Indicadores
-D6462ED13E664A7B=Linkar mudança para programa de MIDI
 B1B7B32725E2D65E=Salvar estado como banco VST
+B3D2C76823B56BAB=Canal %d
 37E1C985732EDDC1=Salvar preset...
 77D4606E1E255B38=Salvar preset como padrão...
 B814E3BFB72A607B=Deletar preset
@@ -6482,24 +6467,6 @@ B9ABDBF036490D44=Exportar preset para biblioteca (.rpl)...
 A323B989757B042A=Importar porção de arqu. VST/banco (.fxp/.fxb)...
 4D7E1F0F4DFA5B57=Exportar porção de arqu. VST/banco (.fxp/.fxb)...
 10AA715E679A1188=Enviar todas entradas do teclado ao plug-in
-DF45382BC646671C=Sem linkar
-2C9B3CFBB25105DC=Linkar todos canais em sequência
-674FB3DE1B272051=Canal 1
-674FB0DE1B271B38=Canal 2
-674FB1DE1B271CEB=Canal 3
-674FB6DE1B27256A=Canal 4
-674FB7DE1B27271D=Canal 5
-674FB4DE1B272204=Canal 6
-674FB5DE1B2723B7=Canal 7
-674FAADE1B271106=Canal 8
-674FABDE1B2712B9=Canal 9
-B38F0368237C04D3=Canal 10
-B38F0268237C0320=Canal 11
-B38F0568237C0839=Canal 12
-B38F0468237C0686=Canal 13
-B38F0768237C0B9F=Canal 14
-B38F0668237C09EC=Canal 15
-B38F0968237C0F05=Canal 16
 A2AD8A8A1376F812=Configurações de compatibilidade
 9590CA1D43A60188=Estado do tamanho dos dados do plug-in:  0 kB
 C35B6227A5807B01=Salvar condições mínimas ao desfazer
@@ -6705,7 +6672,7 @@ EAA22874AC7EECF8=Lembrar último filtro da ação
 06F6E4D36435E6E6=Fechar ação após duplo click/enter
 A04C4EA23D1F025E=Mostrar IDs das ações
 C0BE663525BD3669=Mostrar caminhos do ReaScript
-9B042869A79FA02B=Janela Ações, na área de carregamento
+9B042869A79FA02B=Ações, na área de carregamento
 D1EB52BFBDF1AB33=Duplicar ação personalizada
 82EE5475CB6FCE9F=Fechar janela
 
@@ -6718,7 +6685,7 @@ AAEE4EDFF8BD6BEA=46_ReplaceModeCtx
 [MENU_347]  IDR_CONTEXTS_47
 1F8AB71E475E4064=47_ItemPropsDlgCtx
 3D3F09D279B09D88=Aplicar mudanças após 2 segundos de inatividade
-955759B7BDB8B435=Janela Propriedades do Item, na área de carregamento
+955759B7BDB8B435=Propriedades do Item, na área de carregamento
 82EE5475CB6FCE9F=Fechar janela
 
 [MENU_348]  IDR_CONTEXTS_48
@@ -6734,7 +6701,7 @@ D0B04F6FFA867689=Espelhar seleção da pista
 B9AA043D9A67981F=Ocultar no TCP pistas com saída filtrada
 A0C4F5072F8ED0D9=Ocultar no mixer pistas com saída filtrada
 108CE6CDF93FB571=Fechar gerenciador de pista na caixa do filtro via tecla Enter
-996C6D986C53776D=Janela Gerenciador de Pista, na área de carregamento
+996C6D986C53776D=Gerenciador de Pista, na área de carregamento
 82EE5475CB6FCE9F=Fechar janela
 
 [MENU_350]  IDR_CONTEXTS_50
@@ -6760,25 +6727,6 @@ E485FC63E796EFFA=Mover para baixo
 1E031E71B52167CD=Importar preset da biblioteca (.rpl)...
 B9ABDBF036490D44=Exportar preset para biblioteca (.rpl)...
 10AA715E679A1188=Enviar todas entradas do teclado ao plug-in
-7F8BE88D07D058A1=Linkar mudança do programa de MIDI 
-DF45382BC646671C=Sem linkar
-2C9B3CFBB25105DC=Linkar todos canais em sequência
-674FB3DE1B272051=Canal 1
-674FB0DE1B271B38=Canal 2
-674FB1DE1B271CEB=Canal 3
-674FB6DE1B27256A=Canal 4
-674FB7DE1B27271D=Canal 5
-674FB4DE1B272204=Canal 6
-674FB5DE1B2723B7=Canal 7
-674FAADE1B271106=Canal 8
-674FABDE1B2712B9=Canal 9
-B38F0368237C04D3=Canal 10
-B38F0268237C0320=Canal 11
-B38F0568237C0839=Canal 12
-B38F0468237C0686=Canal 13
-B38F0768237C0B9F=Canal 14
-B38F0668237C09EC=Canal 15
-B38F0968237C0F05=Canal 16
 A2AD8A8A1376F812=Configurações de compatibilidade
 9590CA1D43A60188=Estado do tamanho dos dados do plug-in:  0 kB
 C35B6227A5807B01=Salvar condições mínimas ao desfazer
@@ -6796,7 +6744,7 @@ CC51D6C141A77257=Importar regiões/marcadores (juntar com existentes)...
 D6CD9325C7049A07=Mostrar pista renderizada no menu agrupado por pastas
 ECFB52799234A524=Buscar a reprodução ao selecionar um marcador ou região
 6817FB4D43770126=Reproduzir via região, a seguir repetir ou parar ao selec. uma região
-7EA6A49B50794E5A=Janela Gerenciador de Região, na área de carregamento
+7EA6A49B50794E5A=Gerenciador de Região, na área de carregamento
 82EE5475CB6FCE9F=Fechar janela
 
 [MENU_353]  IDR_CONTEXTS_53
@@ -10088,7 +10036,7 @@ AAF6790D36B0FF1F=Andamento
 66BF63962E79DF1B=Andamento dobrado
 536D074EDEEC428F=Andamento pela metade
 64B6651DCB1D575C=Preservar o tom ao mudar a taxa
-3084E13EDAE17E23=Explorer de mídia na área de carregamento
+3084E13EDAE17E23=Explorer de Mídia, na área de carregamento
 0F129C59135A1F8E=Principal
 4324C9C893B102F6=Inserir
 A288640A459D03A2=Box de informação da mídia
@@ -10474,7 +10422,7 @@ FEAA833C7533B5D0=Arquivo não encontrado
 [flac_DLG_120]  IDD_FLACITEMINFO
 51DA1D9AD7B7E21D=Bits/amostragem: %d
 A50DD9D73031FD98=Taxa de bits: %.1fkbps, %.1f%%
-B2506BC9733E0CE2=Arquivo FLAC: Propriedades
+B2506BC9733E0CE2=FLAC: Propriedades do arquivo
 71831478CADD789A=Arquivo off-line
 CD2E4AA3231DEC4D=O arquivo não abriu
 D730907ADC00D444=Erro desconhecido/status
@@ -10921,8 +10869,6 @@ CB2043EB86670805=Nenhum Efeito Carregado!
 2AA9636DFDEF22CC=Saídas JSFX
 9314927F387AB957=Saída %d
 3DC3C3589C65D706=MIDI
-27621D9AD3D28A8A=Mostrar UI, embutida no TCP
-D7B29E9AA6329895=Mostrar UI, embutida no MCP
 274E7C84B3E58DB8=Reajustar ao padrão de fábrica
 0EC28D42C155A657=----  Presets do Usuário (.rpl)  ----
 93244D3BB94E6F33=Sem preset
@@ -10974,25 +10920,6 @@ E485FC63E796EFFA=Mover para baixo
 1E031E71B52167CD=Importar preset da biblioteca (.rpl)...
 B9ABDBF036490D44=Exportar preset para biblioteca (.rpl)...
 10AA715E679A1188=Enviar todas entradas do teclado ao plug-in
-7F8BE88D07D058A1=Linkar mudança do programa de MIDI 
-DF45382BC646671C=Sem linkar
-2C9B3CFBB25105DC=Linkar todos canais em sequência
-674FB3DE1B272051=Canal 1
-674FB0DE1B271B38=Canal 2
-674FB1DE1B271CEB=Canal 3
-674FB6DE1B27256A=Canal 4
-674FB7DE1B27271D=Canal 5
-674FB4DE1B272204=Canal 6
-674FB5DE1B2723B7=Canal 7
-674FAADE1B271106=Canal 8
-674FABDE1B2712B9=Canal 9
-B38F0368237C04D3=Canal 10
-B38F0268237C0320=Canal 11
-B38F0568237C0839=Canal 12
-B38F0468237C0686=Canal 13
-B38F0768237C0B9F=Canal 14
-B38F0668237C09EC=Canal 15
-B38F0968237C0F05=Canal 16
 
 [jsfx_ide]
 BB07DD2F46B76299=Referências
@@ -11767,7 +11694,7 @@ D840E3186B2B9581=OK
 
 [midi_DLG_123]  IDD_NOTEPROP
 F6B884BE6F5BDBB3=&Intensidade off:
-430304A419B0E574=Propriedades da nota
+430304A419B0E574=Nota: Propriedades
 4EC7F7461DF2D993=&Nota:
 366298521A7B6338=&Canal:
 742F5D29C7564242=&Intensidade:
@@ -15304,7 +15231,7 @@ D3EC3DE74B41ED98=Desmarque esta opção para impedir o REAPER de verificar novas
 4EB8D40B61FE7203=Mostra o logotipo do REAPER juntamente com o status de carregamento quando o programa é iniciado, ou ao carregar um projeto.
 ED4A58E5B093F67C=Mais da interface avançada do usuário (UI) e configurações do sistema. Estes ajustes devem ser usados com cautela.
 DE2D329EDB565919=Avisa se o uso da memória no REAPER excede o montante listado. Valores recomendados são 1800 para 32-bit, e 0 (desativado) para 64-bit.
-36858EBF40C25500=Escolha um idioma nos idiomas instalados (você deve encerrar e reiniciar o REAPER para que a alteração do idioma tenha efeito.
+36858EBF40C25500=Escolha um idioma nos idiomas instalados (você deve encerrar e reiniciar o REAPER para que a alteração do idioma tenha efeito).
 
 [prefs_itemdefs_help]
 201653C575C17CF5=Ativa a criação de fade-ins e fade-outs automáticos para novos itens de mídia. Autocrossfades são ativados com o botão da barra de ferramenta.
@@ -16837,7 +16764,8 @@ CDE4EAA3EEC17066=Completado:
 A6D0F32CC811267B=Restando: 
 A429CCD0AE500AF2=tempo real
 6E0A3CD659F275F9=Abrir estatísticas de renderização no navegador
-52E26B6A8527BEBB=Pular para a posição da primeira clipagem no projeto
+52E26B6A8527BEBB=Pular para posição da primeira clipagem no projeto
+A818B0C8ABB769DD=Pular para posição de amostra mais alta no projeto
 88F05070C85C276B=REAPER renderizado inteiro
 37F6A411C66E7D98=Terminado em: 
 985E331B00308A52=Estatísticas da renderização pode ser habilitada, desabilitada e configurada em Preferências=> Áudio=> Renderização
@@ -17227,7 +17155,7 @@ E84243FCE6F80D75=Mostrar apenas fios de envio ao passar o mouse na pista
 2064111A3AD7EB3F=Mostrar controles de roteamento ao criar envio/saída do hardware
 3886B26EC8B11A06=Repor todas as posições de pista
 A07DE47D80DD2FBA=Mostrar dicas
-F31BED17B3A80B8A=Janela Matriz, na área de carregamento
+F31BED17B3A80B8A=Matriz, na área de carregamento
 3202B7C8F1C19432=saída master
 993E141C7938911D=(estéreo/MC)
 53C72DF28C399CCE=master/principal
@@ -19809,6 +19737,8 @@ CD95088512186C31=Sem suporte para arquivo .vstpreset versão %d.
 322C9A2E9054F3A5=Erro ao ler arquivo .vstpreset.
 587344A006A48292=Incapaz de analisar dados do arquivo .vstpreset.
 0AEA2AC51F5B1663=Falha ao definir condição VST do .vstpreset.
+27621D9AD3D28A8A=Mostrar UI embutida no TCP
+D7B29E9AA6329895=Mostrar UI embutida no MCP
 C3EB4B7A6BCD5F3C=Novo nome:
 895BB684C276CD93=Preset nome:
 D8C1A6186B98A8C4=in
@@ -19821,8 +19751,6 @@ A323B989757B042A=Importar porção de arqu. VST/banco (.fxp/.fxb)...
 17B3AE10A9CC3695=Estado do tamanho dos dados do plug-in:
 C54C5E311372A994=Anotações
 44528C2D3C7A6A52=Andamento
-27621D9AD3D28A8A=Mostrar UI, embutida no TCP
-D7B29E9AA6329895=Mostrar UI, embutida no MCP
 B814E3BFB72A607B=Deletar preset
 11B3B66593F236CF=Confirmar ao deletar preset
 0C24CB76A6860C27=Erro ao criar arquivo de saída
@@ -20189,13 +20117,13 @@ A0EEAE837723CEA5=Selecione qual dos três layouts você deseja editar ou aplicar
 555EB3D060033E49=Indica se este layout é o layout 'padrão'. Para escolher o padrão, use o menu Opções> Layouts ou a janela Conjunto de telas/Layouts.
 0EF83D397A23A3F7=Indica se uma ou mais das pistas selecionadas estão usando esse layout.
 F6CF95E4BC4D4A71=Aplica este layout a todas as pistas selecionadas neste tamanho. O REAPER já pode estar usando um tamanho que não seja o de 100%, dependendo das configurações do seu HiDPI.
-259091C6C3DA96BE=Tamanho do campo de nome dos envelopes. Se definido como AU
+259091C6C3DA96BE=Tamanho do campo para nome dos envelopes. Se definido como AUTO, então, enquanto o script estiver em execução, ele ajustará isso para caber no nome do envelope mais longo atualmente em seu projeto. 
 8E53786038855624=Requer 'LARGURA EXPANSÍVEL', mais abaixo, esteja 'ticada' e as condições que você definir para ser atendido. Pistas com mais de 2 canais irão então expandir a largura de sua medida, pela quantidade definida de pixels (por canal), crescer a largura da pista para caber.
 F3D8E85401E52A81=Adiciona bordas e uma divisão visual em seu mixer. Sua borda ESQUERDA e/ou sua borda DIREITA permitem que manualmente use atribuições de layout para add estas, conforme o necessário. Nos PAINÉIS BÁSICOS, elabora-se uma borda na borda esquerda dos painéis de nível básico, e na borda direita do final deste painel se ele estiver a um nível profundo. PELOS PAINÉIS, elabora-se bordas no início e no final de cada painel.
 0608F78865205131=Estes botões aqui vistos definem as preferências para o REAPER. E suas configurações são automaticamente salvas ao instalar o seu REAPER.
 E61FC1343A1814BE=Cores aleatórias são atribuídas a partir da paleta. Para pistas que compartilham uma cor, serão dadas a mesma nova cor.
 54359DD1CA6EF3E8=Clique para selecionar uma paleta.
-257035140E85E675=Recuar painéis, correspondendo com a configuração 'Largura do recuo do painel' na página Painel de controle da paleta.
+257035140E85E675=Recuar painéis, correspondendo com a configuração 'Largura do recuo do painel' na página, em Painel de controle da pista.
 9F29D438F4B06825=Se 'Mostrar Taxa do Play' estiver ligada, define o tamanho do controle da taxa do play. DICA : Clique com o botão direito do mouse no controle da taxa de reprodução para ajustar o seu intervalo.
 E95E5BB5E74CD602=Estas configuraç. fazem parte do seu projeto REAPER e serão salvas quando ele for salvo (exceto para 'Rolagem para pista selecionada', que é uma prefer. do REAPER)
 
@@ -24447,15 +24375,15 @@ B1DA3BDE6D0ED6C2=Escolher arquivo de cor do tema
 574E9BC745C6B33F=Carregar cor SWS
 
 [sws_ext_menu]
-DB63B3750AE8C9B2=Sobre a extensão SWS
+DB63B3750AE8C9B2=Sobre a Extensão SWS
 03D23E6A97B4DB18=Renderizar regiões em lote...
 3263513E8E779F0F=Editar metadados do projeto...
 78B5F12B23A74F54=Abrir caminho da renderização
 1FB980B340A6E85D=Mostrar ajuda...
 B136FB814F9F369E=Parâmetros de comando...
 5B0C194A365B9BA2=Barra de ferramentas contextual...
-25D60A905F096148=Gerador: Envios, sinal de áudio
-C2CE78DDDA66AA1E=Editor de coleção de ações...
+25D60A905F096148=Gerador de: Envios, Sinal de áudio
+C2CE78DDDA66AA1E=Editor de Coleção de Ações...
 0ECC8A02360A8907=Processador de envelope...
 29D0DC9DE0938E29=Ferramenta de groove...
 E133E322BEF4D923=Processador de etiqueta...
@@ -24467,7 +24395,7 @@ EA46BF72F9364DF9=Lista de marcadores
 8A20BC33A8F53408=Deletar ajustes do marcador...
 F8E931A96FA91B04=Selecionar a próxima região
 AED20F2E11082AAC=Selecionar região anterior
-B1BD8B4D8893DE7F=Gerenciador do projeto
+B1BD8B4D8893DE7F=Gerenciador do Projeto
 E212D8441D021C44=Lista de projetos
 C037EB18C5DC061B=Ações de inicialização
 7B2C0D139C501679=Definir ação de inicialização do projeto...
@@ -24493,11 +24421,11 @@ FA8FAB6E419FC01D=Habilitar ações do marcador
 AE8EB49742B5C8E1=Habilitar verificação de entrada da gravação
 FD5065B680A43F5D=Habilitar régua vermelha durante a gravação
 E991E6DF3DF8C034=Habilitar autoatualizar a barra de ferramentas
-F65E388D0DE5B8F0=Automatizar cor/ícone/layout
+F65E388D0DE5B8F0=Automatizar Cor/Ícone/Layout
 DDAB6253F0B71B7C=Autorenderizar
 3F8019EEA8FDB58C=Preferências globais...
 99FA828F906D3EE4=Encontrar
-70D4753314A4DF9A=Configurações ao vivo
+70D4753314A4DF9A=Configurações ao Vivo
 03C3F149C055CBBA=Salvar ajustes do marcador...
 7551CD82B209BA83=Copiar ajustes do marcador para área de transferência
 2A3B3F7271D33AF2=Colar ajustes do marcador a partir da área de transferência
@@ -24511,7 +24439,7 @@ C54C5E311372A994=Anotações
 F521767764F377BE=Adicionar projeto(s) relacionado(s)...
 3C11BBD7A28E6484=Deletar projeto relacionado...
 9A4E33AB6D51BBC9=(lista de projetos relacionados)
-D9E4C067FEE02BBB=Playlist da região
+D9E4C067FEE02BBB=Playlist da Região
 06CED00F081018B8=Recursos
 31FEA07601981CDC=Snapshots
 56B9D06EA41367A2=Ajuda...
