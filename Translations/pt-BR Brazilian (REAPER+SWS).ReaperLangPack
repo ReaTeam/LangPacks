@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (REAPER+SWS)
 #AUTHOR:Edison Deff
-#VERSION:6.49
+#VERSION:6.51
 
 #NAME:Português [pt-BR] - By Edison Deff
  NOTE: this is the best starting point for making a new langpack.
@@ -208,7 +208,6 @@ DDD50B6B9C96D4AA=Ativar apenas quando a configuração do efeito está destacada
 542A194EAA789AB0=Ativar apenas quando a pista ou o item estão selecionados
 41BAD65DE621E179=Controle de software (modo completo apenas)
 E0A7E8E6C8588D64=Diretório:
-86C526176585552D=Formato de saída:
 E77A387AEFCAFEE6=Renderizar para:
 22F397A203D21C30=Silenciosamente permitir tipos de arquivos: evita sobrescrever
 865773BF0F30AC16=Conjunto de telas/Layouts
@@ -269,6 +268,7 @@ FA779BCA02DBA08E=Reduzir pontos do envelope
 AF427D96E302B145=Menu personalizado:
 38EAAB594661F05F=Menu padrão:
 F33EC3BF0909E19D=Arquivo em lote/Converter item
+EAC3236C52A59642=Metadados
 3D9E5395958AA558=Normalizar/Limitar...
 5493EE7052DCF71B=Opções
 2746237EF788A7A8=bpm
@@ -981,6 +981,7 @@ B6FF490C00814E6B=Pista #
 91E2929E89C73B1C=Itens de automação
 ADE62F1CFD2974B6=Escaneando...
 2A6ED1B48E88BCC9=Status
+F0CDBE121A8CBFA9=Conversor em Lote
 5C048676E8CE02CB=Informações
 BABD655B2A5AED87=Selecionar um diretório:
 21D9AFD3561EE5AB=Estéreo
@@ -2905,6 +2906,7 @@ F812C7145E261C23=Remover
 
 [DLG_242]  IDD_BOUNCEDLG
 617F42B9C4DC5662=Salvar Saída ao Vivo no Disco Local (bounce - exportar/renderizar)
+86C526176585552D=Formato de saída:
 B3D229CC512D97AE=Salvar saída apenas durante o playback ou gravação
 5259502ECA6BB18D=Parar de salvar saída na 1ª parada
 7554B3A3441F4F9D=Não salvar quando estiver abaixo de
@@ -2915,7 +2917,6 @@ F685FB3A91025549=Procurar...
 C1F07AAFF4522636=Arquivo nome:
 3BF0AA22A506F11A=Curingas
 E77A387AEFCAFEE6=Renderizar para:
-86C526176585552D=Formato de saída:
 67EF32DE1BAE7097=Canais:
 D8B3B3186B8C817F=ms
 22F397A203D21C30=Silenciosamente permitir tipos de arquivos: evita sobrescrever
@@ -3552,17 +3553,21 @@ F09E4B5C35AA14B9=Cancelar
 87DB547E0C57B4B8=Rodar
 
 [DLG_444]  IDD_CONVERTER
-CF8CEC995AA54B2C=Arquivo de origem: Usar o diretório
 E3A550B7DF8959EF=Abrir...
-FA2FC8DBB6212E69=Preservar hora original de início
-6882EA606C9A4C9C=Usar FX
-4694FB0DBF1BAE46=Cadeia de FX...
-98CF73222A01C13D=Calda, tamanho (ms):
+CF8CEC995AA54B2C=Arquivo de origem: Usar o diretório
+074EAC86278936F4=Sobrescrever arqu. originais
+ED23EA1FACCC7A09=Arq. de origem: Usar estrutura do diretório
 7B21C9863AA04D13=Dither
 1D5AC868CE7FE785=Elaborar ruído
-606035F90B61907E=Novo metadados...
+C06990BC3CFF91ED=Preservar se possível:
+89A5AA6E37BDCA34=Início do deslocamento
 2772A8367A8BAE5D=Add novo metadados
-727B14200FDA63CF=Se possível preservar arquivo original de metadados
+6882EA606C9A4C9C=Usar FX
+90F06D85BD777AC0=Cadeia de FX
+E4139254E08617B6=Calda (ms):
+6212A0F8FDE11DA5=Formato de saída
+8F4C2B75B44D644C=Notificar ao terminar
+B7D60A549F3AFA0B=Salvar configurações
 FB5C4B0FBCD8A03D=Converter todos
 F33EC3BF0909E19D=Arquivo em Lote/Converter Item
 D9B12705AD844C62=List1
@@ -3581,8 +3586,9 @@ D858BC186B3FE51D=Hz
 67EF32DE1BAE7097=Canais:
 D1717A5C482193AF=Reamostrag. modo:
 3D9E5395958AA558=Normalizar/Limitar...
-86C526176585552D=Formato de saída:
-5CA1E00000000000=1.18
+EAC3236C52A59642=Metadados
+A27E076F9E7EA1E3=Progress1
+5CA1E00000000000=1.15
 
 [DLG_446]  IDD_ICONPICKER
 04F6ECC6DDB460B1=Selecionar ícone da barra de ferramenta
@@ -4041,7 +4047,6 @@ D22E6EA216EB557F=Pistas com apenas mídias mono em arquivos mono
 C7502BAD2630C160=Stems: Elaborar ruído
 529A671FEBBC78D0=Metadados...
 5326D4DC339DAE86=Incorporar:
-EAC3236C52A59642=Metadados
 627AD64AEB6B04A3=Marcadores elásticos/guias transientes
 86C55D176585B2A2=Formatos de saída
 C781F39457E72180=Não renderizar arquivos que provavelmente estão silenciosos
@@ -4069,6 +4074,7 @@ D858BC186B3FE51D=Hz
 67EF32DE1BAE7097=Canais:
 D1717A5C482193AF=Reamostragem modo:
 3D9E5395958AA558=Normalizar/Limitar...
+EAC3236C52A59642=Metadados
 212B7E992662BAE7=Marcadores do obj.
 2555373B75AA89B2=Saída
 22F397A203D21C30=Silenciosamente permitir tipos de arquivos: evita sobrescrever
@@ -5245,7 +5251,7 @@ C1F1F9270510EE17=Mostrar pistas que tenham recebimento
 C1EB5BB70B3F6A09=Grupo de pistas com recebimentos, à esquerda
 382C305B9A540BF7=Ícone clicável na pasta com subpistas para: mostrar/ocultar
 6529A769A7051B48=Mostrar várias pistas em linha (quando tamanho permitir)
-221F1A051812933A=Máx. de pistas em linha, mesmo não cabendo em menos linhas
+7406EC8F27D51B7A=Máx. de pistas em linha, mesmo que caibam em menos linhas
 265B781A9266B84A=Mostrar inserções FX (quando tamanho permitir)
 333E699B15D7898C=Mostrar parâmetros FX (quando tamanho permitir)
 9300323B49398F46=Agrupar parâmetros FX com suas inserções
@@ -6620,13 +6626,15 @@ F812C7145E261C23=Remover
 BD7850245F5A79EE=Importar
 
 [MENU_341]  IDR_CONTEXTS_41
-BA643005EA6CA5ED=41_ConvertCtx
 F693834CABA4C9E3=Adicionar itens...\tA, Inserir
-A542E524A5FE5828=Adicionar itens...
 6650ACE8FE9BB205=Deletar itens selecionados\tDel
-902415A38893F829=Deletar itens selecionados
-6B10E47BB5FD619A=Selecionar todos\tCtrl+A
-707FF6825939C50C=Selecionar todos
+4C9AFAEBAADAE0BC=Mostrar propriedades da fonte de mídia de entrada
+A846878F87ED72CE=Abrir caminho de entrada
+4F0653F34D1AEDF7=Abrir caminho de saída
+BF1E3C6AE1BA753A=Selecionar tudo\tCtrl+A
+8A1D9BB9101ACA6E=Ajustar colunas à tela
+BA643005EA6CA5ED=41_ConvertCtx
+8E07889A2F7AAFE4=Este menu não é usado
 
 [MENU_342]  IDR_CONTEXTS_42
 D459051830243DFE=42_GroupCtx
@@ -9238,15 +9246,17 @@ D840E3186B2B9581=OK
 ADE62F1CFD2974B6=Escaneando...
 
 [convert]
+666808265EA4A933=(de origem)
 DF3828969B41772D=Conversor
-B3F5BF1B16548D16=Fila
-283B45E9974ECF06=Convertendo
-24AACBB929F44FED=Normalizando
-96B2B5A0A740BA8B=Feito
-CEAEE7A333DCADF2=Abortado
 ACD3FB6DDC3170C6=Adicionar arquivos para lista de arquivos do conversor:
+EDB9A9BF4AEA0150=Impossível sobrescrever, o arquivo pode estar em uso
 5A9484C5B05BD001=Não é possível abrir a fonte do arquivo
 29007787B7506152=Não é possível abrir o destino do arquivo %s
+9A80F6FC42330A0C=Escanear subdiretórios também?
+342CC938C87263FF=itens de
+EE98230858002478=item de
+3BC400D4D00CE61E=diretórios
+B8344E2118C79696=diretório
 BBDC409790A65FBB=INIC: REAPER %s: gravando no arquivo de log %s\n
 D07889E3AEED7783=INIC: REAPER %s: conversor em lote carregando arquivo de trabalho %s\n
 6DFE63E45D8A02BD=Erro ao carregar lista de conversor em lote
@@ -9254,26 +9264,36 @@ A59B14E5D337B43E=REAPER - erro ao converter em lote
 A82BE434A42C0E9B=Erro ao carregar condição do arquivo de cadeia FX
 6A8F37299DE4C5C0=Erro ao carregar arquivo de cadeia FX
 DAE5814446B8B4CC=Erro ao inicializar um ou mais itens na cadeia FX
-666808265EA4A933=(de origem)
 05ED68EDE7875DDC=Conversor de arquivo da cadeia FX
 83AF965762B83885=Adicionar arquivos...
+F1F4738D9DE90849=Adicionar diretório...
 784BBA608AB475FA=Adicionar item/itens de mídia selecionado(s)
+E9C906BC451B9558=Limpar %d itens concluídos
+B6107AD64CC4E624=Limpar todos os %d itens
 580B8CA7D89F7839=A lista de arquivos para conversão está vazia!
-6F13FF51863927AD=Erro na conversão de arquivo
-8505C3F245AA0D03=Você precisa especificar a pasta de saída!
+13CAE6873CC43D50=Sem pasta de saída especificada!
+A22276F70E604A6B=Converter %d itens restantes
+44A1A64850DF906E=Converter todos os %d itens
+8259EBC159E3D36B=Tem certeza de que deseja sobrescrever %d arquivos de entrada?
+B858E8E7BFC16A9D=Isto não pode ser desfeito!
 7D90B15ECF32752A=Iniciar conversão
 00C29E7A0D653CCE=Conversão da fila feita (%d itens processados).
-23366F155A653024=Ocorreu um ou mais erros, verifique a lista de erros.
-BD3C73534E9B6153=Conversão de arquivos
+6C1127CE328EFD57=Ocorreu um ou mais erros, verifique a lista!
+283B45E9974ECF06=Convertendo
+24AACBB929F44FED=Normalizando
+96B2B5A0A740BA8B=Feito
+7FC8C4AE92742E10=Cancelado
+37CCB02B0246EA1C=SOBRESCREVER
 5FBFAF3984C8CC0E=ALERTA: os seguintes FX não foram carregados:
+3E7F61D237AA2D04=Limpar todas configurações
 C5531D0DEE1F0D0D=Entrada
 2A6ED1B48E88BCC9=Status
 5C048676E8CE02CB=Informações
 2555373B75AA89B2=Saída
+F0CDBE121A8CBFA9=Conversor em Lote
 2112CF591DBD3A60=Mono
 21D9AFD3561EE5AB=Estéreo
 BABD655B2A5AED87=Selecionar um diretório:
-9EC3E20500624AAF=Erro
 2F799723962762C7=Parar
 
 [cpumeter]
@@ -14790,12 +14810,12 @@ A4A2B926D6457694=Padrão do projeto (Balanço REAPER 3.x)
 EA57FBCCFD419668=Estéreo pan
 87CF7CB71772CAC2=Dual pan
 CC85814B7AF4CCED=REAPER 3.x equilibrado (descontinuado)
-82578278D5231120=Regra do pan: 
+82578278D5231120=Regra do Pan: 
 94DEF1C233373209=Padrão do projeto
 F4944DF4957B0C53= (padrão)
 
 [panlaw]
-DDDBC4B59922776E=Pista master
+DDDBC4B59922776E=Pista Master
 
 [parmmod]
 3D522C2F868F6FFA=senoidal
@@ -15373,23 +15393,23 @@ AADC236C38D60A97=Não fazer nada
 
 [prefs_media_help]
 513753DA28E8479B=Ao inserir vários itens de mídia via ação ou arrastar e soltar, os itens podem ser adicionados em pistas separadas ou em uma única pista sequencialmente.
-69070241C7B1090D=Se marcada, copia itens de mídia importados para o caminho da mídia do projeto (se eles já não estão no caminho do projeto)
-703EE29F62AAD911=Se marcada, nomeia pistas anônimas após importar a mídia a partir da mídia
-AB4066F22744D3A5=Se autonomeadas as pistas na importação, remove a seguir valores de nomes das pistas
-B170F8FE480761BC=Define como inativo o projeto de mídia quando o REAPER está inativo, p/ que outros programas não possam acessar/modificar a mídia
+27F1F8C651D28679=Se marcada, copia itens de mídia importados para o caminho da mídia do projeto (se eles já não estão no caminho do projeto).
+65B453D4A84F260D=Se marcada, nomeia pistas anônimas após importar a mídia a partir da mídia.
+43427878B9F37531=Se autonomeadas as pistas na importação, remove a seguir valores de nomes das pistas.
+8A58AA14648ACB16=Define como inativo o projeto de mídia quando o REAPER está inativo, p/ que outros programas não possam acessar/modificar a mídia.
 3C7FC9C0AC6DB4BC=Permite que itens de vídeo (e certos itens de áudio decodificados via VLC/ffmpeg, e imagens estáticas) sejam definidos como off-line, o que pode ser lento em trazer de volta para on-line.
 837ADBF34235C0DC=Se a mídia do projeto é definida como inativa quando REAPER não está ativo, isto marcado, fará com que os picos sejam reconstruídos sob demanda, se necessário.
 AA2E20F87ABF9B32=Permite selecionar o tipo de arquivo usado ao efetuar a ação \"abrir cópia\". Se desmarcada, será utilizado o tipo de arquivo padrão.
-9E9982D536949C1E=Quando usar a ação aplicar FX, permite a este um maior tempo extra nas caldas do reverber/etc
-A18271E55C7E58C7=Quando usar para, item/plugin FX, renderize as caldas do FX p/ que este tenha um tempo a mais além do término do item
-821F929BB8BB41ED=Gera arquivos de cache de pico do item na importação do arquivo (recomendado)
-EC7FFDE5CC65615D=Gera arquivos de cache de pico do item durante o carregamento do projeto (recomendado)
+4297662DF2453C55=Ao usar a ação aplicar FX, permite a ela um maior tempo extra nas caldas do reverber, linhas de delay, etc.
+EF0071BC2AB113EB=Quando usar para, item/plugin FX, renderize as caldas do FX p/ que este tenha um tempo a mais além do término do item.
+D6E7E19AE630BE59=Gera arquivos de cache de pico do item na importação do arquivo (recomendado).
+42DDE07A50449669=Gera arquivos de cache de pico do item durante o carregamento do projeto (recomendado).
 36ADEFB9BD4953A4=Exibe uma janela de status quando está gerando picos
 FA14F6695C42A6BE=Os picos de maior resolução gerados em arquivos de cache de pico. Recomenda-se 300. Maior ou menor pode resultar em diminuição do desempenho em diferentes cenários.
 0AFC077605BAFB72=Caso não seja possível gravar no diretório da mídia, use um caminho alternativo (definindo em Preferências/Geral/Caminhos) para armazenar arquivos de cache de pico.
 22D88B25908D6899=Prefira armazenar os arquivos de cache de pico recém-criados em um diretório nomeado \"picos\" referente ao arquivo de mídia.
 3E30281017B53D27=Quando usar plugin FX, irá duplicar o plugin FX quando dividir (para que os novos itens divididos adquiram cópias do FX). Seja cuidadoso, pois isto pode usar mais RAM.
-78DE8A31904C1141=Calcula informações espectrais para arquivos de picos, mesmo quando os picos espectrais não estão habilitados (arquivos de pico maiores, maior uso de RAM)
+AE36413831419F9D=Calcula informações espectrais para arquivos de picos, mesmo quando os picos espectrais não estão habilitados (arquivos de pico maiores, maior uso de RAM).
 5EF284FB2B799EF0=Automaticamente regenera arquivos de picos com informações espectrais quando habilitar picos espectrais.
 
 [prefs_mediafades_help]
@@ -16895,10 +16915,10 @@ A3B40840D7974DCA=Informações do item de mídia
 9EF8FDFBFA821071=Posição/Duração
 7D0FCDE52688E0C5=Formato de Saída
 CFF834D38DCD4B8C=Informações do computador
+5DFBB2BCD0E02AD0=nome do arquivo de entrada
 A102825E3888AC4F=nome do projeto
 88F48C434F6133C1=título do projeto (da caixa de diálogo, Configurações do projeto/Anotações)
 C4947C2D374CB35A=autor do projeto (da caixa de diálogo: Configurações do projeto/Anotações)
-5DFBB2BCD0E02AD0=nome do arquivo de entrada
 5ACB584BCFCEF5B1=nome da pista
 A10E65A5570F945B=pista nome, incluindo caracteres reduzidos
 570771071E5A6FAD=1 para a primeira pista, 2 para a segunda...
@@ -16981,6 +17001,7 @@ E9315D7213F53B6A=Com um marcador de projeto chamado \"primeiro=joãoúltimo=fula
 2080F5F64A4A368A=$marker (primeiro)[] resolve para \"joão\"
 EF48806770BF6E03=$marker (último)[] resolve para \"fulano\"
 C95E7D9935B89171= (os diretórios serão criados automaticamente)
+F0CDBE121A8CBFA9=Conversor em Lote
 D3BC181CB0EE6EFD=Data/Hora
 
 [render_wildcards]
@@ -18967,8 +18988,8 @@ CE3D7747A2AEC8CD=Definir pista sozinha
 CC4A99D4D24FE494=Duplicar itens
 369398C7EFDE6AA6=Empurrar itens
 1564E1A3A0CE2FC0=Mudar regra do pan
-C8AB0312AE1913D3=Mudar regra da pista do pan
-272C78B705A5D85A=Mudar modo da pista do pan
+C8AB0312AE1913D3=Mudar regra do pan da pista
+272C78B705A5D85A=Mudar modo do pan da pista
 3460BF2A88B34FD3=Mídia gravada
 BC3E46C8C4F6A25D=Substituir mídia
 CFF19645E4B36C1E=Compartimento do projeto: mover/copiar a mídia original
@@ -20059,7 +20080,7 @@ A31F3791DA292DFD=+ 8 PIXELS
 6405C14909FBEEAA=SE A PISTA#Ñ SELECIONADA
 23AFB45CD682FDF3=SE A PISTA#ARMADA
 C4CC07C35BEDFC6A=SE A PISTA#NÃO ARMADA
-9440E422A2DEC5ED=BARRA LAT: ESTENDIDA
+9440E422A2DEC5ED=ESTENDIDO + BARRA LAT
 23A684C98AF1F12E=FORMATO REDUZIDO
 43B8A28646E5E5B2=LARGURA EXPANSÍVEL
 4DD39AD453B48458=ETIQUETAS DO OBJETO
@@ -22245,10 +22266,10 @@ BCA42A60A21667A3=SWS/BR: Salvar ponto do envelope da seleção, slot 16
 2D8A06E59FACA3DA=SWS/BR: Restaurar ponto do envelope da seleção, slot 16
 8985B3933B4832DD=SWS/BR: Ocultar envelope para todas as pistas, exceto para pista selecionada
 82A98559DEAAE557=SWS/BR: Ocultar envelope nas pistas selecionadas, exceto para pista selecionada
-B074A1A25DF65FAD=SWS/BR: Ocultar envelope para todas as pistas, exceto para pista selecionada (exceto faixas dos envelopes em separado)
-012788502DCFF153=SWS/BR: Ocultar envelope nas pistas selecionadas, exceto para pista selecionada (exceto faixas dos envelopes em separado)
-A71A5312F4B99433=SWS/BR: Ocultar envelope para todas as pistas, exceto para pista selecionada (exceto faixas dos envelopes na pista)
-B52AF97C9E20F7C1=SWS/BR: Ocultar envelope nas pistas selecionadas, exceto para pista selecionada (exceto faixas dos envelopes na pista)
+B074A1A25DF65FAD=SWS/BR: Ocultar envelope para todas as pistas, exceto para pista selecionada (exceto envelopes em faixas separadas)
+012788502DCFF153=SWS/BR: Ocultar envelope nas pistas selecionadas, exceto para pista selecionada (exceto envelopes em faixas separadas)
+A71A5312F4B99433=SWS/BR: Ocultar envelope para todas as pistas, exceto para pista selecionada (exceto envelopes em faixas da pista)
+B52AF97C9E20F7C1=SWS/BR: Ocultar envelope nas pistas selecionadas, exceto para pista selecionada (exceto envelopes em faixas da pista)
 AB749576C8257B64=SWS/BR: Mostrar/ocultar envelope da pista para o último envio ajustado (apenas volume/pan)
 08BB7AC8B6E2F6BB=SWS/BR: Mostrar/ocultar envelope de pista de volume para o último envio ajustado
 FF0AF8B84B503450=SWS/BR: Mostrar/ocultar envelope da pista para o último envio ajustado
@@ -22322,7 +22343,7 @@ A1F822037560F1A4=SWS/BR: Criar faixa do CC e torna-la a última clicada
 7021A622582F41E6=SWS/BR: Mover a última faixa clicada do CC, para cima
 536B5891ED31C6E1=SWS/BR: Mover a última faixa clicada do CC (manter constante a altura da faixa)
 3343A39FE69B1F4F=SWS/BR: Mover a última faixa clicada do CC, para baixo
-D8A7CD50D3EC9590=SWS/BR: Mover a última faixa clicada do CC, para baixo (manter constante a altura da pista)
+D8A7CD50D3EC9590=SWS/BR: Mover a última faixa clicada do CC, para baixo (manter constante a altura da faixa)
 2D85C89F52706943=SWS/BR: Mover janela flutuante vigente para o cursor do mouse (horizontal: esquerda, vertical: inferior)
 289B7E9EAE50BA39=SWS/BR: Mover janela flutuante vigente para o cursor do mouse (horizontal: esquerda, vertical: meio)
 8EAA385FE99320DD=SWS/BR: Mover janela flutuante vigente para o cursor do mouse (horizontal: esquerda, vertical: superior)
