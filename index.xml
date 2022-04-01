@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="c841ce79e8d03fe7112e29c9893edb151de4c4b6">
+<index version="1" name="ReaTeam LangPacks" commit="06c1ac0340a225330b64789a3c5f41e5fbd41374">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -42,6 +42,9 @@
       </version>
       <version name="6.53" author="Edison Deff" time="2022-03-30T18:03:29Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/c841ce79e8d03fe7112e29c9893edb151de4c4b6/Translations/pt-BR%20Brazilian%20(REAPER+SWS).ReaperLangPack</source>
+      </version>
+      <version name="6.53-1" author="Edison Deff" time="2022-04-01T00:04:50Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/06c1ac0340a225330b64789a3c5f41e5fbd41374/Translations/pt-BR%20Brazilian%20(REAPER+SWS).ReaperLangPack</source>
       </version>
     </reapack>
     <reapack name="REAPER_SWS_fr_reapack.ReaperLangPack" type="langpack" desc="REAPER LangPack Français">
