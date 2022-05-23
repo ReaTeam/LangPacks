@@ -1,6 +1,6 @@
 #NAME:pt-BR Brazilian (REAPER+SWS)
 #AUTHOR:Edison Deff
-#VERSION:6.57
+#VERSION:6.58
 
 #NAME:Português [pt-BR] - By Edison Deff
 
@@ -443,7 +443,7 @@ BEEE7CF3DE686A0A=Deletar marcador do objeto no cursor
 02ABE37861D00256=Ativar medição da pista
 22890C70F0007984=Ponto do envelope da seleção, segue a seleção do tempo
 53126EE5565D39B2=Pontos do envelope
-943A1A47FCEE5EEE=Explodir item de MIDI via notas em fila (tom)
+943A1A47FCEE5EEE=Explodir item de MIDI através de notas em fila (por tom)
 66F59CEEAE4451AB=Explodir todos os objetos (na ordem)
 0B76FEDD4B488DD6=Explodir todos os objetos (no local)
 32A8CD94B8E9F86E=Explodir todos os objetos de novas pistas
@@ -675,7 +675,7 @@ BBDA863D4D8B16DD=(se habilitada sobreamostr. em cadeia, o máx. de instância e 
 4BB3333A13123CE6=Adicionar FX...
 5B982DEEA8952FF4=Autoflutuar novas janelas FX
 C7317FFF2A84005C=Criar 16 canais de roteamento de MIDI para esta pista
-84FADFAA8CD497E1=Criar roteamento multicanal para saída do FX selecionado...
+84FADFAA8CD497E1=Criar roteamento multicanal de saída: FX selecionado...
 A564BFA603B3928B=C&ortar FX selecionado\tCtrl+X
 98FC3630864819E4=Modo cadeia PDC
 28895A60DE891ABF=Sobreamostragem em cadeia
@@ -686,8 +686,8 @@ F3F5886C1F6A6C85=Copiar todos FX
 B7E90584A70A56CB=Copiar FX selecionado (incluir automação)
 386E80D3AED15B5D=Copiar FX selecionado (incluir automação)\tCtrl+Alt+C
 51B6457C06E865F4=Cortar FX selecionado
-5E0DED8D9E063003=Uso da CPU como 1.0c = um núcleo usado plenamente
-9BB51D16B3CDD603=Uso da CPU como 100% = todos núcleos usados plenamente
+5E0DED8D9E063003=CPU, uso como 1.0c = um núcleo usado plenamente
+9BB51D16B3CDD603=CPU, uso como 100% = todos núcleos usados plenamente
 CC1F02E05223C02F=Janela FX, na área de carregamento
 D85ED6186B447CF9=FX
 91C05340E1D72E6F=Configurações para plug-ins FX...
@@ -884,6 +884,10 @@ A354AA07A4DF9BBD=Habilitar agrupamento
 FE0BBBB916484A16=Nova janela de compartimento do projeto
 9F31623C59553158=Caminho
 D1EB52BFBDF1AB33=Duplicar ação personalizada
+1C8FF916324D16A7=Sempre criar pontos de desfazer
+30BADC57C31A60EE=Sempre ignorar
+C9B49E50692C56DC=Ignorar ao enviar plug-in ao CC da MIDI
+4B570FB158FBD793=Notificações de mudança de estado
 3E6F5B4FF4F5BC43=Criar nova pasta...
 D86C7175F627BC38=Selecionar todos os itens
 271D7187C80C7F43=Editor de MIDI
@@ -1496,7 +1500,6 @@ ECD95980EE3502F8=5 centésimos
 77FCCED98127C864=50 centésimos
 B41F2FB851FBE597=Renomear item de automação
 3BB607955C866A06=Mais informações sobre estatísticas de renderização
-FDA7DF8BA581C475=RMS-I
 D811D5325411DBAD=Atenuar
 B726931672EE1B2F=Acima do normal
 76036DCB216B5D75=Altíssimo
@@ -2094,7 +2097,7 @@ F67D1FDC9D0ABC37=saídas principais
 644113753F9A2FD9=Padrão de saída do metrônomo:
 5CA1E00000000000=1.18
 
-[DLG_157]  IDD]  IDD_PREFS_CSURF
+[DLG_157]  IDD_PREFS_CSURF
 2494101BD051C898=Mecanismos controladores/OSC/controlador via web
 82A49039D1782EAE=Mecanismo controlador, exibir frequência atualizada:
 D5AD81A3A8A8050D=Hz (padrão: 15)
@@ -2306,7 +2309,7 @@ F783860F79715118=Escala do fader de volume
 B9830B26CC085916=Avisar que ao mudar a escala de volume do envelope, irá mudar de som o envelope
 89325B4900977A87=Pistas
 D8D27C186BA6D499=dB
-AE7E61A37889E975=Livre posicionam. do item
+AE7E61A37889E975=Livre posicionamento do item
 8FC86C263760ACB9=Volume
 96E5C67E1437194E=Pan
 61946358B1034B76=Sem som
@@ -2527,7 +2530,7 @@ D98D89186C45DDE1=--
 756B500741E261D4=Importar chave da licença...
 
 [DLG_206]  IDD_AUXSENDCTL_CHILD3
-FCF3913D3BF1D3E1=Enviar para a pista X
+FCF3913D3BF1D3E1=Envio para pista X
 AF3196AD6B727ABC=Deletar
 
 [DLG_209]  IDD_PREFS_PLUGINS_DX
@@ -5058,7 +5061,7 @@ F9AF208327AA58AE=Normalizar itens (pico/RMS/LUFS)...
 F2E31CE8AE28842A=Implodir itens sobre pistas postos em itens em uma pista
 9CF0A9142899CF43=Autoreposição de itens em modo de livre posicionamento do item
 D1E4A1A455A36989=Explodir itens de áudio multicanal ou itens de MIDI em um novo canal
-943A1A47FCEE5EEE=Explodir item de MIDI via notas em fila (tom)
+943A1A47FCEE5EEE=Explodir item de MIDI através de notas em fila (por tom)
 00BF6D212D40163B=Converter objeto de MIDI vigente, em dados originais no projeto
 210B23F21E3171CA=Converter objeto de MIDI vigente, para arquivo .mid de referência
 FBBD098069A14870=Importar sinais de áudio dos itens de mídia como marcadores do projeto
@@ -5351,9 +5354,9 @@ E67F0BA2C154FA57=Renomear FX do exemplo\tF2
 5B982DEEA8952FF4=Autoflutuar novas janelas FX
 0EE7D967B88BFC63=&Configurações para plug-ins FX...
 91C05340E1D72E6F=Configurações para plug-ins FX...
-9BB51D16B3CDD603=Uso da CPU como 100% = todos núcleos usados plenamente
-5E0DED8D9E063003=Uso da CPU como 1.0c = um núcleo usado plenamente
-84FADFAA8CD497E1=Criar roteamento multicanal para saída do FX selecionado...
+9BB51D16B3CDD603=CPU, uso como 100% = todos núcleos usados plenamente
+5E0DED8D9E063003=CPU, uso como 1.0c = um núcleo usado plenamente
+84FADFAA8CD497E1=Criar roteamento multicanal de saída: FX selecionado...
 C7317FFF2A84005C=Criar 16 canais de roteamento de MIDI para esta pista
 98FC3630864819E4=Modo cadeia PDC
 AE4EAF49140CA0B8=Compensação por cadeia
@@ -5769,7 +5772,7 @@ F9AF208327AA58AE=Normalizar itens (pico/RMS/LUFS)...
 F2E31CE8AE28842A=Implodir itens sobre pistas postos em itens em uma pista
 9CF0A9142899CF43=Autoreposição de itens em modo de livre posicionamento do item
 D1E4A1A455A36989=Explodir itens de áudio multicanal ou itens de MIDI em um novo canal
-943A1A47FCEE5EEE=Explodir item de MIDI via notas em fila (tom)
+943A1A47FCEE5EEE=Explodir item de MIDI através de notas em fila (por tom)
 00BF6D212D40163B=Converter objeto de MIDI vigente, em dados originais no projeto
 210B23F21E3171CA=Converter objeto de MIDI vigente, para arquivo .mid de referência
 FBBD098069A14870=Importar sinais de áudio dos itens de mídia como marcadores do projeto
@@ -6104,7 +6107,7 @@ AE4EAF49140CA0B8=Compensação por cadeia
 6ECF86BB66CE43D9=Compensação por FX (REAPER clássico 1.0-6.19)
 F2DDE708F65F777A=Ignorar atraso do plug-in
 894722D08F142EBE=Compensação de saída de hardware (pista master apenas)
-84FADFAA8CD497E1=Criar roteamento multicanal para saída do FX selecionado...
+84FADFAA8CD497E1=Criar roteamento multicanal de saída: FX selecionado...
 C7317FFF2A84005C=Criar 16 canais de roteamento de MIDI para esta pista
 CC1F02E05223C02F=Janela FX, na área de carregamento
 
@@ -6138,8 +6141,8 @@ EC37BCC6C18B2137=Mostrar memória RAM livre no sistema, ao invés do uso
 0B046CABAC6AEF1E=Exibir uso de FX na CPU
 1A64FFC5FC821B62=Reajustar gráfico
 EEB77FAA4A9ACCDA=Medidor de Desempenho, na área de carregamento
-9BB51D16B3CDD603=Uso da CPU como 100% = todos núcleos usados plenamente
-5E0DED8D9E063003=Uso da CPU como 1.0c = um núcleo usado plenamente
+9BB51D16B3CDD603=CPU, uso como 100% = todos núcleos usados plenamente
+5E0DED8D9E063003=CPU, uso como 1.0c = um núcleo usado plenamente
 BAC64C1B2E060EE5=Fechar
 
 [MENU_314]  IDR_CONTEXTS_14
@@ -6675,7 +6678,7 @@ BD7850245F5A79EE=Importar
 [MENU_341]  IDR_CONTEXTS_41
 F693834CABA4C9E3=Adicionar itens...\tA, Inserir
 6650ACE8FE9BB205=Deletar itens selecionados\tDel
-4C9AFAEBAADAE0BC=Mostrar propriedades da fonte de mídia de entrada
+4C9AFAEBAADAE0BC=Mostrar propriedades da fonte da mídia de entrada
 A846878F87ED72CE=Abrir caminho de entrada
 4F0653F34D1AEDF7=Abrir caminho de saída
 BF1E3C6AE1BA753A=Selecionar tudo\tCtrl+A
@@ -6851,6 +6854,11 @@ E485FC63E796EFFA=Mover para baixo
 1E031E71B52167CD=Importar preset da biblioteca (.rpl)...
 B9ABDBF036490D44=Exportar preset para biblioteca (.rpl)...
 10AA715E679A1188=Enviar todas entradas do teclado ao plug-in
+4B570FB158FBD793=Notificações de mudança de estado
+1C8FF916324D16A7=Sempre criar pontos de desfazer
+C9B49E50692C56DC=Ignorar ao enviar plug-in ao CC da MIDI
+C514867DEFC3A26A=Ignorar se a janela do plug-in não estiver aberta
+30BADC57C31A60EE=Sempre ignorar
 
 [MENU_427]  IDR_RECSETTINGS
 BF1E0238E0279AA6=Configurações de dispositivos de áudio...
@@ -8068,7 +8076,7 @@ D98AB66D02781048=Objeto: Propagar para os objetos vigentes da pista com nome sim
 DF2E95CB74B33A7F=Objeto: Propagar para todos os objetos vigentes com nome similar
 9076554EB084867B=Item: Propagar para todos os itens com nome similar
 C0759E3FEF06071E=Item: Explodir áudio multicanal ou MIDI para novos itens de um canal
-1CFF9BEFD56A01AB=Item: Explodir linhas de notas de MIDI (tom) para novos itens
+1CFF9BEFD56A01AB=Item: Explodir linhas de notas de MIDI para novos itens (por tom)
 F32941C8176844C7=Item, propriedades: Mostrar propriedades do item de mídia original
 DC0CAD842A56F9C2=Item, propriedades: Mostrar propriedades do item de mídia/objeto
 227D0726DCB5819C=Item, propriedades: Alternar para mostrar propriedades do item de mídia/objeto
@@ -8589,22 +8597,22 @@ EB7FB596EF728CDE=Transporte: Unidade de tempo: Frames inteiros
 F6599C31D60A10C6=Transporte: Unidade secundária de tempo: Amostragens
 BA7FA4B3A35A0FE6=Transporte: Unidade secundária de tempo: Horas:Minutos:Segundos:Frames (quadros)
 3E10549A50801650=Transporte: Unidade secundária de tempo: Frames inteiros
-F3EC09D9630A210B=Envio: Enviar para a pista #1 sem som
-F3EC0AD9630A22BE=Envio: Enviar para a pista #2 sem som
-F3EC0BD9630A2471=Envio: Enviar para a pista #3 sem som
-F3EC0CD9630A2624=Envio: Enviar para a pista #4 sem som
-F3EC0DD9630A27D7=Envio: Enviar para a pista #5 sem som
-F3EC0ED9630A298A=Envio: Enviar para a pista #6 sem som
-F3EC0FD9630A2B3D=Envio: Enviar para a pista #7 sem som
-F3EC00D9630A11C0=Envio: Enviar para a pista #8 sem som
-CBD142416A998164=Envio: Receber da pista #1 sem som
-CBD145416A99867D=Envio: Receber da pista #2 sem som
-CBD144416A9984CA=Envio: Receber da pista #3 sem som
-CBD13F416A997C4B=Envio: Receber da pista #4 sem som
-CBD13E416A997A98=Envio: Receber da pista #5 sem som
-CBD141416A997FB1=Envio: Receber da pista #6 sem som
-CBD140416A997DFE=Envio: Receber da pista #7 sem som
-CBD13B416A99757F=Envio: Receber da pista #8 sem som
+F3EC09D9630A210B=Envio: Envio para pista #1 sem som
+F3EC0AD9630A22BE=Envio: Envio para pista #2 sem som
+F3EC0BD9630A2471=Envio: Envio para pista #3 sem som
+F3EC0CD9630A2624=Envio: Envio para pista #4 sem som
+F3EC0DD9630A27D7=Envio: Envio para pista #5 sem som
+F3EC0ED9630A298A=Envio: Envio para pista #6 sem som
+F3EC0FD9630A2B3D=Envio: Envio para pista #7 sem som
+F3EC00D9630A11C0=Envio: Envio para pista #8 sem som
+CBD142416A998164=Envio: Recebe da pista #1 sem som
+CBD145416A99867D=Envio: Recebe da pista #2 sem som
+CBD144416A9984CA=Envio: Recebe da pista #3 sem som
+CBD13F416A997C4B=Envio: Recebe da pista #4 sem som
+CBD13E416A997A98=Envio: Recebe da pista #5 sem som
+CBD141416A997FB1=Envio: Recebe da pista #6 sem som
+CBD140416A997DFE=Envio: Recebe da pista #7 sem som
+CBD13B416A99757F=Envio: Recebe da pista #8 sem som
 EBAA4675A574A583=Conjunto de telas: Carregar visualização #01 para a pista
 EBAA4775A574A736=Conjunto de telas: Carregar visualização #02 para a pista
 EBAA4875A574A8E9=Conjunto de telas: Carregar visualização #03 para a pista
@@ -10687,7 +10695,7 @@ D936E33A722937BB= saídas 1/2 estéreo
 74DD7AE924E641B5=Estéreo %d/%d->Nova pista %d
 E0DD6D63857DA1A4=Mono %d->Nova pista %d
 00D201BA34D79035=\t... [+ %d pistas] ...\r\n
-ABEF5E3363495194=Confirmação da Construção do Mapeamento.
+ABEF5E3363495194=Confirmação da Construção do Roteamento.
 FF225ECB120E936B=Adicionar FX para: 
 83ACA278C2C00834=Desenvolvedores
 CAC6D9B556053C93=Categorias
@@ -10700,9 +10708,13 @@ C35B6227A5807B01=Salvar condições mínimas ao desfazer
 18A8E487E05046F8=Informar ao plug-in quando o canal da pista mudar
 7619F5E2F83AE927=Forçar em restaurar para o início do playback
 0F5BF9591A6890B4=Modo de compatibilidade HiDPI ao flutuar a janela
+4B570FB158FBD793=Notificações de mudança de estado
+1C8FF916324D16A7=Sempre criar pontos de desfazer
+C9B49E50692C56DC=Ignorar ao enviar plug-in ao CC da MIDI
+C514867DEFC3A26A=Ignorar se a janela do plug-in não estiver aberta
+30BADC57C31A60EE=Sempre ignorar
 166EA90B165E1A9C=Notificações de automação
 F3BA3A8E6686C922=Configurações de notificação padrão (em Preferências/VST)
-C514867DEFC3A26A=Ignorar quando a janela do plug-in não está aberta
 553098B8452B6F0C=Ignorar quando não for tópico da UI (Interface do Usuário)
 A20B1F2055BF5412=Ignorar todas as notificações
 4523D3871D7D7B77=Processar todas as notificações
@@ -11320,6 +11332,7 @@ C3F9B1D0BACAA467=Mecanismo controlador: Erro ao abrir entradas de MIDI
 D46957DF3C4591E8=Mecanismo controlador: Erro ao abrir saídas de MIDI
 FEC9867B01DEF0E8=Mecanismo controlador: Erro ao abrir porta(s)
 934BB133F7A2251C=REAPER: Erro do mecanismo controlador
+C7B63839CCC0E559=REAPER: Erro ao autosalvar
 90B4F64A776D4FE3=Carregamento do projeto abortado pelo usuário
 C99BD3783CAF0A0A=Selecione uma pista antes de visualizar a mídia original da MIDI.
 FEF6F10D89DDAADA=Erro na visualização do compartimento do Projeto
@@ -11767,7 +11780,7 @@ F09E4B5C35AA14B9=Cancelar
 [midi_DLG_120]  IDD_MIDIITEMINFO
 01D4CC44D0EFDC81=Arquivo de MIDI: Propriedades
 4399BA4BD6E544BB=Reproduzir apenas canais:
-A9759EED1FED1E1A=Enviar para o canal:
+A9759EED1FED1E1A=Envio como canal:
 716435436E335538=Ignorar o andamento do projeto, usar:
 F83ED02F8879E4D6=Seguir o CC/tom/programa antes de iniciar o deslocamento
 971ED57E1466F812=PPQ
@@ -15094,7 +15107,6 @@ D790926420BA2EB7=Alerta
 A4C0C852A5B25572=Confirmação
 80BE1395BCF8C169=Baixar pacotes de idiomas
 BABD655B2A5AED87=Selecionar um diretório:
-FDA7DF8BA581C475=RMS-I
 3BB607955C866A06=Mais informações sobre estatísticas de renderização
 D811D5325411DBAD=Atenuar
 E964640878017639=Abrir apenas o item de MIDI clicado
@@ -15414,10 +15426,10 @@ AE3E452C1BDD0283=Formato padrão do fade-in e fade-out para novos itens de mídi
 DF1D42CA346FF5BC=Formato padrão é usado para novos crossfades, usado tanto para crossfades e autocrossfades criados manualmente.
 9025AEE36EE9441B=Botão direito do mouse em fade-in, fade-out, ou crossfade para alterar forma do fade. Para um crossfade, isto pode alterar a forma de ambos os lados, ou apenas um.
 D8DADBDCF727EC0B=Vai aplicar as configurações do fade-in e fade-out acima, e a definição autocrossfade do projeto, para a intensidade da nota nos itens de MIDI.
-93AA6182EC7E79F1=Ativa a \"fonte do loop\" atributo para os itens de mídia importados. Arrastando a borda direita do item, automaticamente ele fica como loop de mídia.
-59E8ABDFE0F36FAA=Ativa a \"fonte do loop\" atributo para os novos itens de MIDI. Arrastando a borda direita do item, automaticamente ele fica como loop de mídia.
-8BC802EEEFEBEB1F=Ativa a \"fonte do loop\" atributo para os itens de áudio gravados. Arrastando a borda direita do item, automaticamente ele fica como loop de mídia.
-2150029D694E5000=Ativa \"fonte do loop\" atributo p/ itens grudados. Arrastando a borda direita do item, automaticam. ele fica como loop de mídia.
+93AA6182EC7E79F1=Ativa a \"fonte do loop\" atributo para os itens de mídia importados. Arrastando a borda direita do item, ele automaticamente fica como loop de mídia.
+59E8ABDFE0F36FAA=Ativa a \"fonte do loop\" atributo para os novos itens de MIDI. Arrastando a borda direita do item, ele automaticamente fica como loop de mídia.
+8BC802EEEFEBEB1F=Ativa a \"fonte do loop\" atributo para os itens de áudio gravados. Arrastando a borda direita do item, ele automaticamente fica como loop de mídia.
+2150029D694E5000=Ativa a \"fonte do loop\" atributo para os itens grudados. Arrastando a borda direita do item, ele automaticamente fica como loop de mídia.
 2DD1E32D6EFAB55E=Quando automaticamente autopicota uma gravação dentro da seleção do tempo, faz um loop do conteúdo da seleção do tempo ao estender as bordas do item resultante.
 CA312E99CAD52995=A edição da posição do item de mídia ou bordas p/ sobrepor os itens de mídia existentes, pode ser reproduzida em ambos os itens juntos ou aparar conteúdo dos itens existentes.
 1AC6782D422ADF26=Por padrão, as edições aguçadas (razor edits) sempre removerão o conteúdo existente atrás das áreas da edição aguçada ao finalizar a edição, como emendar uma fita.
@@ -16319,8 +16331,11 @@ FB7CC4A30F878FE2=Houve %d arquivo(s) em %d lugar(es) no projeto que estão condi
 BBA33ABA3D67B8AA=Erro do REAPER
 
 [projsave]
-FB788791B6125DA4=Erro ao criar o arquivo do projeto! Projeto não foi salvo!
-46AE0C6B2EBA8FE0=Erro de escrita no arquivo do projeto. Disco cheio?
+4E8D6287A1724A20=Erro ao autosalvar para o arquivo do projeto:\r\n\r\n%.250s\r\n\r\nO caminho de autosalvar configurado nas Preferências/Projeto pode ser inválido.
+C52F200316AE8FED=Erro ao autosalvar para o arquivo do projeto:\r\n\r\n%.250s\r\n\r\nO caminho existe?
+18A46BAC3D405203=Erro ao criar arquivo do projeto:\r\n\r\n%.250s\r\n\r\nO caminho existe?
+46AE0C6B2EBA8FE0=Erro ao escrever para o arquivo do projeto. Disco cheio?
+87E4711028D1A7F0=Erro ao escrever para o arquivo do projeto:\r\n\r\n%.250s\r\n\r\nO disco está cheio?
 7978763C70E0E2FA=Erro ao salvar o desfazer histórico. Disco cheio?
 E8D1FE31118A288D=Não pode substituir o arquivo:
 FCBCBACD0FC29A84=Suas alterações foram salvas temporariamente como:
@@ -16688,6 +16703,7 @@ B245310C8DED7293=Volume referente a itens de mídia pode mudar.
 D966400DCA38D9A2=Volume ref. a itens de mídia permanece o mesmo.
 24EFDD02A2C2E762=Normalizando para
 57DD77BADF5E6D04=combinado
+FDA7DF8BA581C475=RMS-I
 A5ADC24845F09820=pico
 C95975106DA4411E=pico real
 0BD5A9FF8CE095FB=LUFS-M máximo
@@ -16905,6 +16921,7 @@ A6CCE67D7C4BBDBB=Pistas selecionadas (stems)
 F57F76E76EEAB1E0=Mixagem master + stems
 4F1CA78827EA45AC=Pistas selecionadas via master
 D3D35AE173ADE15A=Matriz de renderização da região
+90A8472DB270C9C0=Matriz de renderização da região via master
 C9C02344D7F08EBA=Itens de mídia selecionados
 473036F393488FA0=Itens de mídia selecionados via master
 453B50A2B5FC16D1=Áreas de edição aguçada via master
@@ -16944,7 +16961,7 @@ A429CCD0AE500AF2=tempo real
 A818B0C8ABB769DD=Pular para posição de amostra mais alta no projeto
 88F05070C85C276B=REAPER renderizado inteiro
 37F6A411C66E7D98=Terminado em: 
-985E331B00308A52=Estatísticas da renderização pode ser habilitada, desabilitada e configurada em Preferências=> Áudio=> Renderização
+189B52E1527B50B4=Estatísticas da renderização pode ser habilitada, desabilitada e configurada em Preferências=> Áudio=> Renderização.
 C022E2F9EC50C6D4=Normalização:  Ganho dBFS aplicado ao arquivo renderizado para atingir a meta do loudness.
 6A340BF23F625CC7=Pico:  dBFS da amostra de valor absoluto mais alto no arquivo renderizado.
 325D520E2CC8A542=Pico real:  dBFS estimado da amostra de valor absoluto maior, após sobreamostragem em 2x ou 4x.
@@ -16956,13 +16973,13 @@ DF9112C38C236EC0=Clip do pico real: número estimado de amostras que podem estar
 622DD422D7320EDF=Esta é uma estimativa de quantos overs pode haver se processamento adicional for feito no arquivo renderizado a posterior.
 03DBB236E7E81288=RMS:  média da raiz quadrada, uma medida básica de intensidade total.
 35A7370A47F3F653=RMS-M:  loudness momentâneo medido sobre uma janela de 400ms.
+2A6768E6D7B37C43=RMS-S:  loudness de curto prazo medido sobre uma janela de 3000ms.
 F9F8DC738FDC8B82=RMS-I:  loudness de todo o arquivo renderizado, calculado medindo frequentemente RMS momentâneos, então integrando.
 CD405F9D84D7C947=LUFS:  escala inteira de unidades de loudness, uma medida de intensidade percebida que frequentemente ajusta o conteúdo.
 A5CA1CA1F623473B=LUFS-M:  loudness momentâneo medido sobre uma janela de 400ms.
 B57406EB5EE2B50B=LUFS-S:  loudness de curto prazo medido sobre uma janela 3000ms.
 B40EBB4EC8D826B7=LUFS-I:  loudness de todo o arquivo renderizado, calculado por gating, medindo frequentemente o loudness momentâneo, depois integrando.
 6BB083C59B54F3F8=LRA:  gama de intensidade dinâmica do arquivo renderizado, calculado por gating, medindo frequentemente a intensidade de curto prazo, excluindo os 10% mais silenciosos e os 5% mais altos observados.
-FDA7DF8BA581C475=RMS-I
 0A9476D2DAF58CB5=Geral
 FAF92150674645B7=Título
 7DA8EA3426CA11D3=Descrição
@@ -17892,7 +17909,7 @@ EC4D31221167E72D=Linha do tempo em primeiro plano
 6F524CFF4428CD01=Linha do tempo de fundo (nas posições do loop)
 7511CE79116A6319=Linha do tempo original
 80E0E7561B5C012A=Transporte: Fundo, status
-DF04AEB695760DE1=Transporte: Texto, status
+DF04AEB695760DE1=Transporte: Texto, status (cronômetro, parado/reproduzindo)
 B0CBF0208F901BFB=Transporte: Fonte, status
 43244BEE211F0D4F=Controle da taxa de reprodução do projeto diferente de 1.0
 7ACB506A80E43F0A=Etiqueta: Item de mídia
@@ -17942,10 +17959,6 @@ CE34D4E75754EAAC=Item de mídia: Manusear guia transiente
 B0B4B0D3BCC9C9C5=Fundo da pista (pistas pares e master)
 2B40AF02550EDF2F=Fundo da pista selecionada (pistas ímpares)
 FC550CE54271B2D0=Fundo da pista selecionada (pistas pares)
-4BD7A400820886C8=Pista, etiqueta para faixa fixada
-5464094285960A23=Pista, etiqueta para faixa fixada se apenas esta faixa for reproduzida
-7017BBE7FB22C996=Pista, adicionar área para faixa fixada
-2776DB977A893705=Pista, adicionar área para faixa fixada em modo preenchimento
 380BD669BEE7D8F7=Linha divisória da pista (pistas ímpares)
 33E7EE00B895E388=Linha divisória da pista (pistas pares)
 843ABB88EC718106=Linha divisória da faixa do envelope (pistas ímpares)
@@ -18360,7 +18373,7 @@ E585FD64AC36AB50=Saída do hardware de áudio:
 FF17B2D16C266A2B=Saída de MIDI:
 80C5C2F8B9B1E0C3=Saída do hardware de MIDI
 1642F2A3840F4EAB= (para canal %d): 
-6677CD830302C2DB=Envio da: 
+6677CD830302C2DB=Envio: 
 9F4424F736F61BF6=Hardware | Saída: 
 DA192334A9AAB304=Pan(E): %s (duplo click para definir no centro)
 CD150E479821A143=Pan: %s (duplo click para definir no centro)
@@ -18538,7 +18551,7 @@ DA17B00AE0D8421B=As configurações afetarão %d pistas selecionadas
 B1CBBBC86D855EB0=As configurações afetarão %d pistas selecionadas no gerenciador de pista
 4646AB3396AD25A9=Reproduzir apenas faixa
 8FCFF7256F7D86A9=Alternar para reproduzir faixa
-3A40CDD1009F1A37=Selecionar itens
+3A40CDD1009F1A37=Selecionar item/itens
 992AE2BDE5FF0A9B=Nova Pista / 
 B3D2C76823B56BAB=Canal %d
 BA0039FB59D95325=MASTER
@@ -18785,6 +18798,7 @@ EDF02F8482409CC9=Definir posições do loop para os itens
 520BCC245FBA6218=Selecionar todas as pistas
 19A339BEDFCC6721=Desselecionar todas as pistas
 61B25056ED01435B=Desselecionar todos os itens
+B98EE4A86BAF4959=Limpar edições aguçadas
 4861A6DABD82E1C6=Mudar pista selecionada
 B417408E59901C04=Mover itens selecionados para a posição preferida de origem (início deslocam. BWF)
 6E5C6D67A9C8E2DC=Aparar itens à direita do cursor
@@ -19660,8 +19674,7 @@ D7EDBF968B8C0D20=Caminho nao encontrado do instalador VLC, instalar o VLC 2.0.x-
 FC561581D49BDB6C=Pesquisar caminhos:\r\n
 1955FFFE731C2158=Fonte de mídia não aberta
 DA3AFBB0ED0A8F69=Formato de vídeo codificado: 
-22B43B6CDE1139CA=Formato de áudio codificado:
-16E824C1823D3147=desconhecido
+22B43B6CDE1139CA=Formato de áudio codificado: 
 0121AF72166A79F7=kbps
 4D0B7C1B0447364A=Processador de vídeo
 309B13D6E0AC1A0F=Duração:
