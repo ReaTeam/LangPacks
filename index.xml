@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="f62625a1821355491ddfd4e5e619d923e91a869c">
+<index version="1" name="ReaTeam LangPacks" commit="e554385669483ba0fd099d6ed48703be8a777402">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -80,14 +80,6 @@
         <source platform="windows">https://github.com/ReaTeam/LangPacks/raw/f62625a1821355491ddfd4e5e619d923e91a869c/Translations/pt-BR%20Brazilian%20(REAPER+SWS).ReaperLangPack</source>
         <source platform="darwin">https://github.com/ReaTeam/LangPacks/raw/f62625a1821355491ddfd4e5e619d923e91a869c/Translations/pt-BR%20Brazilian%20(REAPER+SWS).ReaperLangPack</source>
         <source platform="linux" file="pt-BR Brazilian (REAPER+SWS).ReaperLangPack">https://github.com/ReaTeam/LangPacks/raw/f62625a1821355491ddfd4e5e619d923e91a869c/Translations/pt-BR%20Brazilian%20(REAPER+SWS)%20Linux.ReaperLangPack</source>
-      </version>
-    </reapack>
-    <reapack name="REAPER_SWS_fr_reapack.ReaperLangPack" type="langpack" desc="REAPER LangPack Français">
-      <metadata>
-        <link rel="website">http://forum.cockos.com/showthread.php?t=92847</link>
-      </metadata>
-      <version name="5.33" author="REAPER French Forum" time="2017-02-09T02:08:27Z">
-        <source>https://github.com/ReaTeam/LangPacks/raw/43282f0388a3fa9bb05d2eabd72ff6e95a164f71/Translations/REAPER_SWS_fr_reapack.ReaperLangPack</source>
       </version>
     </reapack>
     <reapack name="REAPER_SWS_ru_reapack-utf8.ReaperLangPack" type="langpack" desc="REAPER_SWS_ru_reapack-utf8/русский">
