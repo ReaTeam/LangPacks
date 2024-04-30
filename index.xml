@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="e554385669483ba0fd099d6ed48703be8a777402">
+<index version="1" name="ReaTeam LangPacks" commit="c14fd1350e687ef868d484576281eafbfc3e25ee">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -95,6 +95,21 @@
       <version name="1.1.2" author="shredthesky, Nikitich, Roland_Hyper, MPL" time="2017-03-15T18:54:18Z">
         <changelog><![CDATA[+ 1.1.2	15.03.2017 by MPL: VST presets section, some errors and actions]]></changelog>
         <source>https://github.com/ReaTeam/LangPacks/raw/372792f403055872cf14ac47db3f24d766f1a832/Translations/REAPER_SWS_ru_reapack-utf8.ReaperLangPack</source>
+      </version>
+    </reapack>
+    <reapack name="Russian.Mig.ReaperLangPack" type="langpack" desc="Russian.Mig">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Russian [ru-RU] + SWS - By Mike S. "Migelius"\par}
+}
+]]></description>
+        <link rel="donation" href="http://www.paypal.me/migHH">Donate via PayPal</link>
+      </metadata>
+      <version name="7.15+dev0429" author="Migelius" time="2024-04-30T13:54:41Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/c14fd1350e687ef868d484576281eafbfc3e25ee/Translations/Russian.Mig.ReaperLangPack</source>
       </version>
     </reapack>
     <reapack name="SpanishLA.ReaperLangPack" type="langpack" desc="Traducciòn español correciones">
