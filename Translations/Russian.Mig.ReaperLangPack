@@ -1,10 +1,8 @@
 #NAME:Russian.Mig
 #AUTHOR:Migelius
-#VERSION:715dev0429
+#VERSION:7.15+dev0429
 #DONATION:Donate via PayPal http://www.paypal.me/migHH
 #ABOUT:Russian [ru-RU] + SWS - By Mike S. "Migelius"
-
-
 
 [about]
 0035F90FBE34516F=Мы показываем это сообщение, вместо того чтобы урезать эту пробную версию REAPER, т.к. не считаем, что техническое принуждение к соблюдению политики лицензирования в интересах покупателей.
