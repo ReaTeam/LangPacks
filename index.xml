@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="15fbfa4e7bd59842b671a61d44d4f136ec889eba">
+<index version="1" name="ReaTeam LangPacks" commit="8e92d04e912e9194e23b081d5307f36f38d4b37e">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -131,6 +131,9 @@
       </version>
       <version name="7.16+rc2" author="Migelius" time="2024-05-16T22:32:02Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/15fbfa4e7bd59842b671a61d44d4f136ec889eba/Translations/Russian.Mig.ReaperLangPack</source>
+      </version>
+      <version name="7.16" author="Migelius" time="2024-05-24T09:24:44Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/8e92d04e912e9194e23b081d5307f36f38d4b37e/Translations/Russian.Mig.ReaperLangPack</source>
       </version>
     </reapack>
     <reapack name="SpanishLA.ReaperLangPack" type="langpack" desc="Traducciòn español correciones">
