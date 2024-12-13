@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="c9bc73afd7c517ae729b61ea6f5ed2aa853bd1b6">
+<index version="1" name="ReaTeam LangPacks" commit="fe500f516ae96bbee71348b57301cc16d8bd73c3">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -150,6 +150,9 @@
       <version name="7.27" author="Migelius" time="2024-11-04T17:38:19Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/c9bc73afd7c517ae729b61ea6f5ed2aa853bd1b6/Translations/Russian.Mig.ReaperLangPack</source>
       </version>
+      <version name="7.28" author="Migelius" time="2024-12-13T22:32:32Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/fe500f516ae96bbee71348b57301cc16d8bd73c3/Translations/Russian.Mig.ReaperLangPack</source>
+      </version>
     </reapack>
     <reapack name="SpanishLA.ReaperLangPack" type="langpack" desc="Traducciòn español correciones">
       <version name="6.45" author="JEFE01" time="2023-03-14T20:27:00Z">
@@ -158,17 +161,17 @@
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaTeam LangPack Repository\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReaTeam LangPack Repository\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: https://github.com/ReaTeam/LangPacks/workflows/check/badge.svg]\cf0}\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Community-maintained collection of language packs for REAPER.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Installation\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Installation\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Copy and paste this URL in Extensions > ReaPack > Import a repository:\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://github.com/ReaTeam/LangPacks/raw/master/index.xml\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Contributing\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Contributing\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Use {\field{\*\fldinst{HYPERLINK "https://reapack.com/upload/langpack"}}{\fldrslt{\ul
 https://reapack.com/upload/langpack
 }}}
