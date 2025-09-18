@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="d148c34ca4817c9171834e25b70b163d2b70ff94">
+<index version="1" name="ReaTeam LangPacks" commit="cb82d89ace521ad87e8a4aaf155f3059bf6314a4">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -98,7 +98,9 @@
       </version>
     </reapack>
     <reapack name="Russian.Mig.ReaperLangPack" type="langpack" desc="Russian.Mig">
-      <metadata/>
+      <metadata>
+        <link rel="donation" href="http://www.paypal.me/migHH">Donate via PayPal</link>
+      </metadata>
       <version name="7.15+dev0429" author="Migelius" time="2024-04-30T13:54:41Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/c14fd1350e687ef868d484576281eafbfc3e25ee/Translations/Russian.Mig.ReaperLangPack</source>
       </version>
@@ -188,6 +190,9 @@
       </version>
       <version name="7.44" author="Migelius" time="2025-09-08T13:03:10Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/d148c34ca4817c9171834e25b70b163d2b70ff94/Translations/Russian.Mig.ReaperLangPack</source>
+      </version>
+      <version name="7.46" author="Migelius" time="2025-09-18T18:18:30Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/cb82d89ace521ad87e8a4aaf155f3059bf6314a4/Translations/Russian.Mig.ReaperLangPack</source>
       </version>
     </reapack>
     <reapack name="SpanishLA.ReaperLangPack" type="langpack" desc="Traducciòn español correciones">
