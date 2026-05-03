@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="734166f0aef53b1a361dea402757bd409b1a9917">
+<index version="1" name="ReaTeam LangPacks" commit="99036a3e535f2b77109b7231cfe54e6a8e5d6bea">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -219,6 +219,32 @@
     <reapack name="SpanishLA.ReaperLangPack" type="langpack" desc="Traducciòn español correciones">
       <version name="6.45" author="JEFE01" time="2023-03-14T20:27:00Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/e29bc51f1dc23062b377ab228398d81e5b509e3d/Translations/SpanishLA.ReaperLangPack</source>
+      </version>
+    </reapack>
+    <reapack name="Українська - Ukrainian.ReaperLangPack" type="langpack" desc="Українська - Ukrainian">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 UA\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1055 ?\u1086 ?\u1090 ?\u1086 ?\u1095 ?\u1085 ?\u1072 ? \u1074 ?\u1077 ?\u1088 ?\u1089 ?\u1110 ?\u1103 ?: 1.20 (\u1087 ?\u1110 ?\u1076 ?\u1090 ?\u1088 ?\u1080 ?\u1084 ?\u1091 ?\u1108 ? \u1086 ?\u1089 ?\u1090 ?\u1072 ?\u1085 ?\u1085 ?\u1102 ? \u1074 ?\u1077 ?\u1088 ?\u1089 ?\u1110 ?\u1102 ? REAPER, \u1086 ?\u1082 ?\u1088 ?\u1110 ?\u1084 ? dev-\u1079 ?\u1073 ?\u1110 ?\u1088 ?\u1086 ?\u1082 ?).\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1055 ?\u1077 ?\u1088 ?\u1077 ?\u1082 ?\u1083 ?\u1072 ?\u1076 ?\u1072 ?\u1083 ?\u1072 ? 11 \u1084 ?\u1110 ?\u1089 ?\u1103 ?\u1094 ?\u1110 ?\u1074 ? \u1079 ? \u1072 ?\u1085 ?\u1075 ?\u1083 ?\u1110 ?\u1081 ?\u1089 ?\u1100 ?\u1082 ?\u1086 ?\u1111 ? \u1074 ?\u1083 ?\u1072 ?\u1089 ?\u1085 ?\u1086 ?\u1088 ?\u1091 ?\u1095 ? \u1073 ?\u1077 ?\u1079 ? \u1082 ?\u1086 ?\u1087 ?\u1110 ?\u1087 ?\u1072 ?\u1089 ?\u1090 ?\u1091 ? \u1085 ?\u1072 ?\u1086 ?\u1089 ?\u1083 ?\u1110 ?\u1087 ? \u1090 ?\u1072 ? \u1087 ?\u1072 ?\u1082 ?\u1077 ?\u1090 ?\u1085 ?\u1086 ?\u1075 ?\u1086 ? \u1087 ?\u1077 ?\u1088 ?\u1077 ?\u1082 ?\u1083 ?\u1072 ?\u1076 ?\u1091 ? \u1074 ?\u1110 ?\u1076 ? \u1064 ?\u1030 ?.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 SWS-\u1088 ?\u1086 ?\u1079 ?\u1096 ?\u1080 ?\u1088 ?\u1077 ?\u1085 ?\u1085 ?\u1103 ? \u1087 ?\u1077 ?\u1088 ?\u1077 ?\u1082 ?\u1083 ?\u1072 ?\u1076 ?\u1072 ?\u1102 ?, \u1087 ?\u1086 ?\u1089 ?\u1090 ?\u1091 ?\u1087 ? 13%. ReaPack \u1087 ?\u1077 ?\u1088 ?\u1077 ?\u1082 ?\u1083 ?\u1072 ?\u1076 ?\u1077 ?\u1085 ?\u1086 ? (\u1090 ?\u1088 ?\u1077 ?\u1073 ?\u1072 ? \u1079 ?\u1072 ?\u1074 ?\u1072 ?\u1085 ?\u1090 ?\u1072 ?\u1078 ?\u1091 ?\u1074 ?\u1072 ?\u1090 ?\u1080 ? \u1086 ?\u1082 ?\u1088 ?\u1077 ?\u1084 ?\u1086 ?).\par}
+{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1030 ?\u1085 ?\u1089 ?\u1090 ?\u1088 ?\u1091 ?\u1082 ?\u1094 ?\u1110 ?\u1103 ? \u1079 ?\u1110 ? \u1074 ?\u1089 ?\u1090 ?\u1072 ?\u1085 ?\u1086 ?\u1074 ?\u1083 ?\u1077 ?\u1085 ?\u1085 ?\u1103 ?, \u1074 ?\u1080 ?\u1084 ?\u1086 ?\u1075 ?\u1080 ? \u1076 ?\u1086 ? \u1074 ?\u1077 ?\u1088 ?\u1089 ?\u1110 ?\u1111 ? REAPER, \u1079 ?\u1072 ?\u1074 ?\u1072 ?\u1085 ?\u1090 ?\u1072 ?\u1078 ?\u1080 ?\u1090 ?\u1080 ? ReaPack \u1090 ?\u1086 ?\u1097 ?\u1086 ?: https://forum.cockos.com/showthread.php?t=305557\par}
+{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1071 ?\u1082 ?\u1097 ?\u1086 ? \u1093 ?\u1086 ?\u1095 ?\u1077 ?\u1090 ?\u1077 ? \u1087 ?\u1110 ?\u1076 ?\u1090 ?\u1088 ?\u1080 ?\u1084 ?\u1072 ?\u1090 ?\u1080 ? \u1084 ?\u1086 ?\u1102 ? \u1087 ?\u1088 ?\u1072 ?\u1094 ?\u1102 ?, \u1073 ?\u1091 ?\u1076 ?\u1100 ? \u1083 ?\u1072 ?\u1089 ?\u1082 ?\u1072 ?: 4149 4993 9962 0655 (\u1055 ?\u1088 ?\u1080 ?\u1074 ?\u1072 ?\u1090 ?)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \u1053 ?\u1072 ?\u1096 ?\u1072 ? \u1089 ?\u1087 ?\u1110 ?\u1083 ?\u1082 ?\u1072 ? \u1074 ? \u1090 ?\u1077 ?\u1083 ?\u1077 ?\u1075 ?\u1088 ?\u1072 ?\u1084 ?\u1110 ? (\u1079 ?\u1072 ?\u1091 ?\u1074 ?\u1072 ?\u1078 ?\u1077 ?\u1085 ?\u1085 ?\u1103 ? \u1087 ?\u1080 ?\u1096 ?\u1110 ?\u1090 ?\u1100 ? \u1091 ? \u1075 ?\u1110 ?\u1083 ?\u1082 ?\u1091 ? '\u1059 ?\u1082 ?\u1088 ?\u1072 ?\u1111 ?\u1085 ?\u1089 ?\u1100 ?\u1082 ?\u1072 ? \u1083 ?\u1086 ?\u1082 ?\u1072 ?\u1083 ?\u1110 ?\u1079 ?\u1072 ?\u1094 ?\u1110 ?\u1103 ?'): https://t.me/reaper_ua\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 ENG\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Current version: 1.20 (is good for the latest REAPER update) Translated for 11 months without blind copy-paste and package AI translating SWS is not complete yet (13%) ReaPack is complete (you should install it separately)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Official forum thread: https://forum.cockos.com/showthread.php?t=305557 Donate: 4149 4993 9962 0655 (Private bank (ukrainian)) Telegram: https://t.me/reaper_ua\par}
+}
+]]></description>
+        <link rel="website">https://www.reaper.fm/langpack/</link>
+      </metadata>
+      <version name="1.20" author="Amely Suncroll + Reaper UA" time="2026-05-03T08:10:55Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/99036a3e535f2b77109b7231cfe54e6a8e5d6bea/Translations/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20-%20Ukrainian.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
