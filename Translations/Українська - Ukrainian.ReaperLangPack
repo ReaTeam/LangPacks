@@ -1,9 +1,11 @@
 #NAME:Українська - Ukrainian
 #AUTHOR:Amely Suncroll + Reaper UA
-#VERSION:1.23
+#VERSION:1.24
 #CHANGELOG:
-#  - переклад оновлено до версій 7.73
-#  - translation updated to v7.73
+#  - переклад оновлено до версії 7.74
+#  - присутні різні поліпшення та уточнення
+#  - translation updated to v7.74
+#  - various improvements
 #LINK:https://www.reaper.fm/langpack/
 #DONATION:Monobank https://send.monobank.ua/jar/AgiNTCzYS6
 #ABOUT:
@@ -11,7 +13,7 @@
 #
 #  Поточний переклад підтримує останню версію REAPER (окрім dev-збірок).
 #  Перекладала 11 місяців з англійської власноруч без копіпасту наосліп та пакетного перекладу від ШІ.
-#  SWS-розширення перекладаю, поступ 28%. ReaPack перекладено (треба завантажувати окремо).
+#  SWS-розширення перекладаю, поступ 65%. ReaPack також перекладено (треба завантажувати окремо).
 #
 #  Інструкція зі встановлення, вимоги до версії REAPER, завантажити ReaPack тощо:
 #  https://forum.cockos.com/showthread.php?t=305557
@@ -24,7 +26,7 @@
 #
 #  Current version is good for the latest REAPER update.
 #  Translated for 11 months without blind copy-paste and package AI translating.
-#  SWS is not complete yet (28%).
+#  SWS is not complete yet (65%).
 #  ReaPack is complete (you should install it separately).
 #
 #  Official forum thread: https://forum.cockos.com/showthread.php?t=305557.
