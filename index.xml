@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="997f813b4dd753d29fcdcc799f2505ade55a36aa">
+<index version="1" name="ReaTeam LangPacks" commit="3a62e0db59c887eba56e2bf83f779365372471bd">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -282,6 +282,13 @@
 - translation updated to v7.75
 - various improvements]]></changelog>
         <source>https://github.com/ReaTeam/LangPacks/raw/997f813b4dd753d29fcdcc799f2505ade55a36aa/Translations/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20-%20Ukrainian.ReaperLangPack</source>
+      </version>
+      <version name="1.26" author="Amely Suncroll + Reaper UA" time="2026-06-30T17:02:29Z">
+        <changelog><![CDATA[- переклад оновлено до версі] 7.76
+- присутні різні поліпшення та уточнення
+- translation updated to v7.76
+- various improvements]]></changelog>
+        <source>https://github.com/ReaTeam/LangPacks/raw/3a62e0db59c887eba56e2bf83f779365372471bd/Translations/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20-%20Ukrainian.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
