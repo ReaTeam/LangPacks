@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="6083e73e43c2ea3eeccfdda0e1cf0387dee0799e">
+<index version="1" name="ReaTeam LangPacks" commit="880f69c83fcdeb7a120df7ceb2bf8d169a947d81">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -234,6 +234,9 @@
       <version name="7.78" author="Migelius" time="2026-07-30T21:51:02Z">
         <source>https://github.com/ReaTeam/LangPacks/raw/7a39b323b8cb5fe8ac28a1a5d7b28c0ad35d67ad/Translations/Russian.Mig.ReaperLangPack</source>
       </version>
+      <version name="7.79" author="Migelius" time="2026-09-14T03:31:49Z">
+        <source>https://github.com/ReaTeam/LangPacks/raw/880f69c83fcdeb7a120df7ceb2bf8d169a947d81/Translations/Russian.Mig.ReaperLangPack</source>
+      </version>
     </reapack>
     <reapack name="SpanishLA.ReaperLangPack" type="langpack" desc="Traducciòn español correciones">
       <version name="6.45" author="JEFE01" time="2023-03-14T20:27:00Z">
@@ -362,6 +365,17 @@
 - повністю перечитала словник синонімів;
 - внесла багато інших дрібних виправлень та покращень.]]></changelog>
         <source>https://github.com/ReaTeam/LangPacks/raw/6083e73e43c2ea3eeccfdda0e1cf0387dee0799e/Translations/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20-%20Ukrainian.ReaperLangPack</source>
+      </version>
+      <version name="1.31" author="Amely Suncroll + Reaper UA" time="2026-09-14T03:31:33Z">
+        <changelog><![CDATA[- оновила переклад до версії REAPER 7.80;
+- виправила масштаб міні-вікна «Триває нормалізація елементів» та перефразувала його вміст;
+- замінила «черга експорту» на «черга рендерингу» та поліпшила переклад цього вікна;
+- трохи поліпшила текст довідки з DDP;
+- поміняла «Відрендерити/заморозити доріжки» на «Заморозити/відрендерити доріжки» для кращої читабельності в меню;
+- «CD-доріжка» тепер «CD-трек»;
+- поліпшила словник синонімів;
+- внесла інші дрібні виправлення та покращення.]]></changelog>
+        <source>https://github.com/ReaTeam/LangPacks/raw/4a769be8ea6c5d2c36f9c5c42541894404eb652a/Translations/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20-%20Ukrainian.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
