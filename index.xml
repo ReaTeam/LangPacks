@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaTeam LangPacks" commit="f663eb231af8915a1c7c96c68bdf3ccc65b01b5d">
+<index version="1" name="ReaTeam LangPacks" commit="a501da1d4052307502fa6b6f669f7856ed1c3c4b">
   <category name="Translations">
     <reapack name="MIDI Editor actions (active take only) vs (all editable).ReaperLangPack" type="langpack">
       <version name="1.0" author="juliansader" time="2017-03-15T17:42:48Z">
@@ -385,6 +385,13 @@
 - поліпшила словник синонімів;
 - внесла інші дрібні виправлення та покращення.]]></changelog>
         <source>https://github.com/ReaTeam/LangPacks/raw/1f89a5dda72059e6d16832c31a7eb6b5b9c7aaa9/Translations/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20-%20Ukrainian.ReaperLangPack</source>
+      </version>
+      <version name="1.34" author="Amely Suncroll + Reaper UA" time="2026-10-25T17:32:30Z">
+        <changelog><![CDATA[- оновила переклад до версії REAPER 7.83;
+- змінила масштаб і переформулювала розділ налаштувань 05. …/Автоматизація;
+- виправила «аудіо-пристрій» на «аудіопристрій»;
+- внесла інші файні дрібні виправлення та покращення.]]></changelog>
+        <source>https://github.com/ReaTeam/LangPacks/raw/a501da1d4052307502fa6b6f669f7856ed1c3c4b/Translations/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20-%20Ukrainian.ReaperLangPack</source>
       </version>
     </reapack>
   </category>
